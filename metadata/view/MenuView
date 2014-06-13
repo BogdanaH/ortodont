@@ -1,0 +1,47 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "menuView",
+        "designer|userClassName": "MenuView",
+        "layout": "fit",
+        "width": 200
+    },
+    "designerId": "6c686514-7f68-4109-bed7-93fa5b26df8e",
+    "cn": [
+        {
+            "type": "Ext.dataview.List",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": null,
+                "store": "MenuStore"
+            },
+            "designerId": "e66944cc-58c3-4d3f-b05e-4d3178fadf8c",
+            "cn": [
+                {
+                    "type": "Ext.XTemplate",
+                    "reference": {
+                        "name": "itemTpl",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "itemTpl",
+                        "implHandler": [
+                            "<div>{text}</div>"
+                        ]
+                    },
+                    "designerId": "74c075d2-4f3d-44f8-bbb8-cf18e4f56de8"
+                }
+            ]
+        }
+    ]
+}

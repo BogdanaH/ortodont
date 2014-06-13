@@ -1,0 +1,54 @@
+{
+    "name": "Ortodont",
+    "settings": {
+        "cmd": {
+            "license": "commercial"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "http://localhost/Ortodont/",
+        "exportPath": ""
+    },
+    "xdsVersion": "3.0.4",
+    "xdsBuild": 1386,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "touch23",
+    "viewOrderMap": {
+        "view": [
+            "67200f1f-242e-4a75-b0a2-f05621060319",
+            "6c686514-7f68-4109-bed7-93fa5b26df8e",
+            "acbc1bae-77e7-4543-beba-b0b78105bbaf",
+            "83ec5b04-9a53-4bdd-ac87-119dd085cec5",
+            "1aa03d78-36a1-41fe-b4c9-8e305a53d252"
+        ],
+        "store": [
+            "2921b0c5-0656-4f5a-8fe4-193e5a0359d7",
+            "6d447f1a-d550-4266-b544-96c0101b9f19"
+        ],
+        "controller": [
+            "f2c4ebed-0119-416a-8845-42a6200545b1",
+            "97a9f67a-cef4-4fa3-b075-1abff9511f48"
+        ],
+        "model": [
+            "fb66f044-0736-4e39-be56-a8b1bd34e53b",
+            "6f21979c-a7c8-49c9-a680-390ad60f3884"
+        ],
+        "resource": [
+            "f2d69057-3b74-4872-b29d-08b0684987a1",
+            "312a4787-b259-444d-892e-fee1b9dbe51e",
+            "9e8e574a-b319-4ee0-8075-b14bd8c80b68",
+            "14cf3b9c-d60e-4db9-9c26-b80984546ee4"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

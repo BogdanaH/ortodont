@@ -1,0 +1,49 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "controllers": [
+            "BaseController",
+            "ContactController"
+        ],
+        "models": [
+            "MenuModel",
+            "PizzaModel"
+        ],
+        "name": "PAP",
+        "stores": [
+            "MenuStore",
+            "PizzaStore"
+        ],
+        "views": [
+            "MainView",
+            "MenuView",
+            "HomeView",
+            "PizzaView",
+            "ContactView"
+        ]
+    },
+    "designerId": "application",
+    "cn": [
+        {
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "launch",
+                "implHandler": [
+                    "Ext.create('PAP.view.MainView', {fullscreen: true});\r",
+                    "Ext.Viewport.setMenu(Ext.create('PAP.view.MenuView'), {side: 'left', cover: false});"
+                ]
+            },
+            "designerId": "22b343c8-1cff-4058-9408-f978cf108f75"
+        }
+    ]
+}

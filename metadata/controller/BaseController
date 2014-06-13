@@ -1,0 +1,128 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "BaseController"
+    },
+    "designerId": "f2c4ebed-0119-416a-8845-42a6200545b1",
+    "cn": [
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "menuBtn",
+                "selector": "mainView titlebar button",
+                "xtype": null
+            },
+            "designerId": "066608ac-e64b-41d8-8ef8-908f7737a6cb"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "menuBtn",
+                "designer|targetType": "Ext.Button",
+                "fn": "onMenuButtonTap",
+                "implHandler": [
+                    "console.log('m-a apasat');\r",
+                    "Ext.Viewport.toggleMenu('left');"
+                ],
+                "name": "tap"
+            },
+            "designerId": "527c3614-3bc7-4abb-b841-535c4fbdc294"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "menuList",
+                "selector": "menuView list"
+            },
+            "designerId": "acc75377-3e88-4bb2-a04a-4141b0c62448"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "menuList",
+                "designer|targetType": "Ext.dataview.List",
+                "fn": "onMenuListItemTap",
+                "implHandler": [
+                    "switch (record.get('id')) {\r",
+                    "    case 1:\r",
+                    "        this.redirectTo('view/homeView');\r",
+                    "        break;\r",
+                    "    case 2:\r",
+                    "        this.redirectTo('view/pizzaView');\r",
+                    "        break;\r",
+                    "    case 3:\r",
+                    "        this.redirectTo('view/contactView');\r",
+                    "        break;\r",
+                    "    default:\r",
+                    "        this.redirectTo('view/homeView');\r",
+                    "        break;\r",
+                    "}\r",
+                    "\r",
+                    "Ext.Viewport.toggleMenu('left');"
+                ],
+                "name": "itemtap"
+            },
+            "designerId": "6c31f4ff-17b8-4b52-848d-fa6e8479d825"
+        },
+        {
+            "type": "Ext.app.Route",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "viewName"
+                ],
+                "fn": "showView",
+                "implHandler": [
+                    "var miew = this.getMainView(), view = miew.child(viewName) || miew.add({ xtype: viewName });\r",
+                    "\r",
+                    "miew.setActiveItem(view); view.show();\r",
+                    "return view;"
+                ],
+                "url": "view/:viewName"
+            },
+            "designerId": "0d1dd1fb-dd8c-4ca6-b8ff-2f58f78de676"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "mainView",
+                "selector": "mainView"
+            },
+            "designerId": "15775b3f-687c-4e70-b469-94824a84155e"
+        }
+    ]
+}

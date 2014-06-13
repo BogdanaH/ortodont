@@ -1,0 +1,62 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userAlias": "mainView",
+        "designer|userClassName": "MainView",
+        "layout": "card"
+    },
+    "designerId": "67200f1f-242e-4a75-b0a2-f05621060319",
+    "cn": [
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "p1"
+                ],
+                "fn": "Test",
+                "implHandler": [
+                    ""
+                ]
+            },
+            "designerId": "7ffe1ef4-9138-4227-be0c-c53c1076f25e"
+        },
+        {
+            "type": "Ext.TitleBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "MyApp"
+            },
+            "designerId": "c9e59a14-e776-45c0-ba74-6b3e37c0e930",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "M"
+                    },
+                    "designerId": "a3969b4b-ccfc-4a44-8220-8d5acf136b4b"
+                }
+            ]
+        }
+    ]
+}

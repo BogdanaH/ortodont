@@ -1,0 +1,116 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "contactView",
+        "designer|userClassName": "ContactView",
+        "html": null,
+        "layout": "vbox",
+        "styleHtmlContent": true
+    },
+    "designerId": "1aa03d78-36a1-41fe-b4c9-8e305a53d252",
+    "cn": [
+        {
+            "type": "Ext.Map",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "Map",
+                "height": 200,
+                "layout|flex": 0.5
+            },
+            "designerId": "b6ce8817-3b7a-46e8-924c-e16fc0af0a75"
+        },
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "Form",
+                "layout|flex": 0.5,
+                "margin": "10 0 0 0"
+            },
+            "designerId": "5c4f5111-c373-4c04-b9e3-2979004a3cc6",
+            "cn": [
+                {
+                    "type": "Ext.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "Email",
+                        "label": "Email"
+                    },
+                    "designerId": "52387be5-1c7f-4406-8389-c54228fc6b58"
+                },
+                {
+                    "type": "Ext.field.TextArea",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "Message",
+                        "label": "Message",
+                        "labelAlign": "top"
+                    },
+                    "designerId": "e46e2cf7-75ae-4c48-b1cd-e11c6aff1216"
+                },
+                {
+                    "type": "Ext.Toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "container|pack": "center",
+                        "designer|displayName": "Toolbar",
+                        "docked": "bottom"
+                    },
+                    "designerId": "10cb0f32-791b-41e4-9448-9a33b5ba2993",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Send"
+                            },
+                            "designerId": "6e0310a0-bdac-4d55-9a8d-9329c4718711"
+                        },
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Cancel"
+                            },
+                            "designerId": "d3dc0a22-bc78-4181-b8bf-67db22525b5c"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

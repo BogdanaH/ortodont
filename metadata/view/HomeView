@@ -1,0 +1,15 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "homeView",
+        "designer|userClassName": "HomeView",
+        "html": "HomeView",
+        "styleHtmlContent": true
+    },
+    "designerId": "acbc1bae-77e7-4543-beba-b0b78105bbaf"
+}
