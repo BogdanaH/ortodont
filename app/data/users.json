@@ -1,0 +1,9 @@
+{
+	"data":[{
+		"id": "10", "dateCreated":"2014-06-14T18:06:07+03:00","name": "Humeniuc David","username": "David","password":"david","email":"david@david.com","phone":"0757860598","caseDescription":"dinti supernumeari","bracesType":"metalic","treatmentPlan":"treatmentPlan 1"
+	}, {
+		"id": "1", "dateCreated":"2014-01-14T18:06:07+03:00","name": "Haiura Aurel","username": "Aurel","password":"aurel","email":"aurel@aurel.com","phone":"0757869898","caseDescription":"","bracesType":"","treatmentPlan":""
+	},{
+		"id": "11", "dateCreated":"2014-04-14T18:06:07+03:00","name": "Haiura Roberta","username": "Roberta","password":"roberta","email":"roberta@roberta.com","phone":"0757980598","caseDescription":"muscatura incorecta","bracesType":"Ice Safir","treatmentPlan":"treatmentPlan 2"
+	}
+]}

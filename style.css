@@ -1,8 +1,8 @@
 .priceItem .name{
-    color:red;
+    color:black;
     float:left;
 }
 .priceItem .price{
-    color:blue;
+    color:black;
     float: right;
 }

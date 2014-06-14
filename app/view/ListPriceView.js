@@ -1,4 +1,3 @@
-
 Ext.define('Ortodont.view.ListPriceView', {
     extend: 'Ext.dataview.List',
     alias: 'widget.listpriceView',

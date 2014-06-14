@@ -1,4 +1,4 @@
-Ext.define("Ortodont.model.User", {
+Ext.define("Ortodont.model.UserModel", {
     extend: "Ext.data.Model",
     config: {
         idProperty: 'id',
@@ -12,10 +12,7 @@ Ext.define("Ortodont.model.User", {
             { name: 'phone', type: 'string' },
             { name: 'caseDescription', type: 'string' },
             { name: 'bracesType', type: 'string' },
-            { name: 'treatmentPlan', type: 'string' },
-            { name: 'nextAppointment', type: 'string' },
-            { name: 'observations', type: 'string' }
-
+            { name: 'treatmentPlan', type: 'string' }
 
         ],
         validations: [
@@ -25,3 +22,4 @@ Ext.define("Ortodont.model.User", {
         ]
     }
 });
+

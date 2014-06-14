@@ -1,4 +1,4 @@
-Ext.define("Ortodont.controller.Users", {
+Ext.define("Ortodont.controller.UsersController", {
 
     extend: "Ext.app.Controller",
     config: {
@@ -7,9 +7,9 @@ Ext.define("Ortodont.controller.Users", {
             usersListView: "userslistview",
             userEditorView: "usereditorview",
             usersList: "#usersList",
-            adminView: 'adminView',
             loginForm: 'loginForm',
             mainView: 'mainView'
+            
         },
         control: {
             usersListView: {
@@ -50,10 +50,9 @@ Ext.define("Ortodont.controller.Users", {
 
         console.log("onNewUserCommand");
 
-        var now = new Date();
-        var userId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString();
-
-        var newUser = Ext.create("Ortodont.model.User", {
+        var now = new Date(),
+            userId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString(),
+            newUser = Ext.create("Ortodont.model.UserModel", {
             id: userId,
             dateCreated: now,
             name: "",
@@ -63,9 +62,7 @@ Ext.define("Ortodont.controller.Users", {
             phone:"",
             caseDescription:"",
             bracesType:"",
-            treatmentPlan:"",
-            nextAppointment:"",
-            observations:""
+            treatmentPlan:""
         });
 
         this.activateUserEditor(newUser);
@@ -74,8 +71,8 @@ Ext.define("Ortodont.controller.Users", {
     onLogoutCommand: function () {
 
         console.log(" LogOut: M-a apasat.");
-        var loginForm = this.getLoginForm(); // Login form
-        var mainView = this.getMainView();   // Main view
+        var loginForm = this.getLoginForm(), // Login form
+             mainView = this.getMainView();   // Main view
         //var uview = this.getUserView();      // User view
         //mainView.reset();
         //uview.remove();
@@ -93,11 +90,9 @@ Ext.define("Ortodont.controller.Users", {
 
         console.log("onSaveUserCommand");
 
-        var userEditorView = this.getUserEditorView();
-
-        var currentUser = userEditorView.getRecord();
-        //alert("currentUser: "+currentUser);
-        var newValues = userEditorView.getValues();
+        var userEditorView = this.getUserEditorView(),
+             currentUser = userEditorView.getRecord(),
+             newValues = userEditorView.getValues();
 
         // Update the current user's fields with form values.
         currentUser.set("name", newValues.name);
@@ -108,8 +103,6 @@ Ext.define("Ortodont.controller.Users", {
         currentUser.set("caseDescription", newValues.caseDescription);
         currentUser.set("bracesType", newValues.bracesType);
         currentUser.set("treatmentPlan", newValues.treatmentPlan);
-        currentUser.set("nextAppointment", newValues.nextAppointment);
-        currentUser.set("observations", newValues.observations);
 
         var errors = currentUser.validate();
 
@@ -119,12 +112,28 @@ Ext.define("Ortodont.controller.Users", {
             return;
         }
 
-        var usersStore = Ext.getStore("Users");
+        var usersStore = Ext.getStore("UsersStore");
+            appointmentStore = Ext.getStore("AppointmentInfsStore");
+        var now = new Date(),
+            appointmentId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString(),
+            newAppointment = Ext.create("Ortodont.model.AppointmentModel", {
+            id: appointmentId,
+            dateCreated: now,
+            description: newValues["description"],
+            nextAppointment: newValues["nextAppointment"]
+        });
 
-        if (null == usersStore.findRecord('id', currentUser.data.id)) {
+        if (null == usersStore.findRecord('id', currentUser.data.id,0,false,false,true)) {
             usersStore.add(currentUser);
+               
         }
 
+        newAppointment.setDirty(true);
+        appointmentStore.add(newAppointment);
+        var currentApp = appointmentStore.findRecord('id', appointmentId,0,false,false,true);
+        currentApp.set("idUser",currentUser.get("id"));
+
+        appointmentStore.sync();
         usersStore.sync();
 
         usersStore.sort([{ property: 'dateCreated', direction: 'DESC'}]);
@@ -135,14 +144,34 @@ Ext.define("Ortodont.controller.Users", {
 
         console.log("onDeleteUserCommand");
 
-        var userEditorView = this.getUserEditorView();
-        var currentUser = userEditorView.getRecord();
-        var usersStore = Ext.getStore("Users");
 
-        usersStore.remove(currentUser);
-        usersStore.sync();
+        var userEditorView = this.getUserEditorView(),
+                 currentUser = userEditorView.getRecord(),
+                 usersStore = Ext.getStore("UsersStore"),
+                 appointmentStore = Ext.getStore("AppointmentInfsStore");
+        Ext.Msg.confirm(
+        "Delete patient",
+        "Are you sure want to delete?",
+        function (btn) {
+            if (btn == 'yes') {  
+                 appointmentStore.data.each(function(record) {
+                    if(record.get('idUser') == currentUser.get("id"))
+                    {
+                        appointmentStore.remove(record);
+                        appointmentStore.sync();
+                    }
+                    });
+                
+                usersStore.remove(currentUser);
+                usersStore.sync(); 
+                //userEditorView.activateUsersList();
+
+            }
+        }
+        );
 
         this.activateUsersList();
+
     },
     onBackToHomeCommand: function () {
 
@@ -153,7 +182,7 @@ Ext.define("Ortodont.controller.Users", {
     // Base Class functions.
     launch: function () {
         this.callParent(arguments);
-        var usersStore = Ext.getStore("Users");
+        var usersStore = Ext.getStore("UsersStore");
         usersStore.load();
         console.log("UsersController: launch");
     },

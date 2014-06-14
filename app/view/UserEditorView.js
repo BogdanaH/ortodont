@@ -1,4 +1,4 @@
-Ext.define("Ortodont.view.UserEditor", {
+Ext.define("Ortodont.view.UserEditorView", {
     extend: "Ext.form.Panel",
     requires: "Ext.form.FieldSet",
     alias: "widget.usereditorview",
@@ -36,6 +36,12 @@ Ext.define("Ortodont.view.UserEditor", {
                         itemId: "deleteButton"
                     }
                 ]
+            },
+            {
+                xtype: "label",
+                html: 'Patient Informations',                        
+                itemId: "appInfo"
+
             },
             { xtype: "fieldset",
                 items: [
@@ -83,20 +89,34 @@ Ext.define("Ortodont.view.UserEditor", {
                         xtype: 'textareafield',
                         label: 'Treatment plan',
                         name:  'treatmentPlan'
-                    },
-                    {
-                        xtype: 'textareafield',
-                        label: 'Next appointment',
-                        name:  'nextAppointment'
-                    },
-                    {
-                        xtype: 'textareafield',
-                        label: 'Observations',
-                        name:  'observations'
-
                     }
 
 
+                ]
+            },
+            {
+                xtype: "label",
+                html: 'Appointment Informations',                        
+                itemId: "appInfo"
+
+            },
+            { xtype: "fieldset",
+                items: [
+                    {
+                        xtype: 'textareafield',
+                        name: 'description',
+                        label: 'Description',
+                        required: true
+                    },
+                    {
+                        
+                        xtype: 'datepickerfield',
+                        name: 'nextAppointment',
+                        picker : {
+                            yearFrom : parseInt(Ext.Date.format(new Date(), 'Y'), 10)-1,
+                        },
+                        placeHolder : 'Next appointment'
+                    }
                 ]
             }
         ],

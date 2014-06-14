@@ -1,4 +1,4 @@
-Ext.define("Ortodont.view.UsersList", {
+Ext.define("Ortodont.view.UsersListView", {
     extend: "Ext.Container",
     requires:"Ext.dataview.List",
     alias: "widget.userslistview",
@@ -9,7 +9,7 @@ Ext.define("Ortodont.view.UsersList", {
         },
         items: [{
             xtype: "titlebar",
-            title: "Our Users",
+            title: "My Patients",
             docked: "top",
             items: [
                 { xtype: 'spacer' },
@@ -28,7 +28,7 @@ Ext.define("Ortodont.view.UsersList", {
             ]
         }, {
             xtype: "list",
-            store: "Users",
+            store: "UsersStore",
             itemId:"usersList",
             loadingText: "Loading Users...",
             emptyText: "<div class=\"users-list-empty-text\">No users found.</div>",
