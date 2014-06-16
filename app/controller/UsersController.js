@@ -15,7 +15,6 @@ Ext.define("Ortodont.controller.UsersController", {
             usersListView: {
                 // The commands fired by the users list container.
                 newUserCommand: "onNewUserCommand",
-                logoutCommand: "onLogoutCommand",
                 editUserCommand: "onEditUserCommand"
             },
             userEditorView: {
@@ -69,19 +68,7 @@ Ext.define("Ortodont.controller.UsersController", {
         this.activateUserEditor(newUser);
 
     },
-    onLogoutCommand: function () {
-
-        console.log(" LogOut: M-a apasat.");
-        var loginForm = this.getLoginForm(), // Login form
-             mainView = this.getMainView();   // Main view
-        //var uview = this.getUserView();      // User view
-        //mainView.reset();
-        //uview.remove();
-        //mainView.remove('loginForm',false);
-        window.location.reload(); //refresh la pagina
-        Ext.Viewport.setActiveItem(mainView);
-
-    },
+   
     onEditUserCommand: function (list, record) {
 
         console.log("onEditUserCommand");

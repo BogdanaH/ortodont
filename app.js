@@ -7,7 +7,7 @@ Ext.application({
 
     stores: ['MenuStore','PricesStore','UsersStore','AppointmentInfsStore'],
 
-    views: ['MenuView','ContactView','ListPriceView','LoginForm','MainView','UserView','UserEditorView','UsersListView','BeforeAfterView'],
+    views: ['AppointmentsView','AdminView','MenuView','ContactView','ListPriceView','LoginForm','MainView','UserView','UserEditorView','UsersListView','BeforeAfterView'],
     
     controllers: ['BaseController','AccountController','UsersController'],
     

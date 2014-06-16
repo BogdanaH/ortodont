@@ -19,12 +19,13 @@ Ext.define("Ortodont.view.UsersListView", {
                     xtype: "button",
                     iconCls: "add",
                     ui: 'action',
-                    itemId: "newButton"
-                }, {
-                    xtype: 'button',
-                    itemId: 'logoutButton',
-                    text: 'Logout',
-                    align: 'right'
+                    itemId: "newButton",
+                    align:'right'
+                },{
+                    xtype: "button",
+                    ui: "back",
+                    text: "Back",
+                    itemId: "backButton"   
                 }]
         }, {
             xtype: "list",
@@ -46,25 +47,23 @@ Ext.define("Ortodont.view.UsersListView", {
             event: "disclose",
             fn: "onUsersListDisclose"
         },{
-            delegate: '#logoutButton',
-            event: "tap",
-            fn: "onLogoutButtonTap"
-        }]
+            delegate: "#backButton",
+                event: "tap",
+                fn: "onBackButtonTap"
+        }
+        ]
     },
-
-
-
 
     onNewButtonTap: function () {
         console.log("newUserCommand");
         this.fireEvent("newUserCommand", this);
     },
-    onLogoutButtonTap: function () {
-        console.log("logoutCommand");
-        this.fireEvent("logoutCommand", this);
-    },
     onUsersListDisclose: function (list, record, target, index, evt, options) {
         console.log("editUserCommand");
         this.fireEvent('editUserCommand', this, record);
+    },
+    onBackButtonTap: function () {
+        console.log("backToDashboardCommand");
+        this.fireEvent("backToDashboardCommand", this);
     }
 });

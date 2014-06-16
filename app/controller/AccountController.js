@@ -6,7 +6,10 @@ Ext.define('Ortodont.controller.AccountController', {
         {
             loginForm: 'loginForm',
             mainView: 'mainView',
-            userView: 'userView '
+            userView: 'userView ',
+            adminView: 'adminView',
+            appointmentsView:'appointmentsView',
+            userslistview: 'userslistview'
         },
         control: {
             "loginForm #loginButton": {
@@ -15,29 +18,44 @@ Ext.define('Ortodont.controller.AccountController', {
             "userView #logoutButton":
             {
                 tap: 'onLogOutButtonTap'
+            },
+            "adminView #showManageUsersButton":
+            {
+                tap: 'showManageUsers'
+            },
+            "adminView #showAppointmentsButton":
+            {
+                tap: 'showAppointments'
+            },
+            "adminView #avLogoutButton":
+            {
+                tap: 'onLogOutButtonTap'
+
+            },
+            appointmentsView:
+            {
+                backToDashboardCommand: "onBackToDashboardCommand"
+            },
+            userslistview:
+            {
+                backToDashboardCommand: "onBackToDashboardCommand"
             }
+
         }
     },
+
+    slideLeftTransition: { type: 'slide', direction: 'left' },
+    slideRightTransition: { type: 'slide', direction: 'right' },
 
         login: function(button, e, eOpts) {
 
         // Success autentificare admin
         var successCallbackAdmin = function(resp, ops) {
-            
-            var manageUsersForm = Ext.create('widget.userslistview'),
-                usersStore = Ext.getStore("UsersStore"),
-                usersListView = {
-                xtype: "userslistview"
-            },
-                userEditorView = {
-                xtype: "usereditorview"
-            };
-
+            // Show admin view
             usersStore.clearFilter();
             usersStore.filter("type","user");
-
-            Ext.Viewport.add([usersListView, userEditorView]);
-            Ext.Viewport.setActiveItem(manageUsersForm);
+            var adminView = Ext.create('widget.adminView');
+            Ext.Viewport.setActiveItem(adminView);
 
         };
 
@@ -81,15 +99,37 @@ Ext.define('Ortodont.controller.AccountController', {
         
     },
 
-
     onLogOutButtonTap: function(dataview, index, target, record, e, eOpts) {
-        console.log(" Logout: M-a apasat.");
-        var loginForm = this.getLoginForm(); // Login form
         var mainView = this.getMainView();   // Main view
-        var uview = this.getUserView();      // User view
         window.location.reload();
         Ext.Viewport.setActiveItem(mainView);
         
+    },
+
+    showManageUsers: function(button, e, eOpts) {
+
+        var manageUsersForm = Ext.create('widget.userslistview');
+        var usersListView = {
+            xtype: "userslistview"
+        };
+        var userEditorView = {
+            xtype: "usereditorview"
+        };
+        Ext.Viewport.add([usersListView, userEditorView]);
+        Ext.Viewport.setActiveItem(manageUsersForm);
+    },
+
+    showAppointments: function(button, e, eOpts) {
+
+        var appointmentsView = Ext.create('widget.appointmentsView'); 
+        Ext.Viewport.setActiveItem(appointmentsView);
+    },
+
+    onBackToDashboardCommand: function () {
+
+        console.log("onBackToDashboardCommand");
+        Ext.Viewport.animateActiveItem(this.getAdminView(), this.slideRightTransition);
     }
+
 
 });
