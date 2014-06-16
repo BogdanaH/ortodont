@@ -32,14 +32,14 @@ Ext.define('Ortodont.view.UserView', {
                 itemId: 'general',
                 store: 'UsersStore',
                 itemTpl: [
-                     '<div class="name">Name: {name}</div>',
-                     '<div class="username">Username: {username}</div>',
-                     '<div class="password">Password: {password}</div>',
-                     '<div class="email">Email: {email}</div>',
-                     '<div class="phone">Phone number: {phone}</div>',
-                     '<div class="caseDescription">Case description: {caseDescription}</div>',
-                     '<div class="bracesType">Braces type: {bracesType}</div>',
-                     '<div class="treatmentPlan">Treatment plan: {treatmentPlan}</div>'
+                     '<div class="name"><strong>Name</strong>: {name}</div><br>',
+                     '<div class="username"><strong>Username:</strong> {username}</div><br>',
+                     '<div class="password"><strong>Password:</strong> {password}</div><br>',
+                     '<div class="email"><strong>Email:</strong> {email}</div><br>',
+                     '<div class="phone"><strong>Phone number:</strong> {phone}</div><br>',
+                     '<div class="caseDescription"><strong>Case description:</strong> {caseDescription}</div><br>',
+                     '<div class="bracesType"><strong>Braces type:</strong> {bracesType}</div><br>',
+                     '<div class="treatmentPlan"><strong>Treatment plan: </strong>{treatmentPlan}</div><br>'
                      ] 
             }, {
                 xtype: 'list', 
@@ -55,6 +55,20 @@ Ext.define('Ortodont.view.UserView', {
                 itemId: 'nextAppointment',
                 store: 'AppointmentInfsStore',
                 itemTpl: '<div>{nextAppointment}</div>'
+                
+        //         itemTpl: Ext.create(
+        //     'Ext.XTemplate',
+        //     '<div>[this.OnlyNextAppointment(values)]</div>',
+        //     {
+        //         OnlyNextAppointment: function (record) {
+    
+        //                 return total.toString();
+        //         }
+        //     }
+        // )
+
+
+
             }]
         }]
     }

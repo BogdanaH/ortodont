@@ -15,14 +15,7 @@ Ext.define("Ortodont.view.UserEditorView", {
                         ui: "back",
                         text: "Users list",
                         itemId: "backButton"
-                    },
-                    { xtype: "spacer" },
-                    {
-                        xtype: "button",
-                        ui: "action",
-                        text: "Save",
-                        itemId: "saveButton"
-                    }
+                    }  
                 ]
             },
             {
@@ -34,6 +27,13 @@ Ext.define("Ortodont.view.UserEditorView", {
                         iconCls: "trash",
                         iconMask: true,
                         itemId: "deleteButton"
+                    },
+                    { xtype: "spacer" },
+                    {
+                        xtype: "button",
+                        ui: "action",
+                        text: "Save",
+                        itemId: "saveButton"
                     }
                 ]
             },
@@ -54,12 +54,14 @@ Ext.define("Ortodont.view.UserEditorView", {
                     {
                         xtype: 'textfield',
                         name: 'username',
-                        label: 'Username'
+                        label: 'Username',
+                        required: true
                     },
                     {
                         xtype: 'passwordfield',
                         name: 'password',
-                        label: 'Password'
+                        label: 'Password',
+                        required: true
                     },
                     {
                         xtype: 'emailfield',
@@ -70,25 +72,29 @@ Ext.define("Ortodont.view.UserEditorView", {
                     {
                         xtype: 'textfield',
                         label: 'Phone number',
-                        name: 'phone'
+                        name: 'phone',
+                        required: true
 
                     },
                     {
                         xtype: 'textareafield',
                         label: 'Case description',
-                        name:  'caseDescription'
+                        name:  'caseDescription',
+                        required: true
 
                     },
                     {
                         xtype: 'textareafield',
                         label: 'Braces type',
-                        name:  'bracesType'
+                        name:  'bracesType',
+                        required: true
 
                     },
                     {
                         xtype: 'textareafield',
                         label: 'Treatment plan',
-                        name:  'treatmentPlan'
+                        name:  'treatmentPlan',
+                        required: true
                     }
 
 
@@ -115,7 +121,8 @@ Ext.define("Ortodont.view.UserEditorView", {
                         picker : {
                             yearFrom : parseInt(Ext.Date.format(new Date(), 'Y'), 10)-1,
                         },
-                        placeHolder : 'Next appointment'
+                        placeHolder : 'Next appointment',
+                        required: true
                     }
                 ]
             }

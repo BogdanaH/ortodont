@@ -29,13 +29,17 @@ Ext.define('Ortodont.controller.AccountController', {
         // Success autentificare admin
         var successCallbackAdmin = function(resp, ops) {
             
-            var manageUsersForm = Ext.create('widget.userslistview'); 
-            var usersListView = {
+            var manageUsersForm = Ext.create('widget.userslistview'),
+                usersStore = Ext.getStore("UsersStore"),
+                usersListView = {
                 xtype: "userslistview"
-            };
-            var userEditorView = {
+            },
+                userEditorView = {
                 xtype: "usereditorview"
             };
+
+            usersStore.clearFilter();
+            usersStore.filter("type","user");
 
             Ext.Viewport.add([usersListView, userEditorView]);
             Ext.Viewport.setActiveItem(manageUsersForm);
@@ -74,6 +78,8 @@ Ext.define('Ortodont.controller.AccountController', {
 
                 appointmentStore.clearFilter();
                 appointmentStore.filter('idUser', user.get('id'));
+
+
             }
         }
         else
@@ -92,6 +98,7 @@ Ext.define('Ortodont.controller.AccountController', {
         //mainView.reset();
         //uview.remove();
         //mainView.remove('loginForm',false);
+        window.location.reload();
         Ext.Viewport.setActiveItem(mainView);
         
     }

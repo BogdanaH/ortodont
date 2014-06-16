@@ -12,7 +12,8 @@ Ext.define("Ortodont.model.AppointmentModel", {
         validations: [
             { type: 'presence', field: 'id' },
             { type: 'presence', field: 'dateCreated' },
-            { type: 'presence', field: 'description', message: 'Please enter a description for this appointment.' }
+            { type: 'presence', field: 'description', message: 'Please enter a description for this appointment.' },
+            { type: 'presence', field: 'nextAppointment', message: 'Please establish the next appointment.' }
         ]
     }
 });

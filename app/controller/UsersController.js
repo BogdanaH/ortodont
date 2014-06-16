@@ -62,7 +62,8 @@ Ext.define("Ortodont.controller.UsersController", {
             phone:"",
             caseDescription:"",
             bracesType:"",
-            treatmentPlan:""
+            treatmentPlan:"",
+            type:"user"
         });
 
         this.activateUserEditor(newUser);
@@ -77,6 +78,7 @@ Ext.define("Ortodont.controller.UsersController", {
         //mainView.reset();
         //uview.remove();
         //mainView.remove('loginForm',false);
+        window.location.reload(); //refresh la pagina
         Ext.Viewport.setActiveItem(mainView);
 
     },
@@ -107,7 +109,7 @@ Ext.define("Ortodont.controller.UsersController", {
         var errors = currentUser.validate();
 
         if (!errors.isValid()) {
-            Ext.Msg.alert('Wait!', errors.getByField("name")[0].getMessage(), Ext.emptyFn);
+            Ext.Msg.alert('Wait!', errors.items[0].getMessage(), Ext.emptyFn);
             currentUser.reject();
             return;
         }
@@ -129,6 +131,14 @@ Ext.define("Ortodont.controller.UsersController", {
         }
 
         newAppointment.setDirty(true);
+        var errors = newAppointment.validate();
+
+        if (!errors.isValid()) {
+            Ext.Msg.alert('Wait!', errors.items[0].getMessage(), Ext.emptyFn);
+            newAppointment.reject();
+            return;
+        }
+
         appointmentStore.add(newAppointment);
         var currentApp = appointmentStore.findRecord('id', appointmentId,0,false,false,true);
         currentApp.set("idUser",currentUser.get("id"));

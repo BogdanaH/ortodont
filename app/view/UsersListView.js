@@ -3,6 +3,8 @@ Ext.define("Ortodont.view.UsersListView", {
     requires:"Ext.dataview.List",
     alias: "widget.userslistview",
 
+    requires: ['Ext.XTemplate'],
+
     config: {
         layout: {
             type: 'fit'
@@ -15,7 +17,8 @@ Ext.define("Ortodont.view.UsersListView", {
                 { xtype: 'spacer' },
                 {
                     xtype: "button",
-                    text: 'New user',
+                    //text: 'New user',
+                    iconCls: "add",
                     ui: 'action',
                     itemId: "newButton"
                 },
@@ -34,7 +37,7 @@ Ext.define("Ortodont.view.UsersListView", {
             emptyText: "<div class=\"users-list-empty-text\">No users found.</div>",
             onItemDisclosure: true,
             grouped: true,
-            itemTpl: "<div class=\"list-item-name\">{name}</div>"       
+            itemTpl: "<div class=\"list-item-name\">{name}</div>"
         }],
         listeners: [{
             delegate: "#newButton",

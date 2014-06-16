@@ -15,7 +15,7 @@ Ext.define('Ortodont.store.AppointmentInfsStore', {
                 rootProperty: 'data'
             }
         },
-        sorters: [{ property: 'dateCreated', direction: 'DESC'}],
+        sorters: [{ property: 'nextAppointment', direction: 'DESC'}],
         grouper: {
             sortProperty: "dateCreated",
             direction: "DESC",

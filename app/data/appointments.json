@@ -5,5 +5,7 @@
 		"id": "101","idUser":"10","dateCreated":"2014-06-14T18:06:07+03:00","description": "aplicarea braketilor pe cealalta arcada","nextAppointment": "Sat Mar 01 2014 00:00:00 GMT+0200 (GTB, oră standard)"
 	},{
 		"id": "103","idUser":"11","dateCreated":"2014-07-14T18:06:07+03:00","description": "strans sarma","nextAppointment": "Thu Apr 03 2014 00:00:00 GMT+0300 (GTB, oră de vară)"
+	},{
+		"id": "104","idUser":"13","dateCreated":"2014-06-14T18:06:07+03:00","description": "Radiografie","nextAppointment": "Thu Apr 03 2014 00:00:00 GMT+0300 (GTB, oră de vară)"
 	}
 ]}
