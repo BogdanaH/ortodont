@@ -1,7 +1,6 @@
 Ext.define('Ortodont.view.UserView', {
     extend: 'Ext.Container',
     alias: 'widget.userView',
-    
 
     requires: [
         'Ext.dataview.List',
@@ -13,16 +12,13 @@ Ext.define('Ortodont.view.UserView', {
           xtype: 'titlebar',
              docked: 'top',
              title: 'Welcome!',
-             items: [
-                    {
+             items: [{
                       xtype: 'button',
                          itemId: 'logoutButton',
                          text: 'Logout',
                          align: 'right'
-                    }
-                    ]
-         },
-        {
+                    }]
+        }, {
             xtype: 'tabpanel',
             height: '100%',
             styleHtmlContent: true,
@@ -48,27 +44,12 @@ Ext.define('Ortodont.view.UserView', {
                 store: 'AppointmentInfsStore',
                 grouped: true,
                 itemTpl: '<div>{description}</div>'
-            },
-            {
+            }, {
                 xtype: 'list',
                 title: 'Next App',
                 itemId: 'nextAppointment',
                 store: 'AppointmentInfsStore',
                 itemTpl: '<div>{nextAppointment}</div>'
-                
-        //         itemTpl: Ext.create(
-        //     'Ext.XTemplate',
-        //     '<div>[this.OnlyNextAppointment(values)]</div>',
-        //     {
-        //         OnlyNextAppointment: function (record) {
-    
-        //                 return total.toString();
-        //         }
-        //     }
-        // )
-
-
-
             }]
         }]
     }

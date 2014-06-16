@@ -14,21 +14,18 @@ Ext.define("Ortodont.view.UsersListView", {
             title: "My Patients",
             docked: "top",
             items: [
-                { xtype: 'spacer' },
-                {
+                {   xtype: 'spacer' 
+                }, {
                     xtype: "button",
-                    //text: 'New user',
                     iconCls: "add",
                     ui: 'action',
                     itemId: "newButton"
-                },
-                {
+                }, {
                     xtype: 'button',
                     itemId: 'logoutButton',
                     text: 'Logout',
                     align: 'right'
-                }
-            ]
+                }]
         }, {
             xtype: "list",
             store: "UsersStore",
@@ -38,7 +35,8 @@ Ext.define("Ortodont.view.UsersListView", {
             onItemDisclosure: true,
             grouped: true,
             itemTpl: "<div class=\"list-item-name\">{name}</div>"
-        }],
+            }
+        ],
         listeners: [{
             delegate: "#newButton",
             event: "tap",
@@ -52,7 +50,11 @@ Ext.define("Ortodont.view.UsersListView", {
             event: "tap",
             fn: "onLogoutButtonTap"
         }]
-    },    
+    },
+
+
+
+
     onNewButtonTap: function () {
         console.log("newUserCommand");
         this.fireEvent("newUserCommand", this);

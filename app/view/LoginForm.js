@@ -13,23 +13,20 @@ Ext.define('Ortodont.view.LoginForm', {
             {
                 xtype: 'fieldset',
                 title: 'Login',
-                items: [
-                    {
+                items: [{
                         xtype: 'textfield',
                         id: 'usernameTextField',
                         label: 'Username',
                         labelWidth: '40%',
                         name: 'username' 
-                    },
-                    {
+                    }, {
                         xtype: 'passwordfield',
                         label: 'Password',
                         labelWidth: '40%',
                         name: 'password'
                     }
                 ]
-            },
-            {
+            }, {
                 xtype: 'button',
                 itemId: 'loginButton',
                 margin: 20,

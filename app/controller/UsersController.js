@@ -114,7 +114,7 @@ Ext.define("Ortodont.controller.UsersController", {
             return;
         }
 
-        var usersStore = Ext.getStore("UsersStore");
+        var usersStore = Ext.getStore("UsersStore"),
             appointmentStore = Ext.getStore("AppointmentInfsStore");
         var now = new Date(),
             appointmentId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString(),
@@ -174,7 +174,6 @@ Ext.define("Ortodont.controller.UsersController", {
                 
                 usersStore.remove(currentUser);
                 usersStore.sync(); 
-                //userEditorView.activateUsersList();
 
             }
         }

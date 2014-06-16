@@ -26,9 +26,4 @@ Ext.define('Ortodont.view.MainView', {
             }
         ]
     },
-
-    Test: function(p1) {
-
-    }
-
 });

@@ -21,11 +21,6 @@ Ext.define('Ortodont.controller.AccountController', {
 
         login: function(button, e, eOpts) {
 
-        // Success autentificare utilizator
-        var successCallback = function(resp, ops) {
-            // Show user view
-
-        };
         // Success autentificare admin
         var successCallbackAdmin = function(resp, ops) {
             
@@ -57,13 +52,12 @@ Ext.define('Ortodont.controller.AccountController', {
         var form = button.up('formpanel'),			// Login form
         	values = form.getValues();				// Form values
 
-        var usersStore = Ext.getStore("UsersStore");
+        var usersStore = Ext.getStore("UsersStore"),
             appointmentStore = Ext.getStore("AppointmentInfsStore");
         usersStore.load();
         appointmentStore.load();
         var user = usersStore.findRecord('username', values['username'],0,false,false,true);
         if (null != user && user.get('password') == values['password'] ) {
-            //alert("Login OK!!!");
             if(user.get('id') == 1)
             {
                 successCallbackAdmin();
@@ -78,8 +72,6 @@ Ext.define('Ortodont.controller.AccountController', {
 
                 appointmentStore.clearFilter();
                 appointmentStore.filter('idUser', user.get('id'));
-
-
             }
         }
         else
@@ -95,9 +87,6 @@ Ext.define('Ortodont.controller.AccountController', {
         var loginForm = this.getLoginForm(); // Login form
         var mainView = this.getMainView();   // Main view
         var uview = this.getUserView();      // User view
-        //mainView.reset();
-        //uview.remove();
-        //mainView.remove('loginForm',false);
         window.location.reload();
         Ext.Viewport.setActiveItem(mainView);
         
