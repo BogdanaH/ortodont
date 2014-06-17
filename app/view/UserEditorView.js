@@ -101,6 +101,13 @@ Ext.define("Ortodont.view.UserEditorView", {
                                         required: true
                                         }
                                     ]   
+                            }, {
+                                xtype: 'list', 
+                                title: 'Patient evolution',
+                                itemId: 'evolution',
+                                store: 'AppointmentInfsStore',
+                                grouped: true,
+                                itemTpl: '<div>{description}</div>'
                             }
                         ]
                     }

@@ -6,9 +6,7 @@ Ext.define("Ortodont.controller.UsersController", {
             // We're going to lookup our views by xtype.
             usersListView: "userslistview",
             userEditorView: "usereditorview",
-            usersList: "#usersList",
-            loginForm: 'loginForm',
-            mainView: 'mainView'
+            usersList: "#usersList"
             
         },
         control: {
@@ -72,6 +70,9 @@ Ext.define("Ortodont.controller.UsersController", {
     onEditUserCommand: function (list, record) {
 
         console.log("onEditUserCommand");
+        var appointmentStore = Ext.getStore("AppointmentInfsStore");
+        appointmentStore.clearFilter();
+        appointmentStore.filter('idUser', record.get('id'));
 
         this.activateUserEditor(record);
     },

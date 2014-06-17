@@ -3,6 +3,7 @@ Ext.define("Ortodont.model.AppointmentModel", {
     config: {
         idProperty: 'id',
         fields: [
+            { name: 'id', type: 'int' },
             { name: 'idUser', type: 'int' },
             { name: 'dateCreated', type: 'date', dateFormat: 'c' },
             { name: 'description', type: 'string' },

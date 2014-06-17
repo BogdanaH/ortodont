@@ -44,8 +44,8 @@ Ext.define('Ortodont.controller.AccountController', {
         }
     },
 
-    slideLeftTransition: { type: 'slide', direction: 'left' },
-    slideRightTransition: { type: 'slide', direction: 'right' },
+        slideLeftTransition: { type: 'slide', direction: 'left' },
+        slideRightTransition: { type: 'slide', direction: 'right' },
 
         login: function(button, e, eOpts) {
 
@@ -56,6 +56,7 @@ Ext.define('Ortodont.controller.AccountController', {
             usersStore.filter("type","user");
             var adminView = Ext.create('widget.adminView');
             Ext.Viewport.setActiveItem(adminView);
+            //Ext.Viewport.animateActiveItem(adminView, this.slideLeftTransition);
 
         };
 
@@ -116,13 +117,15 @@ Ext.define('Ortodont.controller.AccountController', {
             xtype: "usereditorview"
         };
         Ext.Viewport.add([usersListView, userEditorView]);
-        Ext.Viewport.setActiveItem(manageUsersForm);
+        //Ext.Viewport.setActiveItem(manageUsersForm);
+        Ext.Viewport.animateActiveItem(manageUsersForm, this.slideLeftTransition);
     },
 
     showAppointments: function(button, e, eOpts) {
 
         var appointmentsView = Ext.create('widget.appointmentsView'); 
-        Ext.Viewport.setActiveItem(appointmentsView);
+        //Ext.Viewport.setActiveItem(appointmentsView);
+        Ext.Viewport.animateActiveItem(appointmentsView, this.slideLeftTransition);
     },
 
     onBackToDashboardCommand: function () {
