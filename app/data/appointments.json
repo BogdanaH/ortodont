@@ -1,11 +1,11 @@
 {
 	"data":[{
-		"id": "100","idUser":"10","dateCreated":"2014-05-14T18:06:07+03:00","description": "aplicarea braketilor pe o arcada","nextAppointment": "Mon Mar 03 2014 00:00:00 GMT+0200 (GTB, oră standard)"
+		"id": "100","idUser":"10","dateCreated":"2014-05-14T18:06:07+03:00","description": "aplicarea braketilor pe o arcada","nextAppointment": "2013-06-01 00:00:00.000"
 	}, {
-		"id": "101","idUser":"10","dateCreated":"2014-06-14T18:06:07+03:00","description": "aplicarea braketilor pe cealalta arcada","nextAppointment": "Sat Mar 01 2014 00:00:00 GMT+0200 (GTB, oră standard)"
+		"id": "101","idUser":"10","dateCreated":"2014-06-14T18:06:07+03:00","description": "aplicarea braketilor pe cealalta arcada","nextAppointment": "2013-04-01 00:00:00.000"
 	},{
-		"id": "103","idUser":"11","dateCreated":"2014-07-14T18:06:07+03:00","description": "strans sarma","nextAppointment": "Thu Apr 03 2014 00:00:00 GMT+0300 (GTB, oră de vară)"
+		"id": "103","idUser":"11","dateCreated":"2014-07-14T18:06:07+03:00","description": "strans sarma","nextAppointment": "2013-06-25 00:00:00.000"
 	},{
-		"id": "104","idUser":"13","dateCreated":"2014-06-14T18:06:07+03:00","description": "Radiografie","nextAppointment": "Thu Apr 03 2014 00:00:00 GMT+0300 (GTB, oră de vară)"
+		"id": "104","idUser":"13","dateCreated":"2014-06-14T18:06:07+03:00","description": "Radiografie","nextAppointment": "2013-02-01 00:00:00.000"
 	}
 ]}

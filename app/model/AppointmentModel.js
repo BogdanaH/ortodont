@@ -7,7 +7,7 @@ Ext.define("Ortodont.model.AppointmentModel", {
             { name: 'idUser', type: 'int' },
             { name: 'dateCreated', type: 'date', dateFormat: 'c' },
             { name: 'description', type: 'string' },
-            { name: 'nextAppointment', type: 'string' }
+            { name: 'nextAppointment', type: 'date' }
 
         ],
         validations: [

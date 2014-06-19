@@ -123,9 +123,22 @@ Ext.define('Ortodont.controller.AccountController', {
 
     showAppointments: function(button, e, eOpts) {
 
-        var appointmentsView = Ext.create('widget.appointmentsView'); 
+        var appointmentsView = Ext.create('widget.appointmentsView'),
+            appointmentStore = Ext.getStore("AppointmentInfsStore");
+        var monthFilter = new Ext.util.Filter({
+            filterFn: function(item) {
+                var currentMonth = new Date().getMonth(),
+                    nextAppMonth = item.get("nextAppointment").getMonth();
+                //alert("Current month:" + currentMonth);
+                //alert("nextAppMonth:"+nextAppMonth);
+                return currentMonth == nextAppMonth;
+            }
+        });
+        appointmentStore.clearFilter();
+        appointmentStore.filter(monthFilter);
         //Ext.Viewport.setActiveItem(appointmentsView);
         Ext.Viewport.animateActiveItem(appointmentsView, this.slideLeftTransition);
+
     },
 
     onBackToDashboardCommand: function () {

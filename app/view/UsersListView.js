@@ -23,8 +23,10 @@ Ext.define("Ortodont.view.UsersListView", {
                     align:'right'
                 },{
                     xtype: "button",
-                    ui: "back",
-                    text: "Back",
+                    ui: "dark",
+                    //text: "Back",
+                    iconCls:'arrow_left',
+                    iconMask: true,
                     itemId: "backButton"   
                 }]
         }, {

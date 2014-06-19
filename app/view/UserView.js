@@ -49,7 +49,7 @@ Ext.define('Ortodont.view.UserView', {
                 title: 'Next App',
                 itemId: 'nextAppointment',
                 store: 'AppointmentInfsStore',
-                itemTpl: '<div>{nextAppointment}</div>'
+                itemTpl: '<div>{nextAppointment:date("m/d/Y")}</div>'
             }]
         }]
     }

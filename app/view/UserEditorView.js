@@ -12,9 +12,11 @@ Ext.define("Ortodont.view.UserEditorView", {
                 title: "Manage User",
                 items: [{
                         xtype: "button",
-                        ui: "back",
-                        text: "Users list",
-                        itemId: "backButton"
+                        itemId: "backButton",
+                        ui: "dark",
+                        //text: "Back",
+                        iconCls:'arrow_left',
+                        iconMask: true,
                         }  
                 ]
             }, {
@@ -29,6 +31,8 @@ Ext.define("Ortodont.view.UserEditorView", {
                     },{
                         xtype: "button",
                         ui: "action",
+                        //iconCls: "save",
+                        //iconMask: true,
                         text: "Save",
                         itemId: "saveButton"
                       }

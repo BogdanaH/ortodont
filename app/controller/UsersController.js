@@ -6,7 +6,8 @@ Ext.define("Ortodont.controller.UsersController", {
             // We're going to lookup our views by xtype.
             usersListView: "userslistview",
             userEditorView: "usereditorview",
-            usersList: "#usersList"
+            usersList: "#usersList",
+            tabPanel: "usereditorview tabpanel"
             
         },
         control: {
@@ -63,6 +64,8 @@ Ext.define("Ortodont.controller.UsersController", {
             type:"user"
         });
 
+        this.getTabPanel().getTabBar().getComponent(2).hide();
+
         this.activateUserEditor(newUser);
 
     },
@@ -73,6 +76,8 @@ Ext.define("Ortodont.controller.UsersController", {
         var appointmentStore = Ext.getStore("AppointmentInfsStore");
         appointmentStore.clearFilter();
         appointmentStore.filter('idUser', record.get('id'));
+
+        this.getTabPanel().getTabBar().getComponent(2).show();
 
         this.activateUserEditor(record);
     },
@@ -103,7 +108,10 @@ Ext.define("Ortodont.controller.UsersController", {
         }
 
         var usersStore = Ext.getStore("UsersStore"),
-            appointmentStore = Ext.getStore("AppointmentInfsStore");
+            appointmentStore = Ext.getStore("AppointmentInfsStore"),
+            nextAppointment = newValues["nextAppointment"];
+            //resTokens = nextAppointment.split("");
+            alert(nextAppointment.getMonth());
         var now = new Date(),
             appointmentId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString(),
             newAppointment = Ext.create("Ortodont.model.AppointmentModel", {
