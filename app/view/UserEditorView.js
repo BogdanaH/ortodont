@@ -14,7 +14,6 @@ Ext.define("Ortodont.view.UserEditorView", {
                         xtype: "button",
                         itemId: "backButton",
                         ui: "dark",
-                        //text: "Back",
                         iconCls:'arrow_left',
                         iconMask: true,
                         }  
@@ -31,8 +30,6 @@ Ext.define("Ortodont.view.UserEditorView", {
                     },{
                         xtype: "button",
                         ui: "action",
-                        //iconCls: "save",
-                        //iconMask: true,
                         text: "Save",
                         itemId: "saveButton"
                       }
@@ -43,8 +40,7 @@ Ext.define("Ortodont.view.UserEditorView", {
                     styleHtmlContent: true,
                     items: [{
                             xtype: "fieldset",
-                            autoheight: true,
-                            title: 'Personal info',
+                            title: 'General',
                             items: [{
                                     xtype: 'textfield',
                                     name: 'name',
@@ -88,7 +84,7 @@ Ext.define("Ortodont.view.UserEditorView", {
                                     }]
                         }, {
                             xtype: "fieldset",
-                            title: 'Appointment info',
+                            title: 'Meeting info',
                             items: [{
                                         xtype: 'textareafield',
                                         name: 'description',
@@ -107,7 +103,7 @@ Ext.define("Ortodont.view.UserEditorView", {
                                     ]   
                             }, {
                                 xtype: 'list', 
-                                title: 'Patient evolution',
+                                title: 'Evolution',
                                 itemId: 'evolution',
                                 store: 'AppointmentInfsStore',
                                 grouped: true,

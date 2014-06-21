@@ -124,18 +124,21 @@ Ext.define('Ortodont.controller.AccountController', {
     showAppointments: function(button, e, eOpts) {
 
         var appointmentsView = Ext.create('widget.appointmentsView'),
-            appointmentStore = Ext.getStore("AppointmentInfsStore");
-        var monthFilter = new Ext.util.Filter({
-            filterFn: function(item) {
-                var currentMonth = new Date().getMonth(),
-                    nextAppMonth = item.get("nextAppointment").getMonth();
-                //alert("Current month:" + currentMonth);
-                //alert("nextAppMonth:"+nextAppMonth);
-                return currentMonth == nextAppMonth;
-            }
+            appointmentStore = Ext.getStore("AppointmentInfsStore"),
+            //filtreaza dupa luna si anul curent
+            monthYearFilter = new Ext.util.Filter({
+                filterFn: function(item) {
+                    var currentMonth = new Date().getMonth(),
+                        nextAppMonth = item.get("nextAppointment").getMonth(),
+                        currentYear = new Date().getYear(),
+                        nextAppYear = item.get("nextAppointment").getYear();
+                    //alert("Current month:" + currentMonth);
+                    //alert("nextAppMonth:"+nextAppMonth);
+                    return currentMonth == nextAppMonth && currentYear == nextAppYear;
+                }
         });
         appointmentStore.clearFilter();
-        appointmentStore.filter(monthFilter);
+        appointmentStore.filter(monthYearFilter);
         //Ext.Viewport.setActiveItem(appointmentsView);
         Ext.Viewport.animateActiveItem(appointmentsView, this.slideLeftTransition);
 

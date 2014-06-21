@@ -31,6 +31,50 @@ right: 0.44em;
     text-overflow: ellipsis;   
     padding-right:25px;
 }
+.list-item-password
+{
+    float:left;
+    width:95%;
+    color:#666666;
+    font-size:80%;
+    white-space: nowrap;  
+    overflow: hidden;  
+    text-overflow: ellipsis;   
+    padding-right:25px;
+}
+.list-item-email
+{
+    float:left;
+    width:95%;
+    color:#666666;
+    font-size:80%;
+    white-space: nowrap;  
+    overflow: hidden;  
+    text-overflow: ellipsis;   
+    padding-right:25px;
+}
+.list-item-bracesType
+{
+    float:left;
+    width:95%;
+    color:#666666;
+    font-size:80%;
+    white-space: nowrap;  
+    overflow: hidden;  
+    text-overflow: ellipsis;   
+    padding-right:25px;
+}
+.list-item-phone
+{
+    float:left;
+    width:95%;
+    color:#666666;
+    font-size:80%;
+    white-space: nowrap;  
+    overflow: hidden;  
+    text-overflow: ellipsis;   
+    padding-right:25px;
+}
 .x-item-selected .list-item-name
 {
     color:#ffffff;

@@ -7,7 +7,8 @@ Ext.define("Ortodont.controller.UsersController", {
             usersListView: "userslistview",
             userEditorView: "usereditorview",
             usersList: "#usersList",
-            tabPanel: "usereditorview tabpanel"
+            tabPanel: "usereditorview tabpanel",
+            tabPanelUserView: "userView tabpanel"
             
         },
         control: {
@@ -21,6 +22,9 @@ Ext.define("Ortodont.controller.UsersController", {
                 saveUserCommand: "onSaveUserCommand",
                 deleteUserCommand: "onDeleteUserCommand",
                 backToHomeCommand: "onBackToHomeCommand"
+            },
+            tabPanelUserView: {
+                activeitemchange: 'onTabChanged'
             }
 
         }
@@ -110,8 +114,7 @@ Ext.define("Ortodont.controller.UsersController", {
         var usersStore = Ext.getStore("UsersStore"),
             appointmentStore = Ext.getStore("AppointmentInfsStore"),
             nextAppointment = newValues["nextAppointment"];
-            //resTokens = nextAppointment.split("");
-            alert(nextAppointment.getMonth());
+            //alert(nextAppointment.getMonth());
         var now = new Date(),
             appointmentId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString(),
             newAppointment = Ext.create("Ortodont.model.AppointmentModel", {
@@ -182,6 +185,26 @@ Ext.define("Ortodont.controller.UsersController", {
 
         console.log("onBackToHomeCommand");
         this.activateUsersList();
+    },
+    //functie folosita pentru a-i arata pacientului doar data urmatoarei programari
+    onTabChanged: function(tabPanel, tab, oldTab){
+       var appStore = Ext.getStore("AppointmentInfsStore");
+       //appStore.clearFilter(); 
+        if (tab.config.itemId == "nextAppointment") {
+            //appStore.sort([{ property: 'nextAppointment', direction: 'ASC'}]);
+            //alert("Sunt in onTabChanged");
+            //var lengthStore = appStore.getCount();
+            //alert(lengthStore);
+            var firstRecord = appStore.getAt(0);
+            //var lastRecord1 = appStore.getAt(1);
+            //var lastRecord2 = appStore.getAt(2);
+            console.log("First record: "+firstRecord.get("nextAppointment"));
+            //console.log("LastRecord1: "+lastRecord1.get("nextAppointment"));
+            //console.log("LastRecord2: "+lastRecord2.get("nextAppointment"));
+            //appStore.filter("nextAppointment",firstRecord.get("nextAppointment"));
+            
+  
+        }
     },
 
     // Base Class functions.

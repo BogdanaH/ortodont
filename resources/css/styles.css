@@ -1,0 +1,28 @@
+.imag {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position:50% 0; 
+	background-color:white;
+
+}
+.one {
+	background-image:url('home.png');
+
+
+}
+.two{
+	background-image: url('home2.png');
+
+}
+.three{
+	background-image: url('home3.png');
+
+}
+.four{
+	background-image: url('home4.png');
+
+}
+.five{
+	background-image: url('home5.png');
+
+}
