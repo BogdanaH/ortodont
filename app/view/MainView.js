@@ -72,7 +72,7 @@ Ext.define('Ortodont.view.MainView', {
                                 cls: 'imag four'
                              }, {
                                  flex: 3,
-                                 styleHtmlContent: 'four',
+                                 styleHtmlContent: 'true',
                                  html: "<h3>Lingual</h3><p>Acest tip de aparat arata aproximativ ca si cel clasic, doar ca bracketii sunt dispusi pe partea interioara a dintilor, astfel nefiind vizibili la exterior. Insa tocmai datorita acestei pozitionari, aparatul intra constant in contact cu limba, fapt ce poate produce inconfort, iritatii si dificultati de vorbire.</p>"
                              }]
                         }, {
@@ -86,7 +86,7 @@ Ext.define('Ortodont.view.MainView', {
                              },
                              {
                                 flex: 3,
-                                styleHtmlContent: 'five',
+                                styleHtmlContent: 'true',
                                 html: "<h3>Mobilizabil</h3><p>Acest tip de aparat se adreseaza, in principal, copiilor cu varste cuprinse inre 6-7 ani cand apar primii dinti definitivi si 11-12 ani cand se inlocuiesc si ultimii dinti de lapte. Ele se realizeaza dintr-un plastic viu colorat pentru a le face cat mai atractive pentru cei mici.</p>"
                             }]
                         }
