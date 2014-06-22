@@ -1,0 +1,80 @@
+// used for MainView top toolbar
+@include sencha-toolbar-ui('tst-tbar-0', #454545, 'matte');
+.x-toolbar-tst-tbar-0 {
+  .x-button{
+    margin: 0px;
+    padding: 0 0.4em;
+  }
+}
+// used for MainView top toolbar
+@include sencha-toolbar-ui('tst-tbar-1', #454545, 'matte');
+.x-toolbar-tst-tbar-1 {
+  background-image: url(../images/toolbar/tst-logo.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 180px 36px;
+
+  .x-title {
+    visibility: hidden;
+  }
+}
+// used for Tablet Profile SideView top toolbar
+@include sencha-toolbar-ui('tst-tbar-2', #ebebeb, 'matte');
+.x-toolbar-tst-tbar-2 {
+  border-bottom: 1px solid #dedede;
+  .x-innerhtml {
+    text-shadow: none !important;
+    font-family: $light-font;
+    font-weight: 300;
+    color: #333;
+  }
+}
+
+// used for Tablet Profile QuoteMain view company and news update toolbar
+@include sencha-toolbar-ui('tst-tbar-3', #3f4c6b, 'matte');
+@include sencha-tabbar-ui('tst-tbar-3', rgba(63,76,107,1), 'matte', #657BAB);
+.x-toolbar-tst-tbar-3, .x-tabbar-tst-tbar-3 {
+  height: 2.6em;
+  -webkit-box-shadow: none;
+  &.x-docked-top {
+    border-bottom-color: #d2d2d2;
+  }
+  .x-title {
+    visibility: visible;
+    font-size: 15px;
+    color: #dedede;
+    text-align: left;
+  }
+  .x-center {
+    background: none;
+    @include transparent;
+  }
+  .x-toolbar-tst-tbar-3-inner {
+    background: none;
+    .x-segmentedbutton {
+      height: 100%;
+      .x-button {
+        border: none;
+        border-left: 1px solid #2D364D !important;
+        .x-button-label {
+          font-size: 1.0em;
+        }
+        &.x-first {
+          border-radius: 0em;
+          border-left: 1px solid #2D364D !important;
+        }
+        &.x-last {
+          border-radius: 0em;
+          border: none;
+          border-right: 1px solid #2D364D !important;
+        }
+        &.x-button-pressed {
+          background: lighten(#3f4c6b, 25%);
+        }
+        &.x-button-pressing {
+          background: lighten(#3f4c6b, 45%);
+        }
+      }
+    }
+  }
+}

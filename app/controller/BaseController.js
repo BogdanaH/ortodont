@@ -8,7 +8,8 @@ Ext.define('Ortodont.controller.BaseController', {
     config: {
         routes: {
             '': 'showMain',
-            'view/:viewName': 'showMiew'
+            'aview/:viewName': 'showAView',
+            'uview/:viewName': 'showUView'
         },
 
         refs: {
@@ -28,7 +29,6 @@ Ext.define('Ortodont.controller.BaseController', {
     },
 
     onMenuButtonTap: function(button, e, eOpts) {
-        console.log('m-a apasat');
         Ext.Viewport.toggleMenu('left');
     },
 
@@ -38,16 +38,16 @@ Ext.define('Ortodont.controller.BaseController', {
                 this.redirectTo('');
                 break;
             case 2:
-                this.redirectTo('view/listpriceView');
+                this.redirectTo('uview/priceView');
                 break;
             case 3:
-                this.redirectTo('view/contactView');
+                this.redirectTo('uview/contactView');
                 break;
             case 4:
-                this.redirectTo('view/beforeafterView');
+                this.redirectTo('uview/portfolioView');
                 break;
             case 5:
-                this.redirectTo('view/loginForm');
+                this.redirectTo('uview/loginView');
                 break;
             default:
                 this.redirectTo('');
@@ -57,14 +57,14 @@ Ext.define('Ortodont.controller.BaseController', {
         Ext.Viewport.toggleMenu('left');
     },
 
-    showMiew: function(viewName) {
+    showUView: function(viewName) {
         console.log('view type: ',viewName);
         var view = this.getMainView(),
             miew = view.child(viewName) || view.add({ xtype: viewName });
         view.setActiveItem(miew); miew.show();
         return view;
     },
-    showView: function(xtype) {
+    showAView: function(xtype) {
         var view = Ext.Viewport.child(xtype) || Ext.Viewport.add({ xtype: xtype });
         if (view.isInnerItem()) {
             Ext.Viewport.setActiveItem(view);
@@ -75,7 +75,7 @@ Ext.define('Ortodont.controller.BaseController', {
     },
 
     showMain: function() {
-        this.showView('mainView');
+        this.showUView('mainView');
         this.getMainView().setActiveItem(0);
     }
 

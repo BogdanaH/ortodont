@@ -1,0 +1,49 @@
+.imag {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 0;
+  background-color:white;
+
+}
+.one {
+  background-image: url('../img/carousel/carousel1.png');
+  background-position-x: -20px !important ; 
+  background-size: cover !important;
+}
+.two{
+  background-image: url('../img/carousel/carousel2.png');
+
+}
+.three{
+  background-image: url('../img/carousel/carousel3.png');
+
+}
+.four{
+  background-image: url('../img/carousel/carousel4.png');
+
+}
+.five{
+  background-image: url('../img/carousel/carousel5.png');
+
+}
+
+.contact-view .contactContent {
+  margin: 20px;
+}
+
+.contact-view .tip {
+  font-size: 12pt;
+  font-family: Georgia, Constantia, "Times New Roman", Times, serif;
+    font-weight: bold;
+  text-align: 'center';
+  color:#404040;
+    font-size:normal;
+}
+
+.contact-view .info {
+  font-size: 10pt;
+  font-family: Georgia, Constantia, "Times New Roman", Times, serif;
+    color:#707070;
+    font-style: oblique;
+
+}

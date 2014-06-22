@@ -1,0 +1,79 @@
+// ! IMPORTANT to reduce your CSS file size: (for Android css should be <400K)
+
+// 1. Do not include the default Pictos Font
+// 2. Remove unused CSS definitions
+// 3. Optimize your images
+
+// @font-face and global variables.
+
+$light-font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif !important;
+$ultra-light-font: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "HelveticaNeue-Light", "Helvetica Neue Light", sans-serif !important;
+
+// base colors
+$base-color: #555;
+$base-gradient: 'matte';
+// $list-active-color: #4b6f9f;
+// $list-pressed-color: #cecece;
+$list-header-bg-color: #666666;
+$active-color: #000000;
+
+// base borders & box shadows
+
+// base content
+$include-button-uis: true;
+$include-button-highlights: true;
+// throw out default pictos
+$include-pictos-font: false;
+$include-default-icons: false;
+
+// base layouts
+
+// brand colors
+
+// $experimental-support-for-mozilla : false;
+// $experimental-support-for-webkit : false;
+// $support-for-original-webkit-gradients : false;  // we use old-style webkit gradients in Android
+// we exclude Experimental CSS that compass generates for
+// $experimental-support-for-opera : false;
+// $experimental-support-for-microsoft : false;
+// $experimental-support-for-khtml : false;
+
+// import compass css3 helpers
+@import 'compass/css3';
+@import "compass/css3/box-shadow";
+
+// load default styles
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+// exclude components that are not used
+/*
+@import 'sencha-touch/default/src/_Class';
+@import 'sencha-touch/default/src/_Button';
+// @import 'sencha-touch/default/src/_Panel';
+@import 'sencha-touch/default/src/_Sheet';
+@import 'sencha-touch/default/src/_MessageBox';
+@import 'sencha-touch/default/src/_Toolbar';
+// @import 'sencha-touch/default/src/carousel/_Carousel';
+@import 'sencha-touch/default/src/form/_Panel';
+@import 'sencha-touch/default/src/form/_FieldSet';
+@import 'sencha-touch/default/src/field/_Field';
+@import 'sencha-touch/default/src/field/_Checkbox';
+// @import 'sencha-touch/default/src/field/_Radio';
+// @import 'sencha-touch/default/src/field/_Search';
+@import 'sencha-touch/default/src/field/_Select';
+//@import 'sencha-touch/default/src/field/_Slider';
+@import 'sencha-touch/default/src/field/_Spinner';
+// @import 'sencha-touch/default/src/field/_TextArea';
+// @import 'sencha-touch/default/src/dataview/_IndexBar';
+@import 'sencha-touch/default/src/dataview/_List';
+// @import 'sencha-touch/default/src/picker/_Picker';
+@import 'sencha-touch/default/src/plugin/_ListPaging';
+@import 'sencha-touch/default/src/plugin/_PullRefresh';
+// @import 'sencha-touch/default/src/slider/_Slider';
+// @import 'sencha-touch/default/src/slider/_Toggle';
+// @import 'sencha-touch/default/src/tab/_Panel';;
+*/
+
+
+

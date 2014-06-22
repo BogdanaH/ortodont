@@ -24,7 +24,7 @@ Ext.define('Ortodont.store.MenuStore', {
             },
             {
                 id: 4,
-                text: 'Before/After cases'
+                text: 'Portfolio'
             },
             {
                 id: 5,

@@ -1,0 +1,10 @@
+// embed custom pictos font
+@include icon-font('cbs-fnt', inline-font-files('cbs/cbs.woff', woff, 'cbs/cbs.ttf', truetype,'cbs/cbs.svg', svg));
+
+@include icon('home',   '\e600', 'cbs-fnt');
+@include icon('loc1',   '\e602', 'cbs-fnt');
+@include icon('loc2',   '\e603', 'cbs-fnt');
+@include icon('map',    '\e606', 'cbs-fnt');
+@include icon('refr',   '\e601', 'cbs-fnt');
+@include icon('menu',   '\e604', 'cbs-fnt');
+@include icon('back',   '\e605', 'cbs-fnt');

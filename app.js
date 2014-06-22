@@ -1,22 +1,44 @@
 Ext.Loader.setConfig({
-
+	enabled: true,
+    disableCaching: true,
+    paths: {
+        'Ext'   	 : 'touch/src',
+        'Ortodont'   : 'app'
+    }
 });
 
 Ext.application({
-    models: ['AppointmentModel','MenuModel','ListPriceModel','UserModel'],
+    models: ['AppointmentModel','MenuModel','PriceModel','UserModel'],
 
-    stores: ['MenuStore','PricesStore','UsersStore','AppointmentInfsStore'],
+    stores: ['MenuStore','PriceStore','UserStore','AppointmentStore'],
 
-    views: ['AppointmentsView','AdminView','MenuView','ContactView','ListPriceView','LoginForm','MainView','UserView','UserEditorView','UsersListView','BeforeAfterView'],
+    views: [
+    	'Ortodont.view.admin.AdminView',
+    	'Ortodont.view.admin.AppointmentsView',
+    	'Ortodont.view.admin.PacientView',
+    	'Ortodont.view.admin.PacientList',
+
+    	'Ortodont.view.guest.ContactView',
+    	'Ortodont.view.guest.LoginView',
+    	'Ortodont.view.guest.MainView',
+    	'Ortodont.view.guest.MenuView',
+    	'Ortodont.view.guest.PortfolioView',
+        'Ortodont.view.guest.PriceView',
+
+        'Ortodont.view.user.UserView',
+	],
     
-    controllers: ['BaseController','AccountController','UsersController'],
+    controllers: [
+    	'Ortodont.controller.BaseController',
+    	'Ortodont.controller.AuthController',
+    	'Ortodont.controller.UserController'
+	],
     
     name: 'Ortodont',
 
     launch: function() {
-        Ext.Viewport.setMenu(Ext.create('Ortodont.view.MenuView'), {side:'left', cover: false});
-        Ext.create('Ortodont.view.MainView', {fullscreen: true});
-
+        Ext.Viewport.setMenu(Ext.create('Ortodont.view.guest.MenuView'), {side:'left', cover: false});
+        Ext.create('Ortodont.view.guest.MainView', {fullscreen: true});
     }
 
 });

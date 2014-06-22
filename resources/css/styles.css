@@ -1,14 +1,12 @@
 .imag {
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: 50% 0;
+	background-position: 50% 0; 
 	background-color:white;
 
 }
 .one {
 	background-image:url('home.png');
-	background-position-x: -20px !important ; 
-	background-size: cover !important;
 
 
 }
@@ -26,59 +24,5 @@
 }
 .five{
 	background-image: url('home5.png');
-
-}
-
-.caz {
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position:50% 0; 
-	background-color: white;
-
-}
-.unu {
-	background-image:url('Caz1.jpg');
-
-
-}
-.doi{
-	background-image: url('Caz2.jpg');
-
-}
-.trei{
-	background-image: url('Caz3.jpg');
-
-}
-.patru{
-	background-image: url('Caz4.jpg');
-
-}
-.cinci{
-	background-image: url('Caz5.jpg');
-
-}
-.sase{
-	background-image: url('Caz6.jpg');
-
-}
-
-.contact-view .contactContent {
-	margin: 20px;
-}
-
-.contact-view .tip {
-	font-size: 12pt;
-	font-family: Georgia, Constantia, "Times New Roman", Times, serif;
-    font-weight: bold;
-	text-align: 'center';
-	color:#404040;
-    font-size:normal;
-}
-
-.contact-view .info {
-	font-size: 10pt;
-	font-family: Georgia, Constantia, "Times New Roman", Times, serif;
-    color:#707070;
-    font-style: oblique;
 
 }
