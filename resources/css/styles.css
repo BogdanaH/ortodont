@@ -67,16 +67,18 @@
 }
 
 .contact-view .tip {
-	font-size: 11pt;
-	font-style: normal;
+	font-size: 12pt;
 	font-family: Georgia, Constantia, "Times New Roman", Times, serif;
     font-weight: bold;
 	text-align: 'center';
+	color:#404040;
+    font-size:normal;
 }
 
 .contact-view .info {
-	font-size: 9pt;
-	font-style: normal;
+	font-size: 10pt;
 	font-family: Georgia, Constantia, "Times New Roman", Times, serif;
-    color: #ff6500;
+    color:#707070;
+    font-style: oblique;
+
 }

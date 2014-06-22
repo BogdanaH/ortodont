@@ -13,7 +13,7 @@ Ext.define('Ortodont.view.MainView', {
             {
                 xtype: 'titlebar',
                 docked: 'top',
-                title: 'Hai la ortodont!',
+                title: 'TeethEstet',
                 items: [
                     {
                         xtype: 'button',
@@ -60,7 +60,7 @@ Ext.define('Ortodont.view.MainView', {
                              {
                                 flex: 3,
                                 styleHtmlContent: 'true',
-                                html: "<h3>Metalic</h3><p>Acesta este alctuit din bracketi metalici sudati de sarma din otel. La inceput este posibil ca metalul sa irite mucoasa bucala, insa dupa cateva saptamani apare obisnuinta si nu mai este nicio problema. Tratamentul este in general mai scurt,fiind un aparat puternic, ce rareori cedeaza.</p>"
+                                html: "<h3>Metalic</h3><p>Acesta este alcatuit din bracketi metalici sudati de sarma din otel. La inceput este posibil ca metalul sa irite mucoasa bucala, insa dupa cateva saptamani apare obisnuinta si nu mai este nicio problema. Tratamentul este in general mai scurt,fiind un aparat puternic, ce rareori cedeaza.</p>"
                              }]
                         }, {
                             layout: {
