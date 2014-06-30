@@ -17,6 +17,10 @@ Ext.define("Ortodont.model.UserModel", {
 
 
         ],
+        proxy: {
+          type: 'localstorage',
+          id  : 'users'
+        },
         validations: [
             { type: 'presence', field: 'id' },
             { type: 'presence', field: 'dateCreated' },

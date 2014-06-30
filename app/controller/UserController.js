@@ -57,8 +57,8 @@ Ext.define("Ortodont.controller.UserController", {
 
     onPacientViewSaveBtnTap: function() {
         var pacientView = this.getPacientView(),
-            cUser = pacientView.down('formpanel').getRecord(),
-            formVal = pacientView.down('formpanel').getValues();
+            cUser = pacientView.getRecord(),
+            formVal = pacientView.getValues();
 
         // Update the current user's fields with form values.
         cUser.set("name", formVal.name);
@@ -69,7 +69,8 @@ Ext.define("Ortodont.controller.UserController", {
         cUser.set("caseDescription", formVal.caseDescription);
         cUser.set("bracesType", formVal.bracesType);
         cUser.set("treatmentPlan", formVal.treatmentPlan);
-
+        cUser.setDirty(true);
+        
         var errors = cUser.validate();
 
         if (!errors.isValid()) {
@@ -80,36 +81,37 @@ Ext.define("Ortodont.controller.UserController", {
 
         var userStore = Ext.getStore("UserStore"),
             appStore = Ext.getStore("AppointmentStore"),
-            nextApp = formVal["nextAppointment"],
-            now = new Date(),
-            appId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString(),
-            newApp = Ext.create("Ortodont.model.AppointmentModel", {
-                id: appId,
-                dateCreated: now,
-                description: formVal["description"],
-                nextAppointment: formVal["nextAppointment"]
-            });
+            nextApp = formVal["nextAppointment"];
 
-        if (null === userStore.findRecord('id', cUser.data.id, 0, false, false, true)) {
+        if (formVal["description"] && formVal["description"]!='' && formVal["nextAppointment"] && formVal["nextAppointment"]!='') {
+             var now = new Date(),
+                appId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString(),
+                newApp = Ext.create("Ortodont.model.AppointmentModel", {
+                    id: appId,
+                    dateCreated: now,
+                    description: formVal["description"],
+                    nextAppointment: formVal["nextAppointment"]
+                }),
+                errors = newApp.validate();
+
+            if (!errors.isValid()) {
+                Ext.Msg.alert('Wait!', errors.items[0].getMessage(), Ext.emptyFn);
+                newApp.reject();
+                return;
+            } 
+
+            newApp.set("idUser", cUser.get('id'));
+            newApp.setDirty(true);
+            appStore.add(newApp);
+            appStore.sync();  
+        }
+
+        var userFromStore = userStore.getById(cUser.get('id'));
+        if (!userFromStore) {
             userStore.add(cUser);
         }
 
-        newApp.setDirty(true);
-        var errors = newApp.validate();
-
-        if (!errors.isValid()) {
-            Ext.Msg.alert('Wait!', errors.items[0].getMessage(), Ext.emptyFn);
-            newApp.reject();
-            return;
-        }
-
-        appStore.add(newApp);
-        var currApp = appStore.findRecord('id', appId, 0, false, false, true);
-        currApp.set("idUser", cUser.get("id"));
-
-        appStore.sync();
         userStore.sync();
-
         userStore.sort([{ property: 'dateCreated', direction: 'desc'}]);
 
         this.redirectTo('aview/pacientList');
@@ -156,7 +158,7 @@ Ext.define("Ortodont.controller.UserController", {
             });
 
         this.redirectTo('aview/pacientView');
-        this.getPacientView().down('formpanel').setRecord(newUser);
+        this.getPacientView().setRecord(newUser);
         this.getPacientView().down('tabpanel').getTabBar().getComponent(2).setHidden(true);
     },
 
@@ -174,7 +176,7 @@ Ext.define("Ortodont.controller.UserController", {
         appStore.filter('idUser', rec.get('id'));
 
         this.redirectTo('aview/pacientView');
-        this.getPacientView().down('formpanel').setRecord(rec);
+        this.getPacientView().setRecord(rec);
         this.getPacientView().down('tabpanel').getTabBar().getComponent(2).setHidden(false);
     }
 });

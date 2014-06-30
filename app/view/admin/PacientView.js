@@ -1,5 +1,5 @@
 Ext.define("Ortodont.view.admin.PacientView", {
-    extend: "Ext.Container",
+    extend: "Ext.form.Panel",
     alias: "widget.pacientView",
 
     requires: [
@@ -40,7 +40,7 @@ Ext.define("Ortodont.view.admin.PacientView", {
             xtype: 'tabpanel',
             styleHtmlContent: true,
             items: [{
-                xtype: "formpanel",
+                xtype: "container",
                 title: 'General',
                 defaults: {
                     labelWidth: 120,

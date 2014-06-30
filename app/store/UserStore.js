@@ -1,4 +1,4 @@
-Ext.define('Ortodont.store.UserStore', {
+/*Ext.define('Ortodont.store.UserStore', {
     extend: 'Ext.data.Store',
 
     requires: [
@@ -22,22 +22,34 @@ Ext.define('Ortodont.store.UserStore', {
        }
    },
     }
-});
+});*/
 
-//Ext.define("Ortodont.store.UsersStore", {
-//     extend: "Ext.data.Store",
-//     requires: "Ext.data.proxy.LocalStorage",
-//     config: {
-//         autoload: true,
-//         model: "Ortodont.model.UserModel",
-//         proxy: {
-//             type: 'localstorage',
-//             id: 'users-app-store'
-//         },
-//         sorters: [{ property: 'dateCreated', direction: 'DESC'}],
-//         grouper: {
-//                  groupFn: function(record) {
-//                      return record.get('name')[0];
-//                  }
-//      }
-// });
+Ext.define("Ortodont.store.UserStore", {
+    extend: "Ext.data.Store",
+    
+    requires: [
+        'Ortodont.model.UserModel',
+        "Ext.data.proxy.LocalStorage"
+    ],
+    
+    config: {
+        autoload: true,
+        model: "Ortodont.model.UserModel",
+        proxy: {
+            type: 'localstorage',
+            id: 'users',
+            reader: {
+                type: 'json'
+            },
+            writer: {
+                type: 'json'    
+            }
+        },
+        sorters: [{ property: 'dateCreated', direction: 'DESC'}],
+        grouper: {
+            groupFn: function(record) {
+                return record.get('name')[0];
+            }
+        }
+    }
+});

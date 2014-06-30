@@ -1,4 +1,4 @@
-Ext.define('Ortodont.store.AppointmentStore', {
+/*Ext.define('Ortodont.store.AppointmentStore', {
     extend: 'Ext.data.Store',
 
     requires: [
@@ -20,68 +20,38 @@ Ext.define('Ortodont.store.AppointmentStore', {
             sortProperty: "dateCreated",
             direction: "DESC",
             groupFn: function (record) {
+                return (record && record.data.dateCreated) ? record.data.dateCreated.toDateString() : '';
+            }
+        }
+    }
+});*/
 
-                if (record && record.data.dateCreated) {
-                    return record.data.dateCreated.toDateString();
-                } else {
-                    return '';
-                }
+
+Ext.define("Ortodont.store.AppointmentStore", {
+    extend: "Ext.data.Store",
+
+    requires: [
+        'Ortodont.model.AppointmentModel',
+        "Ext.data.proxy.LocalStorage",
+    ],
+    
+    config: {
+        autoload: true,
+        model: "Ortodont.model.AppointmentModel",
+        proxy: {
+            type: 'localstorage',
+            id: 'appointments',
+            reader: {
+                type: 'json'
+            }
+        },
+        sorters: [{ property: 'dateCreated', direction: 'DESC'}],
+        grouper: {
+            sortProperty: "dateCreated",
+            direction: "DESC",
+            groupFn: function (record) {
+                return (record && record.data.dateCreated) ? record.data.dateCreated.toDateString() : '';
             }
         }
     }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Ext.define("Ortodont.store.AppointmentInfsStore", {
-//     extend: "Ext.data.Store",
-//     requires: "Ext.data.proxy.LocalStorage",
-//     config: {
-//         autoload: true,
-//         model: "Ortodont.model.AppointmentModel",
-//         proxy: {
-//             type: 'localstorage',
-//             id: 'appointment-app-store'
-//         },
-//         sorters: [{ property: 'dateCreated', direction: 'DESC'}],
-//         grouper: {
-//             sortProperty: "dateCreated",
-//             direction: "DESC",
-//             groupFn: function (record) {
-
-//                 if (record && record.data.dateCreated) {
-//                     return record.data.dateCreated.toDateString();
-//                 } else {
-//                     return '';
-//                 }
-//             }
-//         }
-//     }
-// });
