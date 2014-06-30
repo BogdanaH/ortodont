@@ -13,10 +13,10 @@ Ext.define('Ortodont.view.admin.AppointmentsView', {
             title: "My Appointments",
             items: [{
                 xtype: "button",
-                itemId: "backButton",
+                action: 'back',
                 ui: "dark",
-                iconCls: 'arrow_left',
-                iconMask: true
+                iconCls:'arrow_left',
+                iconMask: true,
             }]
 		}, {
             xtype: 'list',
@@ -28,17 +28,7 @@ Ext.define('Ortodont.view.admin.AppointmentsView', {
                  '<div class="idUser"><strong>Patient, </strong> {idUser}</div>',
                  '<div class="nextAppointment"><strong>scheduled on: </strong>{nextAppointment:date("d/m/Y")}</div>'
             ]
-        }],
-    	listeners: [{
-            delegate: "#backButton",
-            event: "tap",
-            fn: "onBackButtonTap"
         }]
-    },
-
-    onBackButtonTap: function () {
-        console.log("backToDashboardCommand");
-        this.fireEvent("backToDashboardCommand", this);
     }
 
 });
