@@ -8,12 +8,18 @@ Ext.define("Ortodont.controller.UserController", {
                 xtype: 'pacientView',
                 autoCreate: true
             },
+            appointmentsView: {
+                selector: 'appointmentsView',
+                xtype: 'appointmentsView',
+                autoCreate: true
+            },
             pacientList: 'pacientList list',
             pacientAddBtn: 'pacientList button[align="right"]',
             pacientBackBtn: 'pacientList button[align="left"]',
             pacientViewSaveBtn: 'pacientView button[action="save"]',
             pacientViewDeleteBtn: 'pacientView button[action="delete"]',
-            pacientViewBackBtn: 'pacientView button[action="back"]'
+            pacientViewBackBtn: 'pacientView button[action="back"]',
+            appointmentsViewBackBtn: 'appointmentsView button[action="back"]'
         },
         control: {
             pacientAddBtn: {
@@ -39,6 +45,9 @@ Ext.define("Ortodont.controller.UserController", {
             },
             pacientViewBackBtn: {
                 tap: 'onPacientViewBackBtnTap'
+            },
+            appointmentsViewBackBtn: {
+                tap: 'onAppointmentsViewBackBtnTap'
             }
         }
     },
@@ -142,6 +151,9 @@ Ext.define("Ortodont.controller.UserController", {
 
     onPacientViewBackBtnTap: function() {
         this.redirectTo('aview/pacientList');
+    },
+    onAppointmentsViewBackBtnTap : function(){
+        this.redirectTo('aview/adminView');
     },
 
     onPacientBackBtnTap: function() {
