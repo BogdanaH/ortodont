@@ -1,3 +1,25 @@
+//http://designmodo.github.io/Flat-UI/
+
+@include sencha-button-ui('TURQUOISE', #1ABC9C, 'glossy');
+@include sencha-button-ui('GREEN-SEA', #16A085, 'glossy');
+@include sencha-button-ui('EMERALD', #2ECC71, 'glossy');
+@include sencha-button-ui('NEPHRITIS', #27AE60, 'glossy');
+@include sencha-button-ui('PETER-RIVER', #3498DB, 'glossy');
+@include sencha-button-ui('BELIZE-HOLE', #2980B9, 'glossy');
+@include sencha-button-ui('AMETHYST', #9B59B6, 'glossy');
+@include sencha-button-ui('WISTERIA', #8E44AD, 'glossy');
+@include sencha-button-ui('WET-ASPHALT', #34495E, 'glossy');
+@include sencha-button-ui('MIDNIGHT-BLUE', #2C3E50, 'glossy');
+@include sencha-button-ui('SUN-FLOWER', #F1C40F, 'glossy');
+@include sencha-button-ui('CARROT', #F39C12, 'glossy');
+@include sencha-button-ui('PUMPKIN', #E67E22, 'glossy');
+@include sencha-button-ui('ALIZARIN', #D35400, 'glossy');
+@include sencha-button-ui('POMEGRANATE', #E74C3C, 'glossy');
+@include sencha-button-ui('CLOUDS', #C0392B, 'glossy');
+@include sencha-button-ui('SILVER', #BDC3C7, 'glossy');
+@include sencha-button-ui('CONCRETE', #95A5A6, 'glossy');
+@include sencha-button-ui('ASBESTOS', #7F8C8D, 'glossy');
+
 // used for MainView top toolbar
 @include sencha-toolbar-ui('tst-tbar-0', #454545, 'matte');
 .x-toolbar-tst-tbar-0 { 

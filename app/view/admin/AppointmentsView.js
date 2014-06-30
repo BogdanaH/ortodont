@@ -10,7 +10,7 @@ Ext.define('Ortodont.view.admin.AppointmentsView', {
     	items: [{
 	    	xtype: "toolbar",
             docked: "top",
-            title: "My Appointments",
+            title: "Appointments",
             items: [{
                 xtype: "button",
                 action: 'back',
@@ -24,10 +24,14 @@ Ext.define('Ortodont.view.admin.AppointmentsView', {
             width:'100%',
             height: '100%',
             store: 'AppointmentStore',
-            itemTpl: [
-                 '<div class="idUser"><strong>Patient, </strong> {idUser}</div>',
-                 '<div class="nextAppointment"><strong>scheduled on: </strong>{nextAppointment:date("d/m/Y")}</div>'
-            ]
+            itemTpl: new Ext.XTemplate('<div class="idUser"><strong>Patient, </strong> {[this.getPacientName(values.idUser)]}</div>',
+                '<div class="nextAppointment"><strong>scheduled on: </strong>{nextAppointment:date("d/m/Y")}</div>', {
+                getPacientName: function(id) {
+                    var uStore = Ext.getStore('UserStore');
+                    uStore.clearFilter();
+                    return ''+uStore.getById(id).get('name');
+                }
+            })
         }]
     }
 

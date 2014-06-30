@@ -3709,7 +3709,7 @@ body.x-desktop {
   opacity: .5;
 }
 
-.x-button-round, .x-button.x-button-action-round, .x-button.x-button-confirm-round, .x-button.x-button-decline-round {
+.x-button-round, .x-button.x-button-action-round, .x-button.x-button-confirm-round, .x-button.x-button-decline-round, .x-button.x-button-TURQUOISE-round, .x-button.x-button-GREEN-SEA-round, .x-button.x-button-EMERALD-round, .x-button.x-button-NEPHRITIS-round, .x-button.x-button-PETER-RIVER-round, .x-button.x-button-BELIZE-HOLE-round, .x-button.x-button-AMETHYST-round, .x-button.x-button-WISTERIA-round, .x-button.x-button-WET-ASPHALT-round, .x-button.x-button-MIDNIGHT-BLUE-round, .x-button.x-button-SUN-FLOWER-round, .x-button.x-button-CARROT-round, .x-button.x-button-PUMPKIN-round, .x-button.x-button-ALIZARIN-round, .x-button.x-button-POMEGRANATE-round, .x-button.x-button-CLOUDS-round, .x-button.x-button-SILVER-round, .x-button.x-button-CONCRETE-round, .x-button.x-button-ASBESTOS-round {
   -webkit-border-radius: 0.9em;
   -moz-border-radius: 0.9em;
   -ms-border-radius: 0.9em;
@@ -3763,11 +3763,30 @@ body.x-desktop {
   line-height: 1em;
 }
 
-.x-button-small, .x-button.x-button-action-small, .x-button.x-button-confirm-small, .x-button.x-button-decline-small,
+.x-button-small, .x-button.x-button-action-small, .x-button.x-button-confirm-small, .x-button.x-button-decline-small, .x-button.x-button-TURQUOISE-small, .x-button.x-button-GREEN-SEA-small, .x-button.x-button-EMERALD-small, .x-button.x-button-NEPHRITIS-small, .x-button.x-button-PETER-RIVER-small, .x-button.x-button-BELIZE-HOLE-small, .x-button.x-button-AMETHYST-small, .x-button.x-button-WISTERIA-small, .x-button.x-button-WET-ASPHALT-small, .x-button.x-button-MIDNIGHT-BLUE-small, .x-button.x-button-SUN-FLOWER-small, .x-button.x-button-CARROT-small, .x-button.x-button-PUMPKIN-small, .x-button.x-button-ALIZARIN-small, .x-button.x-button-POMEGRANATE-small, .x-button.x-button-CLOUDS-small, .x-button.x-button-SILVER-small, .x-button.x-button-CONCRETE-small, .x-button.x-button-ASBESTOS-small,
 .x-toolbar .x-button-small,
 .x-toolbar .x-button.x-button-action-small,
 .x-toolbar .x-button.x-button-confirm-small,
-.x-toolbar .x-button.x-button-decline-small {
+.x-toolbar .x-button.x-button-decline-small,
+.x-toolbar .x-button.x-button-TURQUOISE-small,
+.x-toolbar .x-button.x-button-GREEN-SEA-small,
+.x-toolbar .x-button.x-button-EMERALD-small,
+.x-toolbar .x-button.x-button-NEPHRITIS-small,
+.x-toolbar .x-button.x-button-PETER-RIVER-small,
+.x-toolbar .x-button.x-button-BELIZE-HOLE-small,
+.x-toolbar .x-button.x-button-AMETHYST-small,
+.x-toolbar .x-button.x-button-WISTERIA-small,
+.x-toolbar .x-button.x-button-WET-ASPHALT-small,
+.x-toolbar .x-button.x-button-MIDNIGHT-BLUE-small,
+.x-toolbar .x-button.x-button-SUN-FLOWER-small,
+.x-toolbar .x-button.x-button-CARROT-small,
+.x-toolbar .x-button.x-button-PUMPKIN-small,
+.x-toolbar .x-button.x-button-ALIZARIN-small,
+.x-toolbar .x-button.x-button-POMEGRANATE-small,
+.x-toolbar .x-button.x-button-CLOUDS-small,
+.x-toolbar .x-button.x-button-SILVER-small,
+.x-toolbar .x-button.x-button-CONCRETE-small,
+.x-toolbar .x-button.x-button-ASBESTOS-small {
   -webkit-border-radius: 0.3em;
   -moz-border-radius: 0.3em;
   -ms-border-radius: 0.3em;
@@ -3776,22 +3795,79 @@ body.x-desktop {
   padding: .2em .4em;
   min-height: 0;
 }
-.x-button-small .x-button-label, .x-button.x-button-action-small .x-button-label, .x-button.x-button-confirm-small .x-button-label, .x-button.x-button-decline-small .x-button-label, .x-button-small .x-badge, .x-button.x-button-action-small .x-badge, .x-button.x-button-confirm-small .x-badge, .x-button.x-button-decline-small .x-badge, .x-button.x-button-action-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-action-small .x-badge, .x-button.x-button-confirm-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-confirm-small .x-badge, .x-button.x-button-decline-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-decline-small .x-badge,
+.x-button-small .x-button-label, .x-button.x-button-action-small .x-button-label, .x-button.x-button-confirm-small .x-button-label, .x-button.x-button-decline-small .x-button-label, .x-button.x-button-TURQUOISE-small .x-button-label, .x-button.x-button-GREEN-SEA-small .x-button-label, .x-button.x-button-EMERALD-small .x-button-label, .x-button.x-button-NEPHRITIS-small .x-button-label, .x-button.x-button-PETER-RIVER-small .x-button-label, .x-button.x-button-BELIZE-HOLE-small .x-button-label, .x-button.x-button-AMETHYST-small .x-button-label, .x-button.x-button-WISTERIA-small .x-button-label, .x-button.x-button-WET-ASPHALT-small .x-button-label, .x-button.x-button-MIDNIGHT-BLUE-small .x-button-label, .x-button.x-button-SUN-FLOWER-small .x-button-label, .x-button.x-button-CARROT-small .x-button-label, .x-button.x-button-PUMPKIN-small .x-button-label, .x-button.x-button-ALIZARIN-small .x-button-label, .x-button.x-button-POMEGRANATE-small .x-button-label, .x-button.x-button-CLOUDS-small .x-button-label, .x-button.x-button-SILVER-small .x-button-label, .x-button.x-button-CONCRETE-small .x-button-label, .x-button.x-button-ASBESTOS-small .x-button-label, .x-button-small .x-badge, .x-button.x-button-action-small .x-badge, .x-button.x-button-confirm-small .x-badge, .x-button.x-button-decline-small .x-badge, .x-button.x-button-TURQUOISE-small .x-badge, .x-button.x-button-GREEN-SEA-small .x-badge, .x-button.x-button-EMERALD-small .x-badge, .x-button.x-button-NEPHRITIS-small .x-badge, .x-button.x-button-PETER-RIVER-small .x-badge, .x-button.x-button-BELIZE-HOLE-small .x-badge, .x-button.x-button-AMETHYST-small .x-badge, .x-button.x-button-WISTERIA-small .x-badge, .x-button.x-button-WET-ASPHALT-small .x-badge, .x-button.x-button-MIDNIGHT-BLUE-small .x-badge, .x-button.x-button-SUN-FLOWER-small .x-badge, .x-button.x-button-CARROT-small .x-badge, .x-button.x-button-PUMPKIN-small .x-badge, .x-button.x-button-ALIZARIN-small .x-badge, .x-button.x-button-POMEGRANATE-small .x-badge, .x-button.x-button-CLOUDS-small .x-badge, .x-button.x-button-SILVER-small .x-badge, .x-button.x-button-CONCRETE-small .x-badge, .x-button.x-button-ASBESTOS-small .x-badge, .x-button.x-button-action-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-action-small .x-badge, .x-button.x-button-confirm-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-confirm-small .x-badge, .x-button.x-button-decline-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-decline-small .x-badge, .x-button.x-button-TURQUOISE-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-TURQUOISE-small .x-badge, .x-button.x-button-GREEN-SEA-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-GREEN-SEA-small .x-badge, .x-button.x-button-EMERALD-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-EMERALD-small .x-badge, .x-button.x-button-NEPHRITIS-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-NEPHRITIS-small .x-badge, .x-button.x-button-PETER-RIVER-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-PETER-RIVER-small .x-badge, .x-button.x-button-BELIZE-HOLE-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-BELIZE-HOLE-small .x-badge, .x-button.x-button-AMETHYST-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-AMETHYST-small .x-badge, .x-button.x-button-WISTERIA-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-WISTERIA-small .x-badge, .x-button.x-button-WET-ASPHALT-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-WET-ASPHALT-small .x-badge, .x-button.x-button-MIDNIGHT-BLUE-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-MIDNIGHT-BLUE-small .x-badge, .x-button.x-button-SUN-FLOWER-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-SUN-FLOWER-small .x-badge, .x-button.x-button-CARROT-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-CARROT-small .x-badge, .x-button.x-button-PUMPKIN-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-PUMPKIN-small .x-badge, .x-button.x-button-ALIZARIN-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-ALIZARIN-small .x-badge, .x-button.x-button-POMEGRANATE-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-POMEGRANATE-small .x-badge, .x-button.x-button-CLOUDS-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-CLOUDS-small .x-badge, .x-button.x-button-SILVER-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-SILVER-small .x-badge, .x-button.x-button-CONCRETE-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-CONCRETE-small .x-badge, .x-button.x-button-ASBESTOS-small .x-hasbadge .x-badge, .x-hasbadge .x-button.x-button-ASBESTOS-small .x-badge,
 .x-toolbar .x-button-small .x-button-label,
 .x-toolbar .x-button.x-button-action-small .x-button-label,
 .x-toolbar .x-button.x-button-confirm-small .x-button-label,
 .x-toolbar .x-button.x-button-decline-small .x-button-label,
+.x-toolbar .x-button.x-button-TURQUOISE-small .x-button-label,
+.x-toolbar .x-button.x-button-GREEN-SEA-small .x-button-label,
+.x-toolbar .x-button.x-button-EMERALD-small .x-button-label,
+.x-toolbar .x-button.x-button-NEPHRITIS-small .x-button-label,
+.x-toolbar .x-button.x-button-PETER-RIVER-small .x-button-label,
+.x-toolbar .x-button.x-button-BELIZE-HOLE-small .x-button-label,
+.x-toolbar .x-button.x-button-AMETHYST-small .x-button-label,
+.x-toolbar .x-button.x-button-WISTERIA-small .x-button-label,
+.x-toolbar .x-button.x-button-WET-ASPHALT-small .x-button-label,
+.x-toolbar .x-button.x-button-MIDNIGHT-BLUE-small .x-button-label,
+.x-toolbar .x-button.x-button-SUN-FLOWER-small .x-button-label,
+.x-toolbar .x-button.x-button-CARROT-small .x-button-label,
+.x-toolbar .x-button.x-button-PUMPKIN-small .x-button-label,
+.x-toolbar .x-button.x-button-ALIZARIN-small .x-button-label,
+.x-toolbar .x-button.x-button-POMEGRANATE-small .x-button-label,
+.x-toolbar .x-button.x-button-CLOUDS-small .x-button-label,
+.x-toolbar .x-button.x-button-SILVER-small .x-button-label,
+.x-toolbar .x-button.x-button-CONCRETE-small .x-button-label,
+.x-toolbar .x-button.x-button-ASBESTOS-small .x-button-label,
 .x-toolbar .x-button-small .x-badge,
 .x-toolbar .x-button.x-button-action-small .x-badge,
 .x-toolbar .x-button.x-button-confirm-small .x-badge,
-.x-toolbar .x-button.x-button-decline-small .x-badge {
+.x-toolbar .x-button.x-button-decline-small .x-badge,
+.x-toolbar .x-button.x-button-TURQUOISE-small .x-badge,
+.x-toolbar .x-button.x-button-GREEN-SEA-small .x-badge,
+.x-toolbar .x-button.x-button-EMERALD-small .x-badge,
+.x-toolbar .x-button.x-button-NEPHRITIS-small .x-badge,
+.x-toolbar .x-button.x-button-PETER-RIVER-small .x-badge,
+.x-toolbar .x-button.x-button-BELIZE-HOLE-small .x-badge,
+.x-toolbar .x-button.x-button-AMETHYST-small .x-badge,
+.x-toolbar .x-button.x-button-WISTERIA-small .x-badge,
+.x-toolbar .x-button.x-button-WET-ASPHALT-small .x-badge,
+.x-toolbar .x-button.x-button-MIDNIGHT-BLUE-small .x-badge,
+.x-toolbar .x-button.x-button-SUN-FLOWER-small .x-badge,
+.x-toolbar .x-button.x-button-CARROT-small .x-badge,
+.x-toolbar .x-button.x-button-PUMPKIN-small .x-badge,
+.x-toolbar .x-button.x-button-ALIZARIN-small .x-badge,
+.x-toolbar .x-button.x-button-POMEGRANATE-small .x-badge,
+.x-toolbar .x-button.x-button-CLOUDS-small .x-badge,
+.x-toolbar .x-button.x-button-SILVER-small .x-badge,
+.x-toolbar .x-button.x-button-CONCRETE-small .x-badge,
+.x-toolbar .x-button.x-button-ASBESTOS-small .x-badge {
   font-size: .6em;
 }
-.x-button-small .x-button-icon, .x-button.x-button-action-small .x-button-icon, .x-button.x-button-confirm-small .x-button-icon, .x-button.x-button-decline-small .x-button-icon,
+.x-button-small .x-button-icon, .x-button.x-button-action-small .x-button-icon, .x-button.x-button-confirm-small .x-button-icon, .x-button.x-button-decline-small .x-button-icon, .x-button.x-button-TURQUOISE-small .x-button-icon, .x-button.x-button-GREEN-SEA-small .x-button-icon, .x-button.x-button-EMERALD-small .x-button-icon, .x-button.x-button-NEPHRITIS-small .x-button-icon, .x-button.x-button-PETER-RIVER-small .x-button-icon, .x-button.x-button-BELIZE-HOLE-small .x-button-icon, .x-button.x-button-AMETHYST-small .x-button-icon, .x-button.x-button-WISTERIA-small .x-button-icon, .x-button.x-button-WET-ASPHALT-small .x-button-icon, .x-button.x-button-MIDNIGHT-BLUE-small .x-button-icon, .x-button.x-button-SUN-FLOWER-small .x-button-icon, .x-button.x-button-CARROT-small .x-button-icon, .x-button.x-button-PUMPKIN-small .x-button-icon, .x-button.x-button-ALIZARIN-small .x-button-icon, .x-button.x-button-POMEGRANATE-small .x-button-icon, .x-button.x-button-CLOUDS-small .x-button-icon, .x-button.x-button-SILVER-small .x-button-icon, .x-button.x-button-CONCRETE-small .x-button-icon, .x-button.x-button-ASBESTOS-small .x-button-icon,
 .x-toolbar .x-button-small .x-button-icon,
 .x-toolbar .x-button.x-button-action-small .x-button-icon,
 .x-toolbar .x-button.x-button-confirm-small .x-button-icon,
-.x-toolbar .x-button.x-button-decline-small .x-button-icon {
+.x-toolbar .x-button.x-button-decline-small .x-button-icon,
+.x-toolbar .x-button.x-button-TURQUOISE-small .x-button-icon,
+.x-toolbar .x-button.x-button-GREEN-SEA-small .x-button-icon,
+.x-toolbar .x-button.x-button-EMERALD-small .x-button-icon,
+.x-toolbar .x-button.x-button-NEPHRITIS-small .x-button-icon,
+.x-toolbar .x-button.x-button-PETER-RIVER-small .x-button-icon,
+.x-toolbar .x-button.x-button-BELIZE-HOLE-small .x-button-icon,
+.x-toolbar .x-button.x-button-AMETHYST-small .x-button-icon,
+.x-toolbar .x-button.x-button-WISTERIA-small .x-button-icon,
+.x-toolbar .x-button.x-button-WET-ASPHALT-small .x-button-icon,
+.x-toolbar .x-button.x-button-MIDNIGHT-BLUE-small .x-button-icon,
+.x-toolbar .x-button.x-button-SUN-FLOWER-small .x-button-icon,
+.x-toolbar .x-button.x-button-CARROT-small .x-button-icon,
+.x-toolbar .x-button.x-button-PUMPKIN-small .x-button-icon,
+.x-toolbar .x-button.x-button-ALIZARIN-small .x-button-icon,
+.x-toolbar .x-button.x-button-POMEGRANATE-small .x-button-icon,
+.x-toolbar .x-button.x-button-CLOUDS-small .x-button-icon,
+.x-toolbar .x-button.x-button-SILVER-small .x-button-icon,
+.x-toolbar .x-button.x-button-CONCRETE-small .x-button-icon,
+.x-toolbar .x-button.x-button-ASBESTOS-small .x-button-icon {
   width: .75em;
   height: .75em;
 }
@@ -3876,10 +3952,10 @@ body.x-desktop {
 .x-toolbar .x-button.x-button-plain.x-button-pressing,
 .x-toolbar .x-button.x-button-plain.x-button-pressed {
   background: none;
-  background-image: -webkit-radial-gradient(rgba(128, 128, 128, 0.7), rgba(128, 128, 128, 0) 24px);
-  background-image: -moz-radial-gradient(rgba(128, 128, 128, 0.7), rgba(128, 128, 128, 0) 24px);
-  background-image: -o-radial-gradient(rgba(128, 128, 128, 0.7), rgba(128, 128, 128, 0) 24px);
-  background-image: radial-gradient(rgba(128, 128, 128, 0.7), rgba(128, 128, 128, 0) 24px);
+  background-image: -webkit-radial-gradient(rgba(219, 250, 244, 0.7), rgba(219, 250, 244, 0) 24px);
+  background-image: -moz-radial-gradient(rgba(219, 250, 244, 0.7), rgba(219, 250, 244, 0) 24px);
+  background-image: -o-radial-gradient(rgba(219, 250, 244, 0.7), rgba(219, 250, 244, 0) 24px);
+  background-image: radial-gradient(rgba(219, 250, 244, 0.7), rgba(219, 250, 244, 0) 24px);
 }
 
 .x-segmentedbutton .x-button {
@@ -3960,10 +4036,10 @@ body.x-desktop {
 .x-button.x-button-action-round,
 .x-button.x-button-action-small, .x-toolbar
 .x-button.x-button-action-small {
-  border: 1px solid black;
-  border-top-color: black;
-  background-color: black;
-  color: #d9d9d9;
+  border: 1px solid #0e6252;
+  border-top-color: #117964;
+  background-color: #1abc9c;
+  color: white;
 }
 .x-button.x-button-action.x-button-back:before, .x-button.x-button-action.x-button-forward:before, .x-toolbar .x-button.x-button-action.x-button-back:before, .x-toolbar .x-button.x-button-action.x-button-forward:before,
 .x-button.x-button-action-round.x-button-back:before,
@@ -3974,7 +4050,7 @@ body.x-desktop {
 .x-button.x-button-action-small.x-button-forward:before, .x-toolbar
 .x-button.x-button-action-small.x-button-back:before, .x-toolbar
 .x-button.x-button-action-small.x-button-forward:before {
-  background: black;
+  background: #0e6252;
 }
 .x-button.x-button-action, .x-button.x-button-action.x-button-back:after, .x-button.x-button-action.x-button-forward:after, .x-toolbar .x-button.x-button-action, .x-toolbar .x-button.x-button-action.x-button-back:after, .x-toolbar .x-button.x-button-action.x-button-forward:after,
 .x-button.x-button-action-round,
@@ -3990,11 +4066,11 @@ body.x-desktop {
 .x-button.x-button-action-small.x-button-back:after, .x-toolbar
 .x-button.x-button-action-small.x-button-forward:after {
   background-image: none;
-  background-color: black;
-  background-image: -webkit-linear-gradient(top, #262626, #0d0d0d 3%, #000000);
-  background-image: -moz-linear-gradient(top, #262626, #0d0d0d 3%, #000000);
-  background-image: -o-linear-gradient(top, #262626, #0d0d0d 3%, #000000);
-  background-image: linear-gradient(top, #262626, #0d0d0d 3%, #000000);
+  background-color: #1abc9c;
+  background-image: -webkit-linear-gradient(top, #3ee4c4, #1dd2af 3%, #17a689);
+  background-image: -moz-linear-gradient(top, #3ee4c4, #1dd2af 3%, #17a689);
+  background-image: -o-linear-gradient(top, #3ee4c4, #1dd2af 3%, #17a689);
+  background-image: linear-gradient(top, #3ee4c4, #1dd2af 3%, #17a689);
 }
 .x-button.x-button-action.x-button-pressing, .x-button.x-button-action.x-button-pressing:after, .x-button.x-button-action.x-button-pressed, .x-button.x-button-action.x-button-pressed:after, .x-button.x-button-action.x-button-active, .x-button.x-button-action.x-button-active:after, .x-toolbar .x-button.x-button-action.x-button-pressing, .x-toolbar .x-button.x-button-action.x-button-pressing:after, .x-toolbar .x-button.x-button-action.x-button-pressed, .x-toolbar .x-button.x-button-action.x-button-pressed:after, .x-toolbar .x-button.x-button-action.x-button-active, .x-toolbar .x-button.x-button-action.x-button-active:after,
 .x-button.x-button-action-round.x-button-pressing,
@@ -4022,11 +4098,11 @@ body.x-desktop {
 .x-button.x-button-action-small.x-button-active, .x-toolbar
 .x-button.x-button-action-small.x-button-active:after {
   background-image: none;
-  background-color: black;
-  background-image: -webkit-linear-gradient(top, #000000, #000000 10%, #000000 65%, #010101);
-  background-image: -moz-linear-gradient(top, #000000, #000000 10%, #000000 65%, #010101);
-  background-image: -o-linear-gradient(top, #000000, #000000 10%, #000000 65%, #010101);
-  background-image: linear-gradient(top, #000000, #000000 10%, #000000 65%, #010101);
+  background-color: #18af91;
+  background-image: -webkit-linear-gradient(top, #12826c, #15987e 10%, #18af91 65%, #18b193);
+  background-image: -moz-linear-gradient(top, #12826c, #15987e 10%, #18af91 65%, #18b193);
+  background-image: -o-linear-gradient(top, #12826c, #15987e 10%, #18af91 65%, #18b193);
+  background-image: linear-gradient(top, #12826c, #15987e 10%, #18af91 65%, #18b193);
 }
 
 .x-button.x-button-confirm, .x-toolbar .x-button.x-button-confirm,
@@ -4192,13 +4268,13 @@ body.x-desktop {
   -moz-box-shadow: rgba(0, 0, 0, 0.8) 0 0.2em 0.6em;
   box-shadow: rgba(0, 0, 0, 0.8) 0 0.2em 0.6em;
   background-image: none;
-  background-color: black;
+  background-color: #0a2639;
 }
 .x-panel.x-floating.x-floating-light,
 .x-msgbox.x-floating-light,
 .x-form.x-floating.x-floating-light {
   background-image: none;
-  background-color: #555555;
+  background-color: #3498db;
 }
 .x-panel.x-floating .x-panel-inner,
 .x-panel.x-floating > .x-body,
@@ -4224,7 +4300,7 @@ body.x-desktop {
   height: 0.7em;
   -webkit-mask: 0 0 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPZJREFUeNpi/PX7LwOFwAyIG6HseiA+Ra5BjBQ6xg+IVwAxJ5T/HYgjgHgTOYYxUeCQUiBeh+QQBih7HVSOLiHDDMSTgTiTgLrpQJwLxH9p5RhOaLT4EakeFF3RQPyF2o6RhkaBGYkheRmIPYH4KbXSjC4QnyTDIch6danhGCcgPgwNGXKBNNQMb0ocEwXE24GYn4FyADJjI76Ej88x7UC8FIjZGKgHQDlxGtRsZmISMMjy+dBQoSXYBC0gv+NyDD80xzgx0AeAqg4fIH6NHk0qQHyMjg6B1WvHYDkNFjIgwS1ALMowMOAjEAeBHINe2Q0U+AUQYACQ10C2QNhRogAAAABJRU5ErkJggg==') no-repeat;
   -webkit-mask-size: 1.631em 0.7em;
-  background-color: black;
+  background-color: #0a2639;
 }
 .x-webkit .x-anchor.x-anchor-bottom {
   margin-left: -0.8155em;
@@ -4232,7 +4308,7 @@ body.x-desktop {
   height: 0.7em;
   -webkit-mask: 0 0 url('data:image/png;base64,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') no-repeat;
   -webkit-mask-size: 1.631em 0.7em;
-  background-color: black;
+  background-color: #0a2639;
 }
 .x-webkit .x-anchor.x-anchor-left {
   margin-left: -0.6655em;
@@ -4241,7 +4317,7 @@ body.x-desktop {
   width: 0.7em;
   -webkit-mask: 0 0 url('data:image/png;base64,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') no-repeat;
   -webkit-mask-size: 0.7em 1.631em;
-  background-color: black;
+  background-color: #0a2639;
 }
 .x-webkit .x-anchor.x-anchor-right {
   margin-top: -0.35em;
@@ -4249,11 +4325,11 @@ body.x-desktop {
   width: 0.7em;
   -webkit-mask: 0 0 url('data:image/png;base64,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') no-repeat;
   -webkit-mask-size: 0.7em 1.631em;
-  background-color: black;
+  background-color: #0a2639;
 }
 
 .x-floating.x-panel-light:after {
-  background-color: #555555;
+  background-color: #3498db;
 }
 
 /**
@@ -4263,13 +4339,13 @@ body.x-desktop {
 .x-picker,
 .x-sheet-action {
   padding: 0.7em;
-  border-top: 1px solid #080808;
+  border-top: 1px solid #124364;
   background-image: none;
-  background-color: rgba(0, 0, 0, 0.9);
-  background-image: -webkit-linear-gradient(top, rgba(38, 38, 38, 0.9), rgba(13, 13, 13, 0.9) 3%, rgba(0, 0, 0, 0.9));
-  background-image: -moz-linear-gradient(top, rgba(38, 38, 38, 0.9), rgba(13, 13, 13, 0.9) 3%, rgba(0, 0, 0, 0.9));
-  background-image: -o-linear-gradient(top, rgba(38, 38, 38, 0.9), rgba(13, 13, 13, 0.9) 3%, rgba(0, 0, 0, 0.9));
-  background-image: linear-gradient(top, rgba(38, 38, 38, 0.9), rgba(13, 13, 13, 0.9) 3%, rgba(0, 0, 0, 0.9));
+  background-color: rgba(10, 38, 57, 0.9);
+  background-image: -webkit-linear-gradient(top, rgba(22, 82, 122, 0.9), rgba(14, 53, 79, 0.9) 3%, rgba(6, 24, 35, 0.9));
+  background-image: -moz-linear-gradient(top, rgba(22, 82, 122, 0.9), rgba(14, 53, 79, 0.9) 3%, rgba(6, 24, 35, 0.9));
+  background-image: -o-linear-gradient(top, rgba(22, 82, 122, 0.9), rgba(14, 53, 79, 0.9) 3%, rgba(6, 24, 35, 0.9));
+  background-image: linear-gradient(top, rgba(22, 82, 122, 0.9), rgba(14, 53, 79, 0.9) 3%, rgba(6, 24, 35, 0.9));
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -4291,7 +4367,7 @@ body.x-desktop {
  */
 .x-msgbox {
   margin: .5em;
-  border: 0.15em solid #555555;
+  border: 0.15em solid #3498db;
   -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 0.1em 0.5em;
   -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 0.1em 0.5em;
   box-shadow: rgba(0, 0, 0, 0.4) 0 0.1em 0.5em;
@@ -4366,17 +4442,17 @@ body.x-desktop {
 }
 
 .x-msgbox-dark .x-msgbox-text {
-  color: rgba(204, 204, 204, 0.9);
+  color: rgba(225, 240, 250, 0.9);
   text-shadow: rgba(0, 0, 0, 0.5) 0 -0.08em 0;
 }
 .x-msgbox-dark .x-msgbox-input {
   background-image: none;
-  background-color: rgba(204, 204, 204, 0.9);
-  background-image: -webkit-linear-gradient(top, rgba(179, 179, 179, 0.9), rgba(191, 191, 191, 0.9) 10%, rgba(204, 204, 204, 0.9) 65%, rgba(205, 205, 205, 0.9));
-  background-image: -moz-linear-gradient(top, rgba(179, 179, 179, 0.9), rgba(191, 191, 191, 0.9) 10%, rgba(204, 204, 204, 0.9) 65%, rgba(205, 205, 205, 0.9));
-  background-image: -o-linear-gradient(top, rgba(179, 179, 179, 0.9), rgba(191, 191, 191, 0.9) 10%, rgba(204, 204, 204, 0.9) 65%, rgba(205, 205, 205, 0.9));
-  background-image: linear-gradient(top, rgba(179, 179, 179, 0.9), rgba(191, 191, 191, 0.9) 10%, rgba(204, 204, 204, 0.9) 65%, rgba(205, 205, 205, 0.9));
-  border: 0.1em solid rgba(102, 102, 102, 0.9);
+  background-color: rgba(225, 240, 250, 0.9);
+  background-image: -webkit-linear-gradient(top, rgba(182, 218, 242, 0.9), rgba(204, 229, 246, 0.9) 10%, rgba(225, 240, 250, 0.9) 65%, rgba(227, 241, 250, 0.9));
+  background-image: -moz-linear-gradient(top, rgba(182, 218, 242, 0.9), rgba(204, 229, 246, 0.9) 10%, rgba(225, 240, 250, 0.9) 65%, rgba(227, 241, 250, 0.9));
+  background-image: -o-linear-gradient(top, rgba(182, 218, 242, 0.9), rgba(204, 229, 246, 0.9) 10%, rgba(225, 240, 250, 0.9) 65%, rgba(227, 241, 250, 0.9));
+  background-image: linear-gradient(top, rgba(182, 218, 242, 0.9), rgba(204, 229, 246, 0.9) 10%, rgba(225, 240, 250, 0.9) 65%, rgba(227, 241, 250, 0.9));
+  border: 0.1em solid rgba(52, 152, 219, 0.9);
 }
 
 /**
@@ -4417,11 +4493,11 @@ body.x-desktop {
 */
 .x-toolbar-dark {
   background-image: none;
-  background-color: #3b3b3b;
-  background-image: -webkit-linear-gradient(top, #626262, #484848 3%, #2f2f2f);
-  background-image: -moz-linear-gradient(top, #626262, #484848 3%, #2f2f2f);
-  background-image: -o-linear-gradient(top, #626262, #484848 3%, #2f2f2f);
-  background-image: linear-gradient(top, #626262, #484848 3%, #2f2f2f);
+  background-color: #217dbb;
+  background-image: -webkit-linear-gradient(top, #4aa3df, #258cd1 3%, #1d6fa5);
+  background-image: -moz-linear-gradient(top, #4aa3df, #258cd1 3%, #1d6fa5);
+  background-image: -o-linear-gradient(top, #4aa3df, #258cd1 3%, #1d6fa5);
+  background-image: linear-gradient(top, #4aa3df, #258cd1 3%, #1d6fa5);
   border-color: black;
 }
 .x-toolbar-dark .x-title {
@@ -4443,9 +4519,9 @@ body.x-desktop {
 .x-toolbar-dark .x-button, .x-toolbar .x-toolbar-dark .x-button,
 .x-toolbar-dark .x-field-select .x-component-outer, .x-toolbar
 .x-toolbar-dark .x-field-select .x-component-outer {
-  border: 1px solid black;
-  border-top-color: #080808;
-  background-color: #2f2f2f;
+  border: 1px solid #0e354f;
+  border-top-color: #124364;
+  background-color: #1d6fa5;
   color: white;
 }
 .x-toolbar-dark .x-button.x-button-back:before, .x-toolbar-dark .x-button.x-button-forward:before, .x-toolbar .x-toolbar-dark .x-button.x-button-back:before, .x-toolbar .x-toolbar-dark .x-button.x-button-forward:before,
@@ -4453,7 +4529,7 @@ body.x-desktop {
 .x-toolbar-dark .x-field-select .x-component-outer.x-button-forward:before, .x-toolbar
 .x-toolbar-dark .x-field-select .x-component-outer.x-button-back:before, .x-toolbar
 .x-toolbar-dark .x-field-select .x-component-outer.x-button-forward:before {
-  background: black;
+  background: #0e354f;
 }
 .x-toolbar-dark .x-button, .x-toolbar-dark .x-button.x-button-back:after, .x-toolbar-dark .x-button.x-button-forward:after, .x-toolbar .x-toolbar-dark .x-button, .x-toolbar .x-toolbar-dark .x-button.x-button-back:after, .x-toolbar .x-toolbar-dark .x-button.x-button-forward:after,
 .x-toolbar-dark .x-field-select .x-component-outer,
@@ -4463,11 +4539,11 @@ body.x-desktop {
 .x-toolbar-dark .x-field-select .x-component-outer.x-button-back:after, .x-toolbar
 .x-toolbar-dark .x-field-select .x-component-outer.x-button-forward:after {
   background-image: none;
-  background-color: #2f2f2f;
-  background-image: -webkit-linear-gradient(top, #555555, #3b3b3b 3%, #222222);
-  background-image: -moz-linear-gradient(top, #555555, #3b3b3b 3%, #222222);
-  background-image: -o-linear-gradient(top, #555555, #3b3b3b 3%, #222222);
-  background-image: linear-gradient(top, #555555, #3b3b3b 3%, #222222);
+  background-color: #1d6fa5;
+  background-image: -webkit-linear-gradient(top, #3498db, #217dbb 3%, #196090);
+  background-image: -moz-linear-gradient(top, #3498db, #217dbb 3%, #196090);
+  background-image: -o-linear-gradient(top, #3498db, #217dbb 3%, #196090);
+  background-image: linear-gradient(top, #3498db, #217dbb 3%, #196090);
 }
 .x-toolbar-dark .x-button.x-button-pressing, .x-toolbar-dark .x-button.x-button-pressing:after, .x-toolbar-dark .x-button.x-button-pressed, .x-toolbar-dark .x-button.x-button-pressed:after, .x-toolbar-dark .x-button.x-button-active, .x-toolbar-dark .x-button.x-button-active:after, .x-toolbar .x-toolbar-dark .x-button.x-button-pressing, .x-toolbar .x-toolbar-dark .x-button.x-button-pressing:after, .x-toolbar .x-toolbar-dark .x-button.x-button-pressed, .x-toolbar .x-toolbar-dark .x-button.x-button-pressed:after, .x-toolbar .x-toolbar-dark .x-button.x-button-active, .x-toolbar .x-toolbar-dark .x-button.x-button-active:after,
 .x-toolbar-dark .x-field-select .x-component-outer.x-button-pressing,
@@ -4483,11 +4559,11 @@ body.x-desktop {
 .x-toolbar-dark .x-field-select .x-component-outer.x-button-active, .x-toolbar
 .x-toolbar-dark .x-field-select .x-component-outer.x-button-active:after {
   background-image: none;
-  background-color: #272727;
-  background-image: -webkit-linear-gradient(top, #0e0e0e, #1a1a1a 10%, #272727 65%, #282828);
-  background-image: -moz-linear-gradient(top, #0e0e0e, #1a1a1a 10%, #272727 65%, #282828);
-  background-image: -o-linear-gradient(top, #0e0e0e, #1a1a1a 10%, #272727 65%, #282828);
-  background-image: linear-gradient(top, #0e0e0e, #1a1a1a 10%, #272727 65%, #282828);
+  background-color: #1b6698;
+  background-image: -webkit-linear-gradient(top, #13496d, #175783 10%, #1b6698 65%, #1b679a);
+  background-image: -moz-linear-gradient(top, #13496d, #175783 10%, #1b6698 65%, #1b679a);
+  background-image: -o-linear-gradient(top, #13496d, #175783 10%, #1b6698 65%, #1b679a);
+  background-image: linear-gradient(top, #13496d, #175783 10%, #1b6698 65%, #1b679a);
 }
 .x-toolbar-dark .x-label,
 .x-toolbar-dark .x-form-label {
@@ -4498,35 +4574,35 @@ body.x-desktop {
 
 .x-toolbar-light {
   background-image: none;
-  background-color: #555555;
-  background-image: -webkit-linear-gradient(top, #7b7b7b, #626262 3%, #484848);
-  background-image: -moz-linear-gradient(top, #7b7b7b, #626262 3%, #484848);
-  background-image: -o-linear-gradient(top, #7b7b7b, #626262 3%, #484848);
-  background-image: linear-gradient(top, #7b7b7b, #626262 3%, #484848);
-  border-color: black;
+  background-color: #3498db;
+  background-image: -webkit-linear-gradient(top, #75b9e7, #4aa3df 3%, #258cd1);
+  background-image: -moz-linear-gradient(top, #75b9e7, #4aa3df 3%, #258cd1);
+  background-image: -o-linear-gradient(top, #75b9e7, #4aa3df 3%, #258cd1);
+  background-image: linear-gradient(top, #75b9e7, #4aa3df 3%, #258cd1);
+  border-color: #02090e;
 }
 .x-toolbar-light .x-title {
   color: white;
-  text-shadow: rgba(0, 0, 0, 0.5) 0 -0.08em 0;
+  text-shadow: rgba(255, 255, 255, 0.25) 0 0.08em 0;
 }
 .x-toolbar-light.x-docked-top {
-  border-bottom-color: black;
+  border-bottom-color: #02090e;
 }
 .x-toolbar-light.x-docked-bottom {
-  border-top-color: black;
+  border-top-color: #02090e;
 }
 .x-toolbar-light.x-docked-left {
-  border-right-color: black;
+  border-right-color: #02090e;
 }
 .x-toolbar-light.x-docked-right {
-  border-left-color: black;
+  border-left-color: #02090e;
 }
 .x-toolbar-light .x-button, .x-toolbar .x-toolbar-light .x-button,
 .x-toolbar-light .x-field-select .x-component-outer, .x-toolbar
 .x-toolbar-light .x-field-select .x-component-outer {
-  border: 1px solid #151515;
-  border-top-color: #222222;
-  background-color: #484848;
+  border: 1px solid #16527a;
+  border-top-color: #196090;
+  background-color: #258cd1;
   color: white;
 }
 .x-toolbar-light .x-button.x-button-back:before, .x-toolbar-light .x-button.x-button-forward:before, .x-toolbar .x-toolbar-light .x-button.x-button-back:before, .x-toolbar .x-toolbar-light .x-button.x-button-forward:before,
@@ -4534,7 +4610,7 @@ body.x-desktop {
 .x-toolbar-light .x-field-select .x-component-outer.x-button-forward:before, .x-toolbar
 .x-toolbar-light .x-field-select .x-component-outer.x-button-back:before, .x-toolbar
 .x-toolbar-light .x-field-select .x-component-outer.x-button-forward:before {
-  background: #151515;
+  background: #16527a;
 }
 .x-toolbar-light .x-button, .x-toolbar-light .x-button.x-button-back:after, .x-toolbar-light .x-button.x-button-forward:after, .x-toolbar .x-toolbar-light .x-button, .x-toolbar .x-toolbar-light .x-button.x-button-back:after, .x-toolbar .x-toolbar-light .x-button.x-button-forward:after,
 .x-toolbar-light .x-field-select .x-component-outer,
@@ -4544,11 +4620,11 @@ body.x-desktop {
 .x-toolbar-light .x-field-select .x-component-outer.x-button-back:after, .x-toolbar
 .x-toolbar-light .x-field-select .x-component-outer.x-button-forward:after {
   background-image: none;
-  background-color: #484848;
-  background-image: -webkit-linear-gradient(top, #6e6e6e, #555555 3%, #3b3b3b);
-  background-image: -moz-linear-gradient(top, #6e6e6e, #555555 3%, #3b3b3b);
-  background-image: -o-linear-gradient(top, #6e6e6e, #555555 3%, #3b3b3b);
-  background-image: linear-gradient(top, #6e6e6e, #555555 3%, #3b3b3b);
+  background-color: #258cd1;
+  background-image: -webkit-linear-gradient(top, #5faee3, #3498db 3%, #217dbb);
+  background-image: -moz-linear-gradient(top, #5faee3, #3498db 3%, #217dbb);
+  background-image: -o-linear-gradient(top, #5faee3, #3498db 3%, #217dbb);
+  background-image: linear-gradient(top, #5faee3, #3498db 3%, #217dbb);
 }
 .x-toolbar-light .x-button.x-button-pressing, .x-toolbar-light .x-button.x-button-pressing:after, .x-toolbar-light .x-button.x-button-pressed, .x-toolbar-light .x-button.x-button-pressed:after, .x-toolbar-light .x-button.x-button-active, .x-toolbar-light .x-button.x-button-active:after, .x-toolbar .x-toolbar-light .x-button.x-button-pressing, .x-toolbar .x-toolbar-light .x-button.x-button-pressing:after, .x-toolbar .x-toolbar-light .x-button.x-button-pressed, .x-toolbar .x-toolbar-light .x-button.x-button-pressed:after, .x-toolbar .x-toolbar-light .x-button.x-button-active, .x-toolbar .x-toolbar-light .x-button.x-button-active:after,
 .x-toolbar-light .x-field-select .x-component-outer.x-button-pressing,
@@ -4564,17 +4640,17 @@ body.x-desktop {
 .x-toolbar-light .x-field-select .x-component-outer.x-button-active, .x-toolbar
 .x-toolbar-light .x-field-select .x-component-outer.x-button-active:after {
   background-image: none;
-  background-color: #414141;
-  background-image: -webkit-linear-gradient(top, #272727, #343434 10%, #414141 65%, #424242);
-  background-image: -moz-linear-gradient(top, #272727, #343434 10%, #414141 65%, #424242);
-  background-image: -o-linear-gradient(top, #272727, #343434 10%, #414141 65%, #424242);
-  background-image: linear-gradient(top, #272727, #343434 10%, #414141 65%, #424242);
+  background-color: #2383c4;
+  background-image: -webkit-linear-gradient(top, #1b6698, #1f74ae 10%, #2383c4 65%, #2384c6);
+  background-image: -moz-linear-gradient(top, #1b6698, #1f74ae 10%, #2383c4 65%, #2384c6);
+  background-image: -o-linear-gradient(top, #1b6698, #1f74ae 10%, #2383c4 65%, #2384c6);
+  background-image: linear-gradient(top, #1b6698, #1f74ae 10%, #2383c4 65%, #2384c6);
 }
 .x-toolbar-light .x-label,
 .x-toolbar-light .x-form-label {
   font-weight: bold;
   color: white;
-  text-shadow: rgba(0, 0, 0, 0.5) 0 -0.08em 0;
+  text-shadow: rgba(255, 255, 255, 0.25) 0 0.08em 0;
 }
 
 .x-toolbar-neutral {
@@ -4659,10 +4735,10 @@ body.x-desktop {
 }
 
 .x-toolbar.x-toolbar-neutral .x-toolbar-inner .x-button.x-button-pressing {
-  background-image: -webkit-radial-gradient(rgba(149, 149, 149, 0.7), rgba(149, 149, 149, 0) 24px);
-  background-image: -moz-radial-gradient(rgba(149, 149, 149, 0.7), rgba(149, 149, 149, 0) 24px);
-  background-image: -o-radial-gradient(rgba(149, 149, 149, 0.7), rgba(149, 149, 149, 0) 24px);
-  background-image: radial-gradient(rgba(149, 149, 149, 0.7), rgba(149, 149, 149, 0) 24px);
+  background-image: -webkit-radial-gradient(rgba(160, 207, 238, 0.7), rgba(160, 207, 238, 0) 24px);
+  background-image: -moz-radial-gradient(rgba(160, 207, 238, 0.7), rgba(160, 207, 238, 0) 24px);
+  background-image: -o-radial-gradient(rgba(160, 207, 238, 0.7), rgba(160, 207, 238, 0) 24px);
+  background-image: radial-gradient(rgba(160, 207, 238, 0.7), rgba(160, 207, 238, 0) 24px);
 }
 .x-toolbar.x-toolbar-neutral .x-toolbar-inner .x-button.x-button-pressing .x-button-icon.x-button-mask {
   background-image: none;
@@ -4817,11 +4893,11 @@ body.x-desktop {
 .x-menu {
   padding: 0.7em;
   background-image: none;
-  background-color: rgba(0, 0, 0, 0.9);
-  background-image: -webkit-linear-gradient(top, rgba(38, 38, 38, 0.9), rgba(13, 13, 13, 0.9) 3%, rgba(0, 0, 0, 0.9));
-  background-image: -moz-linear-gradient(top, rgba(38, 38, 38, 0.9), rgba(13, 13, 13, 0.9) 3%, rgba(0, 0, 0, 0.9));
-  background-image: -o-linear-gradient(top, rgba(38, 38, 38, 0.9), rgba(13, 13, 13, 0.9) 3%, rgba(0, 0, 0, 0.9));
-  background-image: linear-gradient(top, rgba(38, 38, 38, 0.9), rgba(13, 13, 13, 0.9) 3%, rgba(0, 0, 0, 0.9));
+  background-color: rgba(10, 38, 57, 0.9);
+  background-image: -webkit-linear-gradient(top, rgba(22, 82, 122, 0.9), rgba(14, 53, 79, 0.9) 3%, rgba(6, 24, 35, 0.9));
+  background-image: -moz-linear-gradient(top, rgba(22, 82, 122, 0.9), rgba(14, 53, 79, 0.9) 3%, rgba(6, 24, 35, 0.9));
+  background-image: -o-linear-gradient(top, rgba(22, 82, 122, 0.9), rgba(14, 53, 79, 0.9) 3%, rgba(6, 24, 35, 0.9));
+  background-image: linear-gradient(top, rgba(22, 82, 122, 0.9), rgba(14, 53, 79, 0.9) 3%, rgba(6, 24, 35, 0.9));
 }
 .x-menu .x-button {
   margin-bottom: 0.7em;
@@ -5083,11 +5159,11 @@ body.x-desktop {
 }
 
 .x-input-el:checked + .x-field-mask::after {
-  color: black;
+  color: #1abc9c;
 }
 
 .x-item-disabled.x-field-checkbox .x-input-checkbox:checked + .x-field-mask::after {
-  color: #848484;
+  color: #8fcfc3;
 }
 
 /**
@@ -5132,11 +5208,11 @@ body.x-desktop {
 }
 
 .x-input-radio:checked + .x-field-mask::after {
-  background: black;
+  background: #1abc9c;
 }
 
 .x-item-disabled.x-field-radio .x-input-radio:checked + .x-field-mask::after {
-  background: #848484;
+  background: #8fcfc3;
 }
 
 /**
@@ -5324,7 +5400,7 @@ body.x-desktop {
  */
 .x-indexbar {
   padding: .3em 0;
-  color: #2f2f2f;
+  color: #226ea0;
 }
 
 .x-indexbar-vertical {
@@ -5343,7 +5419,7 @@ body.x-desktop {
   -ms-border-radius: 0.55em;
   -o-border-radius: 0.55em;
   border-radius: 0.55em;
-  background-color: rgba(163, 143, 143, 0.8);
+  background-color: rgba(143, 155, 163, 0.8);
 }
 
 /**
@@ -5362,11 +5438,11 @@ body.x-desktop {
   -o-border-radius: 32px;
   border-radius: 32px;
   background-image: none;
-  background-color: black;
-  background-image: -webkit-linear-gradient(top, #2a2222, #0e0b0b 3%, #000000);
-  background-image: -moz-linear-gradient(top, #2a2222, #0e0b0b 3%, #000000);
-  background-image: -o-linear-gradient(top, #2a2222, #0e0b0b 3%, #000000);
-  background-image: linear-gradient(top, #2a2222, #0e0b0b 3%, #000000);
+  background-color: #0fc7a2;
+  background-image: -webkit-linear-gradient(top, #33efca, #11deb6 3%, #0daf8f);
+  background-image: -moz-linear-gradient(top, #33efca, #11deb6 3%, #0daf8f);
+  background-image: -o-linear-gradient(top, #33efca, #11deb6 3%, #0daf8f);
+  background-image: linear-gradient(top, #33efca, #11deb6 3%, #0daf8f);
   width: 32px;
   height: 32px;
   margin: 7px 7px 0 0;
@@ -5392,23 +5468,23 @@ body.x-desktop {
   background: #fff none;
 }
 .x-list .x-item-selected .x-list-disclosure:before {
-  color: black;
+  color: #1abc9c;
 }
 .x-list .x-list-item {
   color: black;
 }
 .x-list .x-list-item.x-item-selected .x-dock-horizontal, .x-list .x-list-item.x-item-selected.x-list-item-tpl {
   background-image: none;
-  background-color: black;
-  background-image: -webkit-linear-gradient(top, #262626, #0d0d0d 3%, #000000);
-  background-image: -moz-linear-gradient(top, #262626, #0d0d0d 3%, #000000);
-  background-image: -o-linear-gradient(top, #262626, #0d0d0d 3%, #000000);
-  background-image: linear-gradient(top, #262626, #0d0d0d 3%, #000000);
-  color: #d9d9d9;
+  background-color: #1abc9c;
+  background-image: -webkit-linear-gradient(top, #3ee4c4, #1dd2af 3%, #17a689);
+  background-image: -moz-linear-gradient(top, #3ee4c4, #1dd2af 3%, #17a689);
+  background-image: -o-linear-gradient(top, #3ee4c4, #1dd2af 3%, #17a689);
+  background-image: linear-gradient(top, #3ee4c4, #1dd2af 3%, #17a689);
+  color: white;
 }
 .x-list .x-list-item.x-item-pressed.x-list-item-tpl,
 .x-list .x-list-item.x-item-pressed .x-dock-horizontal {
-  background: gray none;
+  background: #dbfaf4 none;
 }
 .x-list .x-list-item .x-list-item-body, .x-list .x-list-item.x-list-item-tpl .x-innerhtml {
   padding: 12px 15px;
@@ -5416,15 +5492,15 @@ body.x-desktop {
 
 .x-list-normal .x-list-header {
   background-image: none;
-  background-color: #666666;
-  background-image: -webkit-linear-gradient(top, #8c8c8c, #737373 3%, #595959);
-  background-image: -moz-linear-gradient(top, #8c8c8c, #737373 3%, #595959);
-  background-image: -o-linear-gradient(top, #8c8c8c, #737373 3%, #595959);
-  background-image: linear-gradient(top, #8c8c8c, #737373 3%, #595959);
-  color: #b3b3b3;
+  background-color: #2980b9;
+  background-image: -webkit-linear-gradient(top, #55a5d9, #2e8ece 3%, #2472a4);
+  background-image: -moz-linear-gradient(top, #55a5d9, #2e8ece 3%, #2472a4);
+  background-image: -o-linear-gradient(top, #55a5d9, #2e8ece 3%, #2472a4);
+  background-image: linear-gradient(top, #55a5d9, #2e8ece 3%, #2472a4);
+  color: #94c6e7;
   text-shadow: rgba(0, 0, 0, 0.5) 0 -0.08em 0;
-  border-top: 1px solid #666666;
-  border-bottom: 1px solid #333333;
+  border-top: 1px solid #2980b9;
+  border-bottom: 1px solid #164666;
   font-weight: bold;
   font-size: 0.8em;
   padding: 0.2em 1.02em;
@@ -5437,11 +5513,11 @@ body.x-desktop {
   border-bottom: 1px solid #dedede;
 }
 .x-list-normal .x-list-item.x-item-pressed.x-list-item-tpl, .x-list-normal .x-list-item.x-item-pressed .x-dock-horizontal {
-  border-top-color: gray;
-  background-color: gray;
+  border-top-color: #dbfaf4;
+  background-color: #dbfaf4;
 }
 .x-list-normal .x-list-item.x-item-selected.x-list-item-tpl, .x-list-normal .x-list-item.x-item-selected .x-dock-horizontal {
-  border-top-color: black;
+  border-top-color: #1abc9c;
 }
 
 .x-list-round .x-scroll-view {
@@ -5544,17 +5620,17 @@ body.x-desktop {
 }
 .x-list-round.x-list-grouped .x-list-footer-wrap.x-item-pressed > .x-innerhtml,
 .x-list-round.x-list-grouped .x-list-footer-wrap.x-item-pressed > .x-dock-body {
-  background: gray none;
+  background: #dbfaf4 none;
 }
 .x-list-round.x-list-grouped .x-list-footer-wrap.x-item-selected > .x-innerhtml,
 .x-list-round.x-list-grouped .x-list-footer-wrap.x-item-selected > .x-dock-body {
   background-image: none;
-  background-color: black;
-  background-image: -webkit-linear-gradient(top, #262626, #0d0d0d 3%, #000000);
-  background-image: -moz-linear-gradient(top, #262626, #0d0d0d 3%, #000000);
-  background-image: -o-linear-gradient(top, #262626, #0d0d0d 3%, #000000);
-  background-image: linear-gradient(top, #262626, #0d0d0d 3%, #000000);
-  color: #d9d9d9;
+  background-color: #1abc9c;
+  background-image: -webkit-linear-gradient(top, #3ee4c4, #1dd2af 3%, #17a689);
+  background-image: -moz-linear-gradient(top, #3ee4c4, #1dd2af 3%, #17a689);
+  background-image: -o-linear-gradient(top, #3ee4c4, #1dd2af 3%, #17a689);
+  background-image: linear-gradient(top, #3ee4c4, #1dd2af 3%, #17a689);
+  color: white;
 }
 .x-list-round .x-indexbar-vertical {
   margin-right: 20px;
@@ -5606,15 +5682,15 @@ body.x-desktop {
 }
 
 .x-picker-bar {
-  border-top: 0.12em solid black;
-  border-bottom: 0.12em solid black;
+  border-top: 0.12em solid #1abc9c;
+  border-bottom: 0.12em solid #1abc9c;
   height: 2.5em;
   background-image: none;
-  background-color: rgba(242, 13, 13, 0.3);
-  background-image: -webkit-linear-gradient(top, rgba(246, 85, 85, 0.3), rgba(244, 37, 37, 0.3) 3%, rgba(218, 11, 11, 0.3));
-  background-image: -moz-linear-gradient(top, rgba(246, 85, 85, 0.3), rgba(244, 37, 37, 0.3) 3%, rgba(218, 11, 11, 0.3));
-  background-image: -o-linear-gradient(top, rgba(246, 85, 85, 0.3), rgba(244, 37, 37, 0.3) 3%, rgba(218, 11, 11, 0.3));
-  background-image: linear-gradient(top, rgba(246, 85, 85, 0.3), rgba(244, 37, 37, 0.3) 3%, rgba(218, 11, 11, 0.3));
+  background-color: rgba(13, 242, 197, 0.3);
+  background-image: -webkit-linear-gradient(top, rgba(85, 246, 214, 0.3), rgba(37, 244, 203, 0.3) 3%, rgba(11, 218, 177, 0.3));
+  background-image: -moz-linear-gradient(top, rgba(85, 246, 214, 0.3), rgba(37, 244, 203, 0.3) 3%, rgba(11, 218, 177, 0.3));
+  background-image: -o-linear-gradient(top, rgba(85, 246, 214, 0.3), rgba(37, 244, 203, 0.3) 3%, rgba(11, 218, 177, 0.3));
+  background-image: linear-gradient(top, rgba(85, 246, 214, 0.3), rgba(37, 244, 203, 0.3) 3%, rgba(11, 218, 177, 0.3));
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0.2em 0.2em;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0.2em 0.2em;
   box-shadow: rgba(0, 0, 0, 0.2) 0 0.2em 0.2em;
@@ -5626,22 +5702,22 @@ body.x-desktop {
 
 .x-picker-slot-title {
   height: 1.5em;
-  border-top: 1px solid #6c5858;
-  border-bottom: 1px solid #332a2a;
+  border-top: 1px solid #3fa5ea;
+  border-bottom: 1px solid #1471af;
   padding: 0.2em 1.02em;
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 0.1em 0.3em;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 0.1em 0.3em;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 0.1em 0.3em;
   background-image: none;
-  background-color: #6c5858;
-  background-image: -webkit-linear-gradient(top, #947c7c, #7a6363 3%, #5e4c4c);
-  background-image: -moz-linear-gradient(top, #947c7c, #7a6363 3%, #5e4c4c);
-  background-image: -o-linear-gradient(top, #947c7c, #7a6363 3%, #5e4c4c);
-  background-image: linear-gradient(top, #947c7c, #7a6363 3%, #5e4c4c);
+  background-color: #3fa5ea;
+  background-image: -webkit-linear-gradient(top, #84c5f1, #56b0ec 3%, #289ae7);
+  background-image: -moz-linear-gradient(top, #84c5f1, #56b0ec 3%, #289ae7);
+  background-image: -o-linear-gradient(top, #84c5f1, #56b0ec 3%, #289ae7);
+  background-image: linear-gradient(top, #84c5f1, #56b0ec 3%, #289ae7);
 }
 .x-picker-slot-title > div {
   font-size: 0.8em;
-  color: #151515;
+  color: #1d5073;
   text-shadow: rgba(255, 255, 255, 0.25) 0 0.08em 0;
 }
 
@@ -5665,7 +5741,7 @@ body.x-desktop {
   padding: 1em 0;
 }
 .x-list-paging .x-list-paging-msg {
-  color: black;
+  color: #1abc9c;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
@@ -5940,79 +6016,79 @@ body.x-desktop {
 }
 
 .x-tabbar-light {
-  border-top-color: #484848;
-  border-bottom-color: #2f2f2f;
+  border-top-color: #3189c4;
+  border-bottom-color: #276d9b;
   background-image: none;
-  background-color: #555555;
-  background-image: -webkit-linear-gradient(top, #7b7b7b, #626262 3%, #484848);
-  background-image: -moz-linear-gradient(top, #7b7b7b, #626262 3%, #484848);
-  background-image: -o-linear-gradient(top, #7b7b7b, #626262 3%, #484848);
-  background-image: linear-gradient(top, #7b7b7b, #626262 3%, #484848);
+  background-color: #4096cf;
+  background-image: -webkit-linear-gradient(top, #7db7de, #54a1d4 3%, #3189c4);
+  background-image: -moz-linear-gradient(top, #7db7de, #54a1d4 3%, #3189c4);
+  background-image: -o-linear-gradient(top, #7db7de, #54a1d4 3%, #3189c4);
+  background-image: linear-gradient(top, #7db7de, #54a1d4 3%, #3189c4);
 }
 .x-tabbar-light .x-tab {
-  color: #bbbbbb;
+  color: #e3f0f8;
   border-bottom: 1px solid transparent;
 }
 .x-tabbar-light .x-tab-active {
   color: white;
-  border-bottom-color: #5d5d5d;
+  border-bottom-color: #4c9cd2;
 }
 .x-tabbar-light .x-tab-active .x-button-icon:before {
-  color: #3d2929;
+  color: #41fbd6;
 }
 .x-tabbar-light .x-tab-pressed {
   color: white;
 }
 
 .x-tabbar-light.x-docked-bottom .x-tab {
-  text-shadow: rgba(0, 0, 0, 0.5) 0 -0.08em 0;
+  text-shadow: rgba(255, 255, 255, 0.25) 0 0.08em 0;
 }
 .x-tabbar-light.x-docked-bottom .x-tab-active {
   background-image: none;
-  background-color: #484848;
-  background-image: -webkit-linear-gradient(top, #2f2f2f, #3b3b3b 10%, #484848 65%, #4a4a4a);
-  background-image: -moz-linear-gradient(top, #2f2f2f, #3b3b3b 10%, #484848 65%, #4a4a4a);
-  background-image: -o-linear-gradient(top, #2f2f2f, #3b3b3b 10%, #484848 65%, #4a4a4a);
-  background-image: linear-gradient(top, #2f2f2f, #3b3b3b 10%, #484848 65%, #4a4a4a);
-  text-shadow: rgba(0, 0, 0, 0.5) 0 -0.08em 0;
-  -webkit-box-shadow: #3b3b3b 0 0 0.25em inset;
-  -moz-box-shadow: #3b3b3b 0 0 0.25em inset;
-  box-shadow: #3b3b3b 0 0 0.25em inset;
+  background-color: #3189c4;
+  background-image: -webkit-linear-gradient(top, #276d9b, #2c7bb0 10%, #3189c4 65%, #328bc6);
+  background-image: -moz-linear-gradient(top, #276d9b, #2c7bb0 10%, #3189c4 65%, #328bc6);
+  background-image: -o-linear-gradient(top, #276d9b, #2c7bb0 10%, #3189c4 65%, #328bc6);
+  background-image: linear-gradient(top, #276d9b, #2c7bb0 10%, #3189c4 65%, #328bc6);
+  text-shadow: rgba(255, 255, 255, 0.25) 0 0.08em 0;
+  -webkit-box-shadow: #2c7bb0 0 0 0.25em inset;
+  -moz-box-shadow: #2c7bb0 0 0 0.25em inset;
+  box-shadow: #2c7bb0 0 0 0.25em inset;
 }
 .x-tabbar-light.x-docked-bottom .x-tab-active .x-button-icon:before {
-  color: #3d2929;
+  color: #41fbd6;
 }
 
 .x-tabbar-light.x-docked-top .x-tab-active {
   background-image: none;
-  background-color: #484848;
-  background-image: -webkit-linear-gradient(top, #2f2f2f, #3b3b3b 10%, #484848 65%, #4a4a4a);
-  background-image: -moz-linear-gradient(top, #2f2f2f, #3b3b3b 10%, #484848 65%, #4a4a4a);
-  background-image: -o-linear-gradient(top, #2f2f2f, #3b3b3b 10%, #484848 65%, #4a4a4a);
-  background-image: linear-gradient(top, #2f2f2f, #3b3b3b 10%, #484848 65%, #4a4a4a);
+  background-color: #3189c4;
+  background-image: -webkit-linear-gradient(top, #276d9b, #2c7bb0 10%, #3189c4 65%, #328bc6);
+  background-image: -moz-linear-gradient(top, #276d9b, #2c7bb0 10%, #3189c4 65%, #328bc6);
+  background-image: -o-linear-gradient(top, #276d9b, #2c7bb0 10%, #3189c4 65%, #328bc6);
+  background-image: linear-gradient(top, #276d9b, #2c7bb0 10%, #3189c4 65%, #328bc6);
   color: white;
 }
 
 .x-tabbar-dark {
-  border-top-color: #151515;
-  border-bottom-color: black;
+  border-top-color: #16527a;
+  border-bottom-color: #0e354f;
   background-image: none;
-  background-color: #222222;
-  background-image: -webkit-linear-gradient(top, #484848, #2f2f2f 3%, #151515);
-  background-image: -moz-linear-gradient(top, #484848, #2f2f2f 3%, #151515);
-  background-image: -o-linear-gradient(top, #484848, #2f2f2f 3%, #151515);
-  background-image: linear-gradient(top, #484848, #2f2f2f 3%, #151515);
+  background-color: #196090;
+  background-image: -webkit-linear-gradient(top, #258cd1, #1d6fa5 3%, #16527a);
+  background-image: -moz-linear-gradient(top, #258cd1, #1d6fa5 3%, #16527a);
+  background-image: -o-linear-gradient(top, #258cd1, #1d6fa5 3%, #16527a);
+  background-image: linear-gradient(top, #258cd1, #1d6fa5 3%, #16527a);
 }
 .x-tabbar-dark .x-tab {
-  color: #888888;
+  color: #8bc4ea;
   border-bottom: 1px solid transparent;
 }
 .x-tabbar-dark .x-tab-active {
   color: white;
-  border-bottom-color: #2a2a2a;
+  border-bottom-color: #1c699d;
 }
 .x-tabbar-dark .x-tab-active .x-button-icon:before {
-  color: #821717;
+  color: #70ffe3;
 }
 .x-tabbar-dark .x-tab-pressed {
   color: white;
@@ -6023,28 +6099,28 @@ body.x-desktop {
 }
 .x-tabbar-dark.x-docked-bottom .x-tab-active {
   background-image: none;
-  background-color: #151515;
-  background-image: -webkit-linear-gradient(top, #000000, #080808 10%, #151515 65%, #171717);
-  background-image: -moz-linear-gradient(top, #000000, #080808 10%, #151515 65%, #171717);
-  background-image: -o-linear-gradient(top, #000000, #080808 10%, #151515 65%, #171717);
-  background-image: linear-gradient(top, #000000, #080808 10%, #151515 65%, #171717);
+  background-color: #16527a;
+  background-image: -webkit-linear-gradient(top, #0e354f, #124364 10%, #16527a 65%, #16537c);
+  background-image: -moz-linear-gradient(top, #0e354f, #124364 10%, #16527a 65%, #16537c);
+  background-image: -o-linear-gradient(top, #0e354f, #124364 10%, #16527a 65%, #16537c);
+  background-image: linear-gradient(top, #0e354f, #124364 10%, #16527a 65%, #16537c);
   text-shadow: rgba(0, 0, 0, 0.5) 0 -0.08em 0;
-  -webkit-box-shadow: #080808 0 0 0.25em inset;
-  -moz-box-shadow: #080808 0 0 0.25em inset;
-  box-shadow: #080808 0 0 0.25em inset;
+  -webkit-box-shadow: #124364 0 0 0.25em inset;
+  -moz-box-shadow: #124364 0 0 0.25em inset;
+  box-shadow: #124364 0 0 0.25em inset;
 }
 .x-tabbar-dark.x-docked-bottom .x-tab-active .x-button-icon:before {
-  color: #821717;
+  color: #70ffe3;
 }
 
 .x-tabbar-dark.x-docked-top .x-tab-active {
   background-image: none;
-  background-color: #151515;
-  background-image: -webkit-linear-gradient(top, #000000, #080808 10%, #151515 65%, #171717);
-  background-image: -moz-linear-gradient(top, #000000, #080808 10%, #151515 65%, #171717);
-  background-image: -o-linear-gradient(top, #000000, #080808 10%, #151515 65%, #171717);
-  background-image: linear-gradient(top, #000000, #080808 10%, #151515 65%, #171717);
-  color: #eeeeee;
+  background-color: #16527a;
+  background-image: -webkit-linear-gradient(top, #0e354f, #124364 10%, #16527a 65%, #16537c);
+  background-image: -moz-linear-gradient(top, #0e354f, #124364 10%, #16527a 65%, #16537c);
+  background-image: -o-linear-gradient(top, #0e354f, #124364 10%, #16527a 65%, #16537c);
+  background-image: linear-gradient(top, #0e354f, #124364 10%, #16527a 65%, #16537c);
+  color: white;
 }
 
 .x-tabbar-neutral {
@@ -6289,6 +6365,1412 @@ body.x-desktop {
   text-align: center;
   font-family: "cbs-fnt";
   content: "\e605";
+}
+
+.x-button.x-button-TURQUOISE, .x-toolbar .x-button.x-button-TURQUOISE,
+.x-button.x-button-TURQUOISE-round, .x-toolbar
+.x-button.x-button-TURQUOISE-round,
+.x-button.x-button-TURQUOISE-small, .x-toolbar
+.x-button.x-button-TURQUOISE-small {
+  border: 1px solid #0e6252;
+  border-top-color: #117964;
+  background-color: #1abc9c;
+  color: white;
+}
+.x-button.x-button-TURQUOISE.x-button-back:before, .x-button.x-button-TURQUOISE.x-button-forward:before, .x-toolbar .x-button.x-button-TURQUOISE.x-button-back:before, .x-toolbar .x-button.x-button-TURQUOISE.x-button-forward:before,
+.x-button.x-button-TURQUOISE-round.x-button-back:before,
+.x-button.x-button-TURQUOISE-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-TURQUOISE-round.x-button-back:before, .x-toolbar
+.x-button.x-button-TURQUOISE-round.x-button-forward:before,
+.x-button.x-button-TURQUOISE-small.x-button-back:before,
+.x-button.x-button-TURQUOISE-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-TURQUOISE-small.x-button-back:before, .x-toolbar
+.x-button.x-button-TURQUOISE-small.x-button-forward:before {
+  background: #0e6252;
+}
+.x-button.x-button-TURQUOISE, .x-button.x-button-TURQUOISE.x-button-back:after, .x-button.x-button-TURQUOISE.x-button-forward:after, .x-toolbar .x-button.x-button-TURQUOISE, .x-toolbar .x-button.x-button-TURQUOISE.x-button-back:after, .x-toolbar .x-button.x-button-TURQUOISE.x-button-forward:after,
+.x-button.x-button-TURQUOISE-round,
+.x-button.x-button-TURQUOISE-round.x-button-back:after,
+.x-button.x-button-TURQUOISE-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-TURQUOISE-round, .x-toolbar
+.x-button.x-button-TURQUOISE-round.x-button-back:after, .x-toolbar
+.x-button.x-button-TURQUOISE-round.x-button-forward:after,
+.x-button.x-button-TURQUOISE-small,
+.x-button.x-button-TURQUOISE-small.x-button-back:after,
+.x-button.x-button-TURQUOISE-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-TURQUOISE-small, .x-toolbar
+.x-button.x-button-TURQUOISE-small.x-button-back:after, .x-toolbar
+.x-button.x-button-TURQUOISE-small.x-button-forward:after {
+  background-image: none;
+  background-color: #1abc9c;
+  background-image: -webkit-linear-gradient(top, #3ee4c4, #1dd2af 50%, #1abc9c 51%, #17a689);
+  background-image: -moz-linear-gradient(top, #3ee4c4, #1dd2af 50%, #1abc9c 51%, #17a689);
+  background-image: -o-linear-gradient(top, #3ee4c4, #1dd2af 50%, #1abc9c 51%, #17a689);
+  background-image: linear-gradient(top, #3ee4c4, #1dd2af 50%, #1abc9c 51%, #17a689);
+}
+.x-button.x-button-TURQUOISE.x-button-pressing, .x-button.x-button-TURQUOISE.x-button-pressing:after, .x-button.x-button-TURQUOISE.x-button-pressed, .x-button.x-button-TURQUOISE.x-button-pressed:after, .x-button.x-button-TURQUOISE.x-button-active, .x-button.x-button-TURQUOISE.x-button-active:after, .x-toolbar .x-button.x-button-TURQUOISE.x-button-pressing, .x-toolbar .x-button.x-button-TURQUOISE.x-button-pressing:after, .x-toolbar .x-button.x-button-TURQUOISE.x-button-pressed, .x-toolbar .x-button.x-button-TURQUOISE.x-button-pressed:after, .x-toolbar .x-button.x-button-TURQUOISE.x-button-active, .x-toolbar .x-button.x-button-TURQUOISE.x-button-active:after,
+.x-button.x-button-TURQUOISE-round.x-button-pressing,
+.x-button.x-button-TURQUOISE-round.x-button-pressing:after,
+.x-button.x-button-TURQUOISE-round.x-button-pressed,
+.x-button.x-button-TURQUOISE-round.x-button-pressed:after,
+.x-button.x-button-TURQUOISE-round.x-button-active,
+.x-button.x-button-TURQUOISE-round.x-button-active:after, .x-toolbar
+.x-button.x-button-TURQUOISE-round.x-button-pressing, .x-toolbar
+.x-button.x-button-TURQUOISE-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-TURQUOISE-round.x-button-pressed, .x-toolbar
+.x-button.x-button-TURQUOISE-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-TURQUOISE-round.x-button-active, .x-toolbar
+.x-button.x-button-TURQUOISE-round.x-button-active:after,
+.x-button.x-button-TURQUOISE-small.x-button-pressing,
+.x-button.x-button-TURQUOISE-small.x-button-pressing:after,
+.x-button.x-button-TURQUOISE-small.x-button-pressed,
+.x-button.x-button-TURQUOISE-small.x-button-pressed:after,
+.x-button.x-button-TURQUOISE-small.x-button-active,
+.x-button.x-button-TURQUOISE-small.x-button-active:after, .x-toolbar
+.x-button.x-button-TURQUOISE-small.x-button-pressing, .x-toolbar
+.x-button.x-button-TURQUOISE-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-TURQUOISE-small.x-button-pressed, .x-toolbar
+.x-button.x-button-TURQUOISE-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-TURQUOISE-small.x-button-active, .x-toolbar
+.x-button.x-button-TURQUOISE-small.x-button-active:after {
+  background-image: none;
+  background-color: #18af91;
+  background-image: -webkit-linear-gradient(top, #12826c, #15987e 10%, #18af91 65%, #18b193);
+  background-image: -moz-linear-gradient(top, #12826c, #15987e 10%, #18af91 65%, #18b193);
+  background-image: -o-linear-gradient(top, #12826c, #15987e 10%, #18af91 65%, #18b193);
+  background-image: linear-gradient(top, #12826c, #15987e 10%, #18af91 65%, #18b193);
+}
+
+.x-button.x-button-GREEN-SEA, .x-toolbar .x-button.x-button-GREEN-SEA,
+.x-button.x-button-GREEN-SEA-round, .x-toolbar
+.x-button.x-button-GREEN-SEA-round,
+.x-button.x-button-GREEN-SEA-small, .x-toolbar
+.x-button.x-button-GREEN-SEA-small {
+  border: 1px solid #0a463a;
+  border-top-color: #0d5d4d;
+  background-color: #16a085;
+  color: white;
+}
+.x-button.x-button-GREEN-SEA.x-button-back:before, .x-button.x-button-GREEN-SEA.x-button-forward:before, .x-toolbar .x-button.x-button-GREEN-SEA.x-button-back:before, .x-toolbar .x-button.x-button-GREEN-SEA.x-button-forward:before,
+.x-button.x-button-GREEN-SEA-round.x-button-back:before,
+.x-button.x-button-GREEN-SEA-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-GREEN-SEA-round.x-button-back:before, .x-toolbar
+.x-button.x-button-GREEN-SEA-round.x-button-forward:before,
+.x-button.x-button-GREEN-SEA-small.x-button-back:before,
+.x-button.x-button-GREEN-SEA-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-GREEN-SEA-small.x-button-back:before, .x-toolbar
+.x-button.x-button-GREEN-SEA-small.x-button-forward:before {
+  background: #0a463a;
+}
+.x-button.x-button-GREEN-SEA, .x-button.x-button-GREEN-SEA.x-button-back:after, .x-button.x-button-GREEN-SEA.x-button-forward:after, .x-toolbar .x-button.x-button-GREEN-SEA, .x-toolbar .x-button.x-button-GREEN-SEA.x-button-back:after, .x-toolbar .x-button.x-button-GREEN-SEA.x-button-forward:after,
+.x-button.x-button-GREEN-SEA-round,
+.x-button.x-button-GREEN-SEA-round.x-button-back:after,
+.x-button.x-button-GREEN-SEA-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-GREEN-SEA-round, .x-toolbar
+.x-button.x-button-GREEN-SEA-round.x-button-back:after, .x-toolbar
+.x-button.x-button-GREEN-SEA-round.x-button-forward:after,
+.x-button.x-button-GREEN-SEA-small,
+.x-button.x-button-GREEN-SEA-small.x-button-back:after,
+.x-button.x-button-GREEN-SEA-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-GREEN-SEA-small, .x-toolbar
+.x-button.x-button-GREEN-SEA-small.x-button-back:after, .x-toolbar
+.x-button.x-button-GREEN-SEA-small.x-button-forward:after {
+  background-image: none;
+  background-color: #16a085;
+  background-image: -webkit-linear-gradient(top, #22e1bb, #19b698 50%, #16a085 51%, #138a72);
+  background-image: -moz-linear-gradient(top, #22e1bb, #19b698 50%, #16a085 51%, #138a72);
+  background-image: -o-linear-gradient(top, #22e1bb, #19b698 50%, #16a085 51%, #138a72);
+  background-image: linear-gradient(top, #22e1bb, #19b698 50%, #16a085 51%, #138a72);
+}
+.x-button.x-button-GREEN-SEA.x-button-pressing, .x-button.x-button-GREEN-SEA.x-button-pressing:after, .x-button.x-button-GREEN-SEA.x-button-pressed, .x-button.x-button-GREEN-SEA.x-button-pressed:after, .x-button.x-button-GREEN-SEA.x-button-active, .x-button.x-button-GREEN-SEA.x-button-active:after, .x-toolbar .x-button.x-button-GREEN-SEA.x-button-pressing, .x-toolbar .x-button.x-button-GREEN-SEA.x-button-pressing:after, .x-toolbar .x-button.x-button-GREEN-SEA.x-button-pressed, .x-toolbar .x-button.x-button-GREEN-SEA.x-button-pressed:after, .x-toolbar .x-button.x-button-GREEN-SEA.x-button-active, .x-toolbar .x-button.x-button-GREEN-SEA.x-button-active:after,
+.x-button.x-button-GREEN-SEA-round.x-button-pressing,
+.x-button.x-button-GREEN-SEA-round.x-button-pressing:after,
+.x-button.x-button-GREEN-SEA-round.x-button-pressed,
+.x-button.x-button-GREEN-SEA-round.x-button-pressed:after,
+.x-button.x-button-GREEN-SEA-round.x-button-active,
+.x-button.x-button-GREEN-SEA-round.x-button-active:after, .x-toolbar
+.x-button.x-button-GREEN-SEA-round.x-button-pressing, .x-toolbar
+.x-button.x-button-GREEN-SEA-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-GREEN-SEA-round.x-button-pressed, .x-toolbar
+.x-button.x-button-GREEN-SEA-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-GREEN-SEA-round.x-button-active, .x-toolbar
+.x-button.x-button-GREEN-SEA-round.x-button-active:after,
+.x-button.x-button-GREEN-SEA-small.x-button-pressing,
+.x-button.x-button-GREEN-SEA-small.x-button-pressing:after,
+.x-button.x-button-GREEN-SEA-small.x-button-pressed,
+.x-button.x-button-GREEN-SEA-small.x-button-pressed:after,
+.x-button.x-button-GREEN-SEA-small.x-button-active,
+.x-button.x-button-GREEN-SEA-small.x-button-active:after, .x-toolbar
+.x-button.x-button-GREEN-SEA-small.x-button-pressing, .x-toolbar
+.x-button.x-button-GREEN-SEA-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-GREEN-SEA-small.x-button-pressed, .x-toolbar
+.x-button.x-button-GREEN-SEA-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-GREEN-SEA-small.x-button-active, .x-toolbar
+.x-button.x-button-GREEN-SEA-small.x-button-active:after {
+  background-image: none;
+  background-color: #14937a;
+  background-image: -webkit-linear-gradient(top, #0e6655, #117c67 10%, #14937a 65%, #14957c);
+  background-image: -moz-linear-gradient(top, #0e6655, #117c67 10%, #14937a 65%, #14957c);
+  background-image: -o-linear-gradient(top, #0e6655, #117c67 10%, #14937a 65%, #14957c);
+  background-image: linear-gradient(top, #0e6655, #117c67 10%, #14937a 65%, #14957c);
+}
+
+.x-button.x-button-EMERALD, .x-toolbar .x-button.x-button-EMERALD,
+.x-button.x-button-EMERALD-round, .x-toolbar
+.x-button.x-button-EMERALD-round,
+.x-button.x-button-EMERALD-small, .x-toolbar
+.x-button.x-button-EMERALD-small {
+  border: 1px solid #1b7943;
+  border-top-color: #208e4e;
+  background-color: #2ecc71;
+  color: black;
+}
+.x-button.x-button-EMERALD.x-button-back:before, .x-button.x-button-EMERALD.x-button-forward:before, .x-toolbar .x-button.x-button-EMERALD.x-button-back:before, .x-toolbar .x-button.x-button-EMERALD.x-button-forward:before,
+.x-button.x-button-EMERALD-round.x-button-back:before,
+.x-button.x-button-EMERALD-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-EMERALD-round.x-button-back:before, .x-toolbar
+.x-button.x-button-EMERALD-round.x-button-forward:before,
+.x-button.x-button-EMERALD-small.x-button-back:before,
+.x-button.x-button-EMERALD-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-EMERALD-small.x-button-back:before, .x-toolbar
+.x-button.x-button-EMERALD-small.x-button-forward:before {
+  background: #1b7943;
+}
+.x-button.x-button-EMERALD, .x-button.x-button-EMERALD.x-button-back:after, .x-button.x-button-EMERALD.x-button-forward:after, .x-toolbar .x-button.x-button-EMERALD, .x-toolbar .x-button.x-button-EMERALD.x-button-back:after, .x-toolbar .x-button.x-button-EMERALD.x-button-forward:after,
+.x-button.x-button-EMERALD-round,
+.x-button.x-button-EMERALD-round.x-button-back:after,
+.x-button.x-button-EMERALD-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-EMERALD-round, .x-toolbar
+.x-button.x-button-EMERALD-round.x-button-back:after, .x-toolbar
+.x-button.x-button-EMERALD-round.x-button-forward:after,
+.x-button.x-button-EMERALD-small,
+.x-button.x-button-EMERALD-small.x-button-back:after,
+.x-button.x-button-EMERALD-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-EMERALD-small, .x-toolbar
+.x-button.x-button-EMERALD-small.x-button-back:after, .x-toolbar
+.x-button.x-button-EMERALD-small.x-button-forward:after {
+  background-image: none;
+  background-color: #2ecc71;
+  background-image: -webkit-linear-gradient(top, #69dd9a, #40d47e 50%, #2ecc71 51%, #29b765);
+  background-image: -moz-linear-gradient(top, #69dd9a, #40d47e 50%, #2ecc71 51%, #29b765);
+  background-image: -o-linear-gradient(top, #69dd9a, #40d47e 50%, #2ecc71 51%, #29b765);
+  background-image: linear-gradient(top, #69dd9a, #40d47e 50%, #2ecc71 51%, #29b765);
+}
+.x-button.x-button-EMERALD.x-button-pressing, .x-button.x-button-EMERALD.x-button-pressing:after, .x-button.x-button-EMERALD.x-button-pressed, .x-button.x-button-EMERALD.x-button-pressed:after, .x-button.x-button-EMERALD.x-button-active, .x-button.x-button-EMERALD.x-button-active:after, .x-toolbar .x-button.x-button-EMERALD.x-button-pressing, .x-toolbar .x-button.x-button-EMERALD.x-button-pressing:after, .x-toolbar .x-button.x-button-EMERALD.x-button-pressed, .x-toolbar .x-button.x-button-EMERALD.x-button-pressed:after, .x-toolbar .x-button.x-button-EMERALD.x-button-active, .x-toolbar .x-button.x-button-EMERALD.x-button-active:after,
+.x-button.x-button-EMERALD-round.x-button-pressing,
+.x-button.x-button-EMERALD-round.x-button-pressing:after,
+.x-button.x-button-EMERALD-round.x-button-pressed,
+.x-button.x-button-EMERALD-round.x-button-pressed:after,
+.x-button.x-button-EMERALD-round.x-button-active,
+.x-button.x-button-EMERALD-round.x-button-active:after, .x-toolbar
+.x-button.x-button-EMERALD-round.x-button-pressing, .x-toolbar
+.x-button.x-button-EMERALD-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-EMERALD-round.x-button-pressed, .x-toolbar
+.x-button.x-button-EMERALD-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-EMERALD-round.x-button-active, .x-toolbar
+.x-button.x-button-EMERALD-round.x-button-active:after,
+.x-button.x-button-EMERALD-small.x-button-pressing,
+.x-button.x-button-EMERALD-small.x-button-pressing:after,
+.x-button.x-button-EMERALD-small.x-button-pressed,
+.x-button.x-button-EMERALD-small.x-button-pressed:after,
+.x-button.x-button-EMERALD-small.x-button-active,
+.x-button.x-button-EMERALD-small.x-button-active:after, .x-toolbar
+.x-button.x-button-EMERALD-small.x-button-pressing, .x-toolbar
+.x-button.x-button-EMERALD-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-EMERALD-small.x-button-pressed, .x-toolbar
+.x-button.x-button-EMERALD-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-EMERALD-small.x-button-active, .x-toolbar
+.x-button.x-button-EMERALD-small.x-button-active:after {
+  background-image: none;
+  background-color: #2bc06a;
+  background-image: -webkit-linear-gradient(top, #229653, #26ab5f 10%, #2bc06a 65%, #2cc26b);
+  background-image: -moz-linear-gradient(top, #229653, #26ab5f 10%, #2bc06a 65%, #2cc26b);
+  background-image: -o-linear-gradient(top, #229653, #26ab5f 10%, #2bc06a 65%, #2cc26b);
+  background-image: linear-gradient(top, #229653, #26ab5f 10%, #2bc06a 65%, #2cc26b);
+}
+
+.x-button.x-button-NEPHRITIS, .x-toolbar .x-button.x-button-NEPHRITIS,
+.x-button.x-button-NEPHRITIS-round, .x-toolbar
+.x-button.x-button-NEPHRITIS-round,
+.x-button.x-button-NEPHRITIS-small, .x-toolbar
+.x-button.x-button-NEPHRITIS-small {
+  border: 1px solid #145b32;
+  border-top-color: #19703e;
+  background-color: #27ae60;
+  color: white;
+}
+.x-button.x-button-NEPHRITIS.x-button-back:before, .x-button.x-button-NEPHRITIS.x-button-forward:before, .x-toolbar .x-button.x-button-NEPHRITIS.x-button-back:before, .x-toolbar .x-button.x-button-NEPHRITIS.x-button-forward:before,
+.x-button.x-button-NEPHRITIS-round.x-button-back:before,
+.x-button.x-button-NEPHRITIS-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-NEPHRITIS-round.x-button-back:before, .x-toolbar
+.x-button.x-button-NEPHRITIS-round.x-button-forward:before,
+.x-button.x-button-NEPHRITIS-small.x-button-back:before,
+.x-button.x-button-NEPHRITIS-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-NEPHRITIS-small.x-button-back:before, .x-toolbar
+.x-button.x-button-NEPHRITIS-small.x-button-forward:before {
+  background: #145b32;
+}
+.x-button.x-button-NEPHRITIS, .x-button.x-button-NEPHRITIS.x-button-back:after, .x-button.x-button-NEPHRITIS.x-button-forward:after, .x-toolbar .x-button.x-button-NEPHRITIS, .x-toolbar .x-button.x-button-NEPHRITIS.x-button-back:after, .x-toolbar .x-button.x-button-NEPHRITIS.x-button-forward:after,
+.x-button.x-button-NEPHRITIS-round,
+.x-button.x-button-NEPHRITIS-round.x-button-back:after,
+.x-button.x-button-NEPHRITIS-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-NEPHRITIS-round, .x-toolbar
+.x-button.x-button-NEPHRITIS-round.x-button-back:after, .x-toolbar
+.x-button.x-button-NEPHRITIS-round.x-button-forward:after,
+.x-button.x-button-NEPHRITIS-small,
+.x-button.x-button-NEPHRITIS-small.x-button-back:after,
+.x-button.x-button-NEPHRITIS-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-NEPHRITIS-small, .x-toolbar
+.x-button.x-button-NEPHRITIS-small.x-button-back:after, .x-toolbar
+.x-button.x-button-NEPHRITIS-small.x-button-forward:after {
+  background-image: none;
+  background-color: #27ae60;
+  background-image: -webkit-linear-gradient(top, #4bd786, #2cc36b 50%, #27ae60 51%, #229955);
+  background-image: -moz-linear-gradient(top, #4bd786, #2cc36b 50%, #27ae60 51%, #229955);
+  background-image: -o-linear-gradient(top, #4bd786, #2cc36b 50%, #27ae60 51%, #229955);
+  background-image: linear-gradient(top, #4bd786, #2cc36b 50%, #27ae60 51%, #229955);
+}
+.x-button.x-button-NEPHRITIS.x-button-pressing, .x-button.x-button-NEPHRITIS.x-button-pressing:after, .x-button.x-button-NEPHRITIS.x-button-pressed, .x-button.x-button-NEPHRITIS.x-button-pressed:after, .x-button.x-button-NEPHRITIS.x-button-active, .x-button.x-button-NEPHRITIS.x-button-active:after, .x-toolbar .x-button.x-button-NEPHRITIS.x-button-pressing, .x-toolbar .x-button.x-button-NEPHRITIS.x-button-pressing:after, .x-toolbar .x-button.x-button-NEPHRITIS.x-button-pressed, .x-toolbar .x-button.x-button-NEPHRITIS.x-button-pressed:after, .x-toolbar .x-button.x-button-NEPHRITIS.x-button-active, .x-toolbar .x-button.x-button-NEPHRITIS.x-button-active:after,
+.x-button.x-button-NEPHRITIS-round.x-button-pressing,
+.x-button.x-button-NEPHRITIS-round.x-button-pressing:after,
+.x-button.x-button-NEPHRITIS-round.x-button-pressed,
+.x-button.x-button-NEPHRITIS-round.x-button-pressed:after,
+.x-button.x-button-NEPHRITIS-round.x-button-active,
+.x-button.x-button-NEPHRITIS-round.x-button-active:after, .x-toolbar
+.x-button.x-button-NEPHRITIS-round.x-button-pressing, .x-toolbar
+.x-button.x-button-NEPHRITIS-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-NEPHRITIS-round.x-button-pressed, .x-toolbar
+.x-button.x-button-NEPHRITIS-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-NEPHRITIS-round.x-button-active, .x-toolbar
+.x-button.x-button-NEPHRITIS-round.x-button-active:after,
+.x-button.x-button-NEPHRITIS-small.x-button-pressing,
+.x-button.x-button-NEPHRITIS-small.x-button-pressing:after,
+.x-button.x-button-NEPHRITIS-small.x-button-pressed,
+.x-button.x-button-NEPHRITIS-small.x-button-pressed:after,
+.x-button.x-button-NEPHRITIS-small.x-button-active,
+.x-button.x-button-NEPHRITIS-small.x-button-active:after, .x-toolbar
+.x-button.x-button-NEPHRITIS-small.x-button-pressing, .x-toolbar
+.x-button.x-button-NEPHRITIS-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-NEPHRITIS-small.x-button-pressed, .x-toolbar
+.x-button.x-button-NEPHRITIS-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-NEPHRITIS-small.x-button-active, .x-toolbar
+.x-button.x-button-NEPHRITIS-small.x-button-active:after {
+  background-image: none;
+  background-color: #24a259;
+  background-image: -webkit-linear-gradient(top, #1b7842, #208d4e 10%, #24a259 65%, #25a45a);
+  background-image: -moz-linear-gradient(top, #1b7842, #208d4e 10%, #24a259 65%, #25a45a);
+  background-image: -o-linear-gradient(top, #1b7842, #208d4e 10%, #24a259 65%, #25a45a);
+  background-image: linear-gradient(top, #1b7842, #208d4e 10%, #24a259 65%, #25a45a);
+}
+
+.x-button.x-button-PETER-RIVER, .x-toolbar .x-button.x-button-PETER-RIVER,
+.x-button.x-button-PETER-RIVER-round, .x-toolbar
+.x-button.x-button-PETER-RIVER-round,
+.x-button.x-button-PETER-RIVER-small, .x-toolbar
+.x-button.x-button-PETER-RIVER-small {
+  border: 1px solid #196090;
+  border-top-color: #1d6fa5;
+  background-color: #3498db;
+  color: white;
+}
+.x-button.x-button-PETER-RIVER.x-button-back:before, .x-button.x-button-PETER-RIVER.x-button-forward:before, .x-toolbar .x-button.x-button-PETER-RIVER.x-button-back:before, .x-toolbar .x-button.x-button-PETER-RIVER.x-button-forward:before,
+.x-button.x-button-PETER-RIVER-round.x-button-back:before,
+.x-button.x-button-PETER-RIVER-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-PETER-RIVER-round.x-button-back:before, .x-toolbar
+.x-button.x-button-PETER-RIVER-round.x-button-forward:before,
+.x-button.x-button-PETER-RIVER-small.x-button-back:before,
+.x-button.x-button-PETER-RIVER-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-PETER-RIVER-small.x-button-back:before, .x-toolbar
+.x-button.x-button-PETER-RIVER-small.x-button-forward:before {
+  background: #196090;
+}
+.x-button.x-button-PETER-RIVER, .x-button.x-button-PETER-RIVER.x-button-back:after, .x-button.x-button-PETER-RIVER.x-button-forward:after, .x-toolbar .x-button.x-button-PETER-RIVER, .x-toolbar .x-button.x-button-PETER-RIVER.x-button-back:after, .x-toolbar .x-button.x-button-PETER-RIVER.x-button-forward:after,
+.x-button.x-button-PETER-RIVER-round,
+.x-button.x-button-PETER-RIVER-round.x-button-back:after,
+.x-button.x-button-PETER-RIVER-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-PETER-RIVER-round, .x-toolbar
+.x-button.x-button-PETER-RIVER-round.x-button-back:after, .x-toolbar
+.x-button.x-button-PETER-RIVER-round.x-button-forward:after,
+.x-button.x-button-PETER-RIVER-small,
+.x-button.x-button-PETER-RIVER-small.x-button-back:after,
+.x-button.x-button-PETER-RIVER-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-PETER-RIVER-small, .x-toolbar
+.x-button.x-button-PETER-RIVER-small.x-button-back:after, .x-toolbar
+.x-button.x-button-PETER-RIVER-small.x-button-forward:after {
+  background-image: none;
+  background-color: #3498db;
+  background-image: -webkit-linear-gradient(top, #75b9e7, #4aa3df 50%, #3498db 51%, #258cd1);
+  background-image: -moz-linear-gradient(top, #75b9e7, #4aa3df 50%, #3498db 51%, #258cd1);
+  background-image: -o-linear-gradient(top, #75b9e7, #4aa3df 50%, #3498db 51%, #258cd1);
+  background-image: linear-gradient(top, #75b9e7, #4aa3df 50%, #3498db 51%, #258cd1);
+}
+.x-button.x-button-PETER-RIVER.x-button-pressing, .x-button.x-button-PETER-RIVER.x-button-pressing:after, .x-button.x-button-PETER-RIVER.x-button-pressed, .x-button.x-button-PETER-RIVER.x-button-pressed:after, .x-button.x-button-PETER-RIVER.x-button-active, .x-button.x-button-PETER-RIVER.x-button-active:after, .x-toolbar .x-button.x-button-PETER-RIVER.x-button-pressing, .x-toolbar .x-button.x-button-PETER-RIVER.x-button-pressing:after, .x-toolbar .x-button.x-button-PETER-RIVER.x-button-pressed, .x-toolbar .x-button.x-button-PETER-RIVER.x-button-pressed:after, .x-toolbar .x-button.x-button-PETER-RIVER.x-button-active, .x-toolbar .x-button.x-button-PETER-RIVER.x-button-active:after,
+.x-button.x-button-PETER-RIVER-round.x-button-pressing,
+.x-button.x-button-PETER-RIVER-round.x-button-pressing:after,
+.x-button.x-button-PETER-RIVER-round.x-button-pressed,
+.x-button.x-button-PETER-RIVER-round.x-button-pressed:after,
+.x-button.x-button-PETER-RIVER-round.x-button-active,
+.x-button.x-button-PETER-RIVER-round.x-button-active:after, .x-toolbar
+.x-button.x-button-PETER-RIVER-round.x-button-pressing, .x-toolbar
+.x-button.x-button-PETER-RIVER-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-PETER-RIVER-round.x-button-pressed, .x-toolbar
+.x-button.x-button-PETER-RIVER-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-PETER-RIVER-round.x-button-active, .x-toolbar
+.x-button.x-button-PETER-RIVER-round.x-button-active:after,
+.x-button.x-button-PETER-RIVER-small.x-button-pressing,
+.x-button.x-button-PETER-RIVER-small.x-button-pressing:after,
+.x-button.x-button-PETER-RIVER-small.x-button-pressed,
+.x-button.x-button-PETER-RIVER-small.x-button-pressed:after,
+.x-button.x-button-PETER-RIVER-small.x-button-active,
+.x-button.x-button-PETER-RIVER-small.x-button-active:after, .x-toolbar
+.x-button.x-button-PETER-RIVER-small.x-button-pressing, .x-toolbar
+.x-button.x-button-PETER-RIVER-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-PETER-RIVER-small.x-button-pressed, .x-toolbar
+.x-button.x-button-PETER-RIVER-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-PETER-RIVER-small.x-button-active, .x-toolbar
+.x-button.x-button-PETER-RIVER-small.x-button-active:after {
+  background-image: none;
+  background-color: #2791d9;
+  background-image: -webkit-linear-gradient(top, #1f74ae, #2383c4 10%, #2791d9 65%, #2993d9);
+  background-image: -moz-linear-gradient(top, #1f74ae, #2383c4 10%, #2791d9 65%, #2993d9);
+  background-image: -o-linear-gradient(top, #1f74ae, #2383c4 10%, #2791d9 65%, #2993d9);
+  background-image: linear-gradient(top, #1f74ae, #2383c4 10%, #2791d9 65%, #2993d9);
+}
+
+.x-button.x-button-BELIZE-HOLE, .x-toolbar .x-button.x-button-BELIZE-HOLE,
+.x-button.x-button-BELIZE-HOLE-round, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-round,
+.x-button.x-button-BELIZE-HOLE-small, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-small {
+  border: 1px solid #164666;
+  border-top-color: #1b557a;
+  background-color: #2980b9;
+  color: white;
+}
+.x-button.x-button-BELIZE-HOLE.x-button-back:before, .x-button.x-button-BELIZE-HOLE.x-button-forward:before, .x-toolbar .x-button.x-button-BELIZE-HOLE.x-button-back:before, .x-toolbar .x-button.x-button-BELIZE-HOLE.x-button-forward:before,
+.x-button.x-button-BELIZE-HOLE-round.x-button-back:before,
+.x-button.x-button-BELIZE-HOLE-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-round.x-button-back:before, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-round.x-button-forward:before,
+.x-button.x-button-BELIZE-HOLE-small.x-button-back:before,
+.x-button.x-button-BELIZE-HOLE-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-small.x-button-back:before, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-small.x-button-forward:before {
+  background: #164666;
+}
+.x-button.x-button-BELIZE-HOLE, .x-button.x-button-BELIZE-HOLE.x-button-back:after, .x-button.x-button-BELIZE-HOLE.x-button-forward:after, .x-toolbar .x-button.x-button-BELIZE-HOLE, .x-toolbar .x-button.x-button-BELIZE-HOLE.x-button-back:after, .x-toolbar .x-button.x-button-BELIZE-HOLE.x-button-forward:after,
+.x-button.x-button-BELIZE-HOLE-round,
+.x-button.x-button-BELIZE-HOLE-round.x-button-back:after,
+.x-button.x-button-BELIZE-HOLE-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-round, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-round.x-button-back:after, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-round.x-button-forward:after,
+.x-button.x-button-BELIZE-HOLE-small,
+.x-button.x-button-BELIZE-HOLE-small.x-button-back:after,
+.x-button.x-button-BELIZE-HOLE-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-small, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-small.x-button-back:after, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-small.x-button-forward:after {
+  background-image: none;
+  background-color: #2980b9;
+  background-image: -webkit-linear-gradient(top, #55a5d9, #2e8ece 50%, #2980b9 51%, #2472a4);
+  background-image: -moz-linear-gradient(top, #55a5d9, #2e8ece 50%, #2980b9 51%, #2472a4);
+  background-image: -o-linear-gradient(top, #55a5d9, #2e8ece 50%, #2980b9 51%, #2472a4);
+  background-image: linear-gradient(top, #55a5d9, #2e8ece 50%, #2980b9 51%, #2472a4);
+}
+.x-button.x-button-BELIZE-HOLE.x-button-pressing, .x-button.x-button-BELIZE-HOLE.x-button-pressing:after, .x-button.x-button-BELIZE-HOLE.x-button-pressed, .x-button.x-button-BELIZE-HOLE.x-button-pressed:after, .x-button.x-button-BELIZE-HOLE.x-button-active, .x-button.x-button-BELIZE-HOLE.x-button-active:after, .x-toolbar .x-button.x-button-BELIZE-HOLE.x-button-pressing, .x-toolbar .x-button.x-button-BELIZE-HOLE.x-button-pressing:after, .x-toolbar .x-button.x-button-BELIZE-HOLE.x-button-pressed, .x-toolbar .x-button.x-button-BELIZE-HOLE.x-button-pressed:after, .x-toolbar .x-button.x-button-BELIZE-HOLE.x-button-active, .x-toolbar .x-button.x-button-BELIZE-HOLE.x-button-active:after,
+.x-button.x-button-BELIZE-HOLE-round.x-button-pressing,
+.x-button.x-button-BELIZE-HOLE-round.x-button-pressing:after,
+.x-button.x-button-BELIZE-HOLE-round.x-button-pressed,
+.x-button.x-button-BELIZE-HOLE-round.x-button-pressed:after,
+.x-button.x-button-BELIZE-HOLE-round.x-button-active,
+.x-button.x-button-BELIZE-HOLE-round.x-button-active:after, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-round.x-button-pressing, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-round.x-button-pressed, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-round.x-button-active, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-round.x-button-active:after,
+.x-button.x-button-BELIZE-HOLE-small.x-button-pressing,
+.x-button.x-button-BELIZE-HOLE-small.x-button-pressing:after,
+.x-button.x-button-BELIZE-HOLE-small.x-button-pressed,
+.x-button.x-button-BELIZE-HOLE-small.x-button-pressed:after,
+.x-button.x-button-BELIZE-HOLE-small.x-button-active,
+.x-button.x-button-BELIZE-HOLE-small.x-button-active:after, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-small.x-button-pressing, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-small.x-button-pressed, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-small.x-button-active, .x-toolbar
+.x-button.x-button-BELIZE-HOLE-small.x-button-active:after {
+  background-image: none;
+  background-color: #2677ac;
+  background-image: -webkit-linear-gradient(top, #1d5a83, #226998 10%, #2677ac 65%, #2779af);
+  background-image: -moz-linear-gradient(top, #1d5a83, #226998 10%, #2677ac 65%, #2779af);
+  background-image: -o-linear-gradient(top, #1d5a83, #226998 10%, #2677ac 65%, #2779af);
+  background-image: linear-gradient(top, #1d5a83, #226998 10%, #2677ac 65%, #2779af);
+}
+
+.x-button.x-button-AMETHYST, .x-toolbar .x-button.x-button-AMETHYST,
+.x-button.x-button-AMETHYST-round, .x-toolbar
+.x-button.x-button-AMETHYST-round,
+.x-button.x-button-AMETHYST-small, .x-toolbar
+.x-button.x-button-AMETHYST-small {
+  border: 1px solid #623475;
+  border-top-color: #713b87;
+  background-color: #9b59b6;
+  color: white;
+}
+.x-button.x-button-AMETHYST.x-button-back:before, .x-button.x-button-AMETHYST.x-button-forward:before, .x-toolbar .x-button.x-button-AMETHYST.x-button-back:before, .x-toolbar .x-button.x-button-AMETHYST.x-button-forward:before,
+.x-button.x-button-AMETHYST-round.x-button-back:before,
+.x-button.x-button-AMETHYST-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-AMETHYST-round.x-button-back:before, .x-toolbar
+.x-button.x-button-AMETHYST-round.x-button-forward:before,
+.x-button.x-button-AMETHYST-small.x-button-back:before,
+.x-button.x-button-AMETHYST-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-AMETHYST-small.x-button-back:before, .x-toolbar
+.x-button.x-button-AMETHYST-small.x-button-forward:before {
+  background: #623475;
+}
+.x-button.x-button-AMETHYST, .x-button.x-button-AMETHYST.x-button-back:after, .x-button.x-button-AMETHYST.x-button-forward:after, .x-toolbar .x-button.x-button-AMETHYST, .x-toolbar .x-button.x-button-AMETHYST.x-button-back:after, .x-toolbar .x-button.x-button-AMETHYST.x-button-forward:after,
+.x-button.x-button-AMETHYST-round,
+.x-button.x-button-AMETHYST-round.x-button-back:after,
+.x-button.x-button-AMETHYST-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-AMETHYST-round, .x-toolbar
+.x-button.x-button-AMETHYST-round.x-button-back:after, .x-toolbar
+.x-button.x-button-AMETHYST-round.x-button-forward:after,
+.x-button.x-button-AMETHYST-small,
+.x-button.x-button-AMETHYST-small.x-button-back:after,
+.x-button.x-button-AMETHYST-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-AMETHYST-small, .x-toolbar
+.x-button.x-button-AMETHYST-small.x-button-back:after, .x-toolbar
+.x-button.x-button-AMETHYST-small.x-button-forward:after {
+  background-image: none;
+  background-color: #9b59b6;
+  background-image: -webkit-linear-gradient(top, #bb8ecd, #a66bbe 50%, #9b59b6 51%, #8f4bab);
+  background-image: -moz-linear-gradient(top, #bb8ecd, #a66bbe 50%, #9b59b6 51%, #8f4bab);
+  background-image: -o-linear-gradient(top, #bb8ecd, #a66bbe 50%, #9b59b6 51%, #8f4bab);
+  background-image: linear-gradient(top, #bb8ecd, #a66bbe 50%, #9b59b6 51%, #8f4bab);
+}
+.x-button.x-button-AMETHYST.x-button-pressing, .x-button.x-button-AMETHYST.x-button-pressing:after, .x-button.x-button-AMETHYST.x-button-pressed, .x-button.x-button-AMETHYST.x-button-pressed:after, .x-button.x-button-AMETHYST.x-button-active, .x-button.x-button-AMETHYST.x-button-active:after, .x-toolbar .x-button.x-button-AMETHYST.x-button-pressing, .x-toolbar .x-button.x-button-AMETHYST.x-button-pressing:after, .x-toolbar .x-button.x-button-AMETHYST.x-button-pressed, .x-toolbar .x-button.x-button-AMETHYST.x-button-pressed:after, .x-toolbar .x-button.x-button-AMETHYST.x-button-active, .x-toolbar .x-button.x-button-AMETHYST.x-button-active:after,
+.x-button.x-button-AMETHYST-round.x-button-pressing,
+.x-button.x-button-AMETHYST-round.x-button-pressing:after,
+.x-button.x-button-AMETHYST-round.x-button-pressed,
+.x-button.x-button-AMETHYST-round.x-button-pressed:after,
+.x-button.x-button-AMETHYST-round.x-button-active,
+.x-button.x-button-AMETHYST-round.x-button-active:after, .x-toolbar
+.x-button.x-button-AMETHYST-round.x-button-pressing, .x-toolbar
+.x-button.x-button-AMETHYST-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-AMETHYST-round.x-button-pressed, .x-toolbar
+.x-button.x-button-AMETHYST-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-AMETHYST-round.x-button-active, .x-toolbar
+.x-button.x-button-AMETHYST-round.x-button-active:after,
+.x-button.x-button-AMETHYST-small.x-button-pressing,
+.x-button.x-button-AMETHYST-small.x-button-pressing:after,
+.x-button.x-button-AMETHYST-small.x-button-pressed,
+.x-button.x-button-AMETHYST-small.x-button-pressed:after,
+.x-button.x-button-AMETHYST-small.x-button-active,
+.x-button.x-button-AMETHYST-small.x-button-active:after, .x-toolbar
+.x-button.x-button-AMETHYST-small.x-button-pressing, .x-toolbar
+.x-button.x-button-AMETHYST-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-AMETHYST-small.x-button-pressed, .x-toolbar
+.x-button.x-button-AMETHYST-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-AMETHYST-small.x-button-active, .x-toolbar
+.x-button.x-button-AMETHYST-small.x-button-active:after {
+  background-image: none;
+  background-color: #954eb1;
+  background-image: -webkit-linear-gradient(top, #773f8e, #8646a0 10%, #954eb1 65%, #9650b2);
+  background-image: -moz-linear-gradient(top, #773f8e, #8646a0 10%, #954eb1 65%, #9650b2);
+  background-image: -o-linear-gradient(top, #773f8e, #8646a0 10%, #954eb1 65%, #9650b2);
+  background-image: linear-gradient(top, #773f8e, #8646a0 10%, #954eb1 65%, #9650b2);
+}
+
+.x-button.x-button-WISTERIA, .x-toolbar .x-button.x-button-WISTERIA,
+.x-button.x-button-WISTERIA-round, .x-toolbar
+.x-button.x-button-WISTERIA-round,
+.x-button.x-button-WISTERIA-small, .x-toolbar
+.x-button.x-button-WISTERIA-small {
+  border: 1px solid #522764;
+  border-top-color: #612e76;
+  background-color: #8e44ad;
+  color: white;
+}
+.x-button.x-button-WISTERIA.x-button-back:before, .x-button.x-button-WISTERIA.x-button-forward:before, .x-toolbar .x-button.x-button-WISTERIA.x-button-back:before, .x-toolbar .x-button.x-button-WISTERIA.x-button-forward:before,
+.x-button.x-button-WISTERIA-round.x-button-back:before,
+.x-button.x-button-WISTERIA-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-WISTERIA-round.x-button-back:before, .x-toolbar
+.x-button.x-button-WISTERIA-round.x-button-forward:before,
+.x-button.x-button-WISTERIA-small.x-button-back:before,
+.x-button.x-button-WISTERIA-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-WISTERIA-small.x-button-back:before, .x-toolbar
+.x-button.x-button-WISTERIA-small.x-button-forward:before {
+  background: #522764;
+}
+.x-button.x-button-WISTERIA, .x-button.x-button-WISTERIA.x-button-back:after, .x-button.x-button-WISTERIA.x-button-forward:after, .x-toolbar .x-button.x-button-WISTERIA, .x-toolbar .x-button.x-button-WISTERIA.x-button-back:after, .x-toolbar .x-button.x-button-WISTERIA.x-button-forward:after,
+.x-button.x-button-WISTERIA-round,
+.x-button.x-button-WISTERIA-round.x-button-back:after,
+.x-button.x-button-WISTERIA-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-WISTERIA-round, .x-toolbar
+.x-button.x-button-WISTERIA-round.x-button-back:after, .x-toolbar
+.x-button.x-button-WISTERIA-round.x-button-forward:after,
+.x-button.x-button-WISTERIA-small,
+.x-button.x-button-WISTERIA-small.x-button-back:after,
+.x-button.x-button-WISTERIA-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-WISTERIA-small, .x-toolbar
+.x-button.x-button-WISTERIA-small.x-button-back:after, .x-toolbar
+.x-button.x-button-WISTERIA-small.x-button-forward:after {
+  background-image: none;
+  background-color: #8e44ad;
+  background-image: -webkit-linear-gradient(top, #b075c9, #9b50ba 50%, #8e44ad 51%, #7f3d9b);
+  background-image: -moz-linear-gradient(top, #b075c9, #9b50ba 50%, #8e44ad 51%, #7f3d9b);
+  background-image: -o-linear-gradient(top, #b075c9, #9b50ba 50%, #8e44ad 51%, #7f3d9b);
+  background-image: linear-gradient(top, #b075c9, #9b50ba 50%, #8e44ad 51%, #7f3d9b);
+}
+.x-button.x-button-WISTERIA.x-button-pressing, .x-button.x-button-WISTERIA.x-button-pressing:after, .x-button.x-button-WISTERIA.x-button-pressed, .x-button.x-button-WISTERIA.x-button-pressed:after, .x-button.x-button-WISTERIA.x-button-active, .x-button.x-button-WISTERIA.x-button-active:after, .x-toolbar .x-button.x-button-WISTERIA.x-button-pressing, .x-toolbar .x-button.x-button-WISTERIA.x-button-pressing:after, .x-toolbar .x-button.x-button-WISTERIA.x-button-pressed, .x-toolbar .x-button.x-button-WISTERIA.x-button-pressed:after, .x-toolbar .x-button.x-button-WISTERIA.x-button-active, .x-toolbar .x-button.x-button-WISTERIA.x-button-active:after,
+.x-button.x-button-WISTERIA-round.x-button-pressing,
+.x-button.x-button-WISTERIA-round.x-button-pressing:after,
+.x-button.x-button-WISTERIA-round.x-button-pressed,
+.x-button.x-button-WISTERIA-round.x-button-pressed:after,
+.x-button.x-button-WISTERIA-round.x-button-active,
+.x-button.x-button-WISTERIA-round.x-button-active:after, .x-toolbar
+.x-button.x-button-WISTERIA-round.x-button-pressing, .x-toolbar
+.x-button.x-button-WISTERIA-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-WISTERIA-round.x-button-pressed, .x-toolbar
+.x-button.x-button-WISTERIA-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-WISTERIA-round.x-button-active, .x-toolbar
+.x-button.x-button-WISTERIA-round.x-button-active:after,
+.x-button.x-button-WISTERIA-small.x-button-pressing,
+.x-button.x-button-WISTERIA-small.x-button-pressing:after,
+.x-button.x-button-WISTERIA-small.x-button-pressed,
+.x-button.x-button-WISTERIA-small.x-button-pressed:after,
+.x-button.x-button-WISTERIA-small.x-button-active,
+.x-button.x-button-WISTERIA-small.x-button-active:after, .x-toolbar
+.x-button.x-button-WISTERIA-small.x-button-pressing, .x-toolbar
+.x-button.x-button-WISTERIA-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-WISTERIA-small.x-button-pressed, .x-toolbar
+.x-button.x-button-WISTERIA-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-WISTERIA-small.x-button-active, .x-toolbar
+.x-button.x-button-WISTERIA-small.x-button-active:after {
+  background-image: none;
+  background-color: #8540a2;
+  background-image: -webkit-linear-gradient(top, #67317d, #763890 10%, #8540a2 65%, #8640a4);
+  background-image: -moz-linear-gradient(top, #67317d, #763890 10%, #8540a2 65%, #8640a4);
+  background-image: -o-linear-gradient(top, #67317d, #763890 10%, #8540a2 65%, #8640a4);
+  background-image: linear-gradient(top, #67317d, #763890 10%, #8540a2 65%, #8640a4);
+}
+
+.x-button.x-button-WET-ASPHALT, .x-toolbar .x-button.x-button-WET-ASPHALT,
+.x-button.x-button-WET-ASPHALT-round, .x-toolbar
+.x-button.x-button-WET-ASPHALT-round,
+.x-button.x-button-WET-ASPHALT-small, .x-toolbar
+.x-button.x-button-WET-ASPHALT-small {
+  border: 1px solid #10161c;
+  border-top-color: #19232d;
+  background-color: #34495e;
+  color: white;
+}
+.x-button.x-button-WET-ASPHALT.x-button-back:before, .x-button.x-button-WET-ASPHALT.x-button-forward:before, .x-toolbar .x-button.x-button-WET-ASPHALT.x-button-back:before, .x-toolbar .x-button.x-button-WET-ASPHALT.x-button-forward:before,
+.x-button.x-button-WET-ASPHALT-round.x-button-back:before,
+.x-button.x-button-WET-ASPHALT-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-WET-ASPHALT-round.x-button-back:before, .x-toolbar
+.x-button.x-button-WET-ASPHALT-round.x-button-forward:before,
+.x-button.x-button-WET-ASPHALT-small.x-button-back:before,
+.x-button.x-button-WET-ASPHALT-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-WET-ASPHALT-small.x-button-back:before, .x-toolbar
+.x-button.x-button-WET-ASPHALT-small.x-button-forward:before {
+  background: #10161c;
+}
+.x-button.x-button-WET-ASPHALT, .x-button.x-button-WET-ASPHALT.x-button-back:after, .x-button.x-button-WET-ASPHALT.x-button-forward:after, .x-toolbar .x-button.x-button-WET-ASPHALT, .x-toolbar .x-button.x-button-WET-ASPHALT.x-button-back:after, .x-toolbar .x-button.x-button-WET-ASPHALT.x-button-forward:after,
+.x-button.x-button-WET-ASPHALT-round,
+.x-button.x-button-WET-ASPHALT-round.x-button-back:after,
+.x-button.x-button-WET-ASPHALT-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-WET-ASPHALT-round, .x-toolbar
+.x-button.x-button-WET-ASPHALT-round.x-button-back:after, .x-toolbar
+.x-button.x-button-WET-ASPHALT-round.x-button-forward:after,
+.x-button.x-button-WET-ASPHALT-small,
+.x-button.x-button-WET-ASPHALT-small.x-button-back:after,
+.x-button.x-button-WET-ASPHALT-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-WET-ASPHALT-small, .x-toolbar
+.x-button.x-button-WET-ASPHALT-small.x-button-back:after, .x-toolbar
+.x-button.x-button-WET-ASPHALT-small.x-button-forward:after {
+  background-image: none;
+  background-color: #34495e;
+  background-image: -webkit-linear-gradient(top, #4f6f8f, #3d566e 50%, #34495e 51%, #2b3c4e);
+  background-image: -moz-linear-gradient(top, #4f6f8f, #3d566e 50%, #34495e 51%, #2b3c4e);
+  background-image: -o-linear-gradient(top, #4f6f8f, #3d566e 50%, #34495e 51%, #2b3c4e);
+  background-image: linear-gradient(top, #4f6f8f, #3d566e 50%, #34495e 51%, #2b3c4e);
+}
+.x-button.x-button-WET-ASPHALT.x-button-pressing, .x-button.x-button-WET-ASPHALT.x-button-pressing:after, .x-button.x-button-WET-ASPHALT.x-button-pressed, .x-button.x-button-WET-ASPHALT.x-button-pressed:after, .x-button.x-button-WET-ASPHALT.x-button-active, .x-button.x-button-WET-ASPHALT.x-button-active:after, .x-toolbar .x-button.x-button-WET-ASPHALT.x-button-pressing, .x-toolbar .x-button.x-button-WET-ASPHALT.x-button-pressing:after, .x-toolbar .x-button.x-button-WET-ASPHALT.x-button-pressed, .x-toolbar .x-button.x-button-WET-ASPHALT.x-button-pressed:after, .x-toolbar .x-button.x-button-WET-ASPHALT.x-button-active, .x-toolbar .x-button.x-button-WET-ASPHALT.x-button-active:after,
+.x-button.x-button-WET-ASPHALT-round.x-button-pressing,
+.x-button.x-button-WET-ASPHALT-round.x-button-pressing:after,
+.x-button.x-button-WET-ASPHALT-round.x-button-pressed,
+.x-button.x-button-WET-ASPHALT-round.x-button-pressed:after,
+.x-button.x-button-WET-ASPHALT-round.x-button-active,
+.x-button.x-button-WET-ASPHALT-round.x-button-active:after, .x-toolbar
+.x-button.x-button-WET-ASPHALT-round.x-button-pressing, .x-toolbar
+.x-button.x-button-WET-ASPHALT-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-WET-ASPHALT-round.x-button-pressed, .x-toolbar
+.x-button.x-button-WET-ASPHALT-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-WET-ASPHALT-round.x-button-active, .x-toolbar
+.x-button.x-button-WET-ASPHALT-round.x-button-active:after,
+.x-button.x-button-WET-ASPHALT-small.x-button-pressing,
+.x-button.x-button-WET-ASPHALT-small.x-button-pressing:after,
+.x-button.x-button-WET-ASPHALT-small.x-button-pressed,
+.x-button.x-button-WET-ASPHALT-small.x-button-pressed:after,
+.x-button.x-button-WET-ASPHALT-small.x-button-active,
+.x-button.x-button-WET-ASPHALT-small.x-button-active:after, .x-toolbar
+.x-button.x-button-WET-ASPHALT-small.x-button-pressing, .x-toolbar
+.x-button.x-button-WET-ASPHALT-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-WET-ASPHALT-small.x-button-pressed, .x-toolbar
+.x-button.x-button-WET-ASPHALT-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-WET-ASPHALT-small.x-button-active, .x-toolbar
+.x-button.x-button-WET-ASPHALT-small.x-button-active:after {
+  background-image: none;
+  background-color: #2f4154;
+  background-image: -webkit-linear-gradient(top, #1c2833, #253544 10%, #2f4154 65%, #2f4356);
+  background-image: -moz-linear-gradient(top, #1c2833, #253544 10%, #2f4154 65%, #2f4356);
+  background-image: -o-linear-gradient(top, #1c2833, #253544 10%, #2f4154 65%, #2f4356);
+  background-image: linear-gradient(top, #1c2833, #253544 10%, #2f4154 65%, #2f4356);
+}
+
+.x-button.x-button-MIDNIGHT-BLUE, .x-toolbar .x-button.x-button-MIDNIGHT-BLUE,
+.x-button.x-button-MIDNIGHT-BLUE-round, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-round,
+.x-button.x-button-MIDNIGHT-BLUE-small, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-small {
+  border: 1px solid #080b0e;
+  border-top-color: #11181f;
+  background-color: #2c3e50;
+  color: white;
+}
+.x-button.x-button-MIDNIGHT-BLUE.x-button-back:before, .x-button.x-button-MIDNIGHT-BLUE.x-button-forward:before, .x-toolbar .x-button.x-button-MIDNIGHT-BLUE.x-button-back:before, .x-toolbar .x-button.x-button-MIDNIGHT-BLUE.x-button-forward:before,
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-back:before,
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-back:before, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-forward:before,
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-back:before,
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-back:before, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-forward:before {
+  background: #080b0e;
+}
+.x-button.x-button-MIDNIGHT-BLUE, .x-button.x-button-MIDNIGHT-BLUE.x-button-back:after, .x-button.x-button-MIDNIGHT-BLUE.x-button-forward:after, .x-toolbar .x-button.x-button-MIDNIGHT-BLUE, .x-toolbar .x-button.x-button-MIDNIGHT-BLUE.x-button-back:after, .x-toolbar .x-button.x-button-MIDNIGHT-BLUE.x-button-forward:after,
+.x-button.x-button-MIDNIGHT-BLUE-round,
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-back:after,
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-round, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-back:after, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-forward:after,
+.x-button.x-button-MIDNIGHT-BLUE-small,
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-back:after,
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-small, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-back:after, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-forward:after {
+  background-image: none;
+  background-color: #2c3e50;
+  background-image: -webkit-linear-gradient(top, #476481, #354b60 50%, #2c3e50 51%, #233140);
+  background-image: -moz-linear-gradient(top, #476481, #354b60 50%, #2c3e50 51%, #233140);
+  background-image: -o-linear-gradient(top, #476481, #354b60 50%, #2c3e50 51%, #233140);
+  background-image: linear-gradient(top, #476481, #354b60 50%, #2c3e50 51%, #233140);
+}
+.x-button.x-button-MIDNIGHT-BLUE.x-button-pressing, .x-button.x-button-MIDNIGHT-BLUE.x-button-pressing:after, .x-button.x-button-MIDNIGHT-BLUE.x-button-pressed, .x-button.x-button-MIDNIGHT-BLUE.x-button-pressed:after, .x-button.x-button-MIDNIGHT-BLUE.x-button-active, .x-button.x-button-MIDNIGHT-BLUE.x-button-active:after, .x-toolbar .x-button.x-button-MIDNIGHT-BLUE.x-button-pressing, .x-toolbar .x-button.x-button-MIDNIGHT-BLUE.x-button-pressing:after, .x-toolbar .x-button.x-button-MIDNIGHT-BLUE.x-button-pressed, .x-toolbar .x-button.x-button-MIDNIGHT-BLUE.x-button-pressed:after, .x-toolbar .x-button.x-button-MIDNIGHT-BLUE.x-button-active, .x-toolbar .x-button.x-button-MIDNIGHT-BLUE.x-button-active:after,
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-pressing,
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-pressing:after,
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-pressed,
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-pressed:after,
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-active,
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-active:after, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-pressing, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-pressed, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-active, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-round.x-button-active:after,
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-pressing,
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-pressing:after,
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-pressed,
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-pressed:after,
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-active,
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-active:after, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-pressing, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-pressed, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-active, .x-toolbar
+.x-button.x-button-MIDNIGHT-BLUE-small.x-button-active:after {
+  background-image: none;
+  background-color: #273646;
+  background-image: -webkit-linear-gradient(top, #141d25, #1e2a36 10%, #273646 65%, #273848);
+  background-image: -moz-linear-gradient(top, #141d25, #1e2a36 10%, #273646 65%, #273848);
+  background-image: -o-linear-gradient(top, #141d25, #1e2a36 10%, #273646 65%, #273848);
+  background-image: linear-gradient(top, #141d25, #1e2a36 10%, #273646 65%, #273848);
+}
+
+.x-button.x-button-SUN-FLOWER, .x-toolbar .x-button.x-button-SUN-FLOWER,
+.x-button.x-button-SUN-FLOWER-round, .x-toolbar
+.x-button.x-button-SUN-FLOWER-round,
+.x-button.x-button-SUN-FLOWER-small, .x-toolbar
+.x-button.x-button-SUN-FLOWER-small {
+  border: 1px solid #927608;
+  border-top-color: #aa8a0a;
+  background-color: #f1c40f;
+  color: black;
+}
+.x-button.x-button-SUN-FLOWER.x-button-back:before, .x-button.x-button-SUN-FLOWER.x-button-forward:before, .x-toolbar .x-button.x-button-SUN-FLOWER.x-button-back:before, .x-toolbar .x-button.x-button-SUN-FLOWER.x-button-forward:before,
+.x-button.x-button-SUN-FLOWER-round.x-button-back:before,
+.x-button.x-button-SUN-FLOWER-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-SUN-FLOWER-round.x-button-back:before, .x-toolbar
+.x-button.x-button-SUN-FLOWER-round.x-button-forward:before,
+.x-button.x-button-SUN-FLOWER-small.x-button-back:before,
+.x-button.x-button-SUN-FLOWER-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-SUN-FLOWER-small.x-button-back:before, .x-toolbar
+.x-button.x-button-SUN-FLOWER-small.x-button-forward:before {
+  background: #927608;
+}
+.x-button.x-button-SUN-FLOWER, .x-button.x-button-SUN-FLOWER.x-button-back:after, .x-button.x-button-SUN-FLOWER.x-button-forward:after, .x-toolbar .x-button.x-button-SUN-FLOWER, .x-toolbar .x-button.x-button-SUN-FLOWER.x-button-back:after, .x-toolbar .x-button.x-button-SUN-FLOWER.x-button-forward:after,
+.x-button.x-button-SUN-FLOWER-round,
+.x-button.x-button-SUN-FLOWER-round.x-button-back:after,
+.x-button.x-button-SUN-FLOWER-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-SUN-FLOWER-round, .x-toolbar
+.x-button.x-button-SUN-FLOWER-round.x-button-back:after, .x-toolbar
+.x-button.x-button-SUN-FLOWER-round.x-button-forward:after,
+.x-button.x-button-SUN-FLOWER-small,
+.x-button.x-button-SUN-FLOWER-small.x-button-back:after,
+.x-button.x-button-SUN-FLOWER-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-SUN-FLOWER-small, .x-toolbar
+.x-button.x-button-SUN-FLOWER-small.x-button-back:after, .x-toolbar
+.x-button.x-button-SUN-FLOWER-small.x-button-forward:after {
+  background-image: none;
+  background-color: #f1c40f;
+  background-image: -webkit-linear-gradient(top, #f5d657, #f2ca27 50%, #f1c40f 51%, #dab10d);
+  background-image: -moz-linear-gradient(top, #f5d657, #f2ca27 50%, #f1c40f 51%, #dab10d);
+  background-image: -o-linear-gradient(top, #f5d657, #f2ca27 50%, #f1c40f 51%, #dab10d);
+  background-image: linear-gradient(top, #f5d657, #f2ca27 50%, #f1c40f 51%, #dab10d);
+}
+.x-button.x-button-SUN-FLOWER.x-button-pressing, .x-button.x-button-SUN-FLOWER.x-button-pressing:after, .x-button.x-button-SUN-FLOWER.x-button-pressed, .x-button.x-button-SUN-FLOWER.x-button-pressed:after, .x-button.x-button-SUN-FLOWER.x-button-active, .x-button.x-button-SUN-FLOWER.x-button-active:after, .x-toolbar .x-button.x-button-SUN-FLOWER.x-button-pressing, .x-toolbar .x-button.x-button-SUN-FLOWER.x-button-pressing:after, .x-toolbar .x-button.x-button-SUN-FLOWER.x-button-pressed, .x-toolbar .x-button.x-button-SUN-FLOWER.x-button-pressed:after, .x-toolbar .x-button.x-button-SUN-FLOWER.x-button-active, .x-toolbar .x-button.x-button-SUN-FLOWER.x-button-active:after,
+.x-button.x-button-SUN-FLOWER-round.x-button-pressing,
+.x-button.x-button-SUN-FLOWER-round.x-button-pressing:after,
+.x-button.x-button-SUN-FLOWER-round.x-button-pressed,
+.x-button.x-button-SUN-FLOWER-round.x-button-pressed:after,
+.x-button.x-button-SUN-FLOWER-round.x-button-active,
+.x-button.x-button-SUN-FLOWER-round.x-button-active:after, .x-toolbar
+.x-button.x-button-SUN-FLOWER-round.x-button-pressing, .x-toolbar
+.x-button.x-button-SUN-FLOWER-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-SUN-FLOWER-round.x-button-pressed, .x-toolbar
+.x-button.x-button-SUN-FLOWER-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-SUN-FLOWER-round.x-button-active, .x-toolbar
+.x-button.x-button-SUN-FLOWER-round.x-button-active:after,
+.x-button.x-button-SUN-FLOWER-small.x-button-pressing,
+.x-button.x-button-SUN-FLOWER-small.x-button-pressing:after,
+.x-button.x-button-SUN-FLOWER-small.x-button-pressed,
+.x-button.x-button-SUN-FLOWER-small.x-button-pressed:after,
+.x-button.x-button-SUN-FLOWER-small.x-button-active,
+.x-button.x-button-SUN-FLOWER-small.x-button-active:after, .x-toolbar
+.x-button.x-button-SUN-FLOWER-small.x-button-pressing, .x-toolbar
+.x-button.x-button-SUN-FLOWER-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-SUN-FLOWER-small.x-button-pressed, .x-toolbar
+.x-button.x-button-SUN-FLOWER-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-SUN-FLOWER-small.x-button-active, .x-toolbar
+.x-button.x-button-SUN-FLOWER-small.x-button-active:after {
+  background-image: none;
+  background-color: #e3b90d;
+  background-image: -webkit-linear-gradient(top, #b3920a, #cba50c 10%, #e3b90d 65%, #e6bb0d);
+  background-image: -moz-linear-gradient(top, #b3920a, #cba50c 10%, #e3b90d 65%, #e6bb0d);
+  background-image: -o-linear-gradient(top, #b3920a, #cba50c 10%, #e3b90d 65%, #e6bb0d);
+  background-image: linear-gradient(top, #b3920a, #cba50c 10%, #e3b90d 65%, #e6bb0d);
+}
+
+.x-button.x-button-CARROT, .x-toolbar .x-button.x-button-CARROT,
+.x-button.x-button-CARROT-round, .x-toolbar
+.x-button.x-button-CARROT-round,
+.x-button.x-button-CARROT-small, .x-toolbar
+.x-button.x-button-CARROT-small {
+  border: 1px solid #976008;
+  border-top-color: #b06f09;
+  background-color: #f39c12;
+  color: black;
+}
+.x-button.x-button-CARROT.x-button-back:before, .x-button.x-button-CARROT.x-button-forward:before, .x-toolbar .x-button.x-button-CARROT.x-button-back:before, .x-toolbar .x-button.x-button-CARROT.x-button-forward:before,
+.x-button.x-button-CARROT-round.x-button-back:before,
+.x-button.x-button-CARROT-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-CARROT-round.x-button-back:before, .x-toolbar
+.x-button.x-button-CARROT-round.x-button-forward:before,
+.x-button.x-button-CARROT-small.x-button-back:before,
+.x-button.x-button-CARROT-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-CARROT-small.x-button-back:before, .x-toolbar
+.x-button.x-button-CARROT-small.x-button-forward:before {
+  background: #976008;
+}
+.x-button.x-button-CARROT, .x-button.x-button-CARROT.x-button-back:after, .x-button.x-button-CARROT.x-button-forward:after, .x-toolbar .x-button.x-button-CARROT, .x-toolbar .x-button.x-button-CARROT.x-button-back:after, .x-toolbar .x-button.x-button-CARROT.x-button-forward:after,
+.x-button.x-button-CARROT-round,
+.x-button.x-button-CARROT-round.x-button-back:after,
+.x-button.x-button-CARROT-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-CARROT-round, .x-toolbar
+.x-button.x-button-CARROT-round.x-button-back:after, .x-toolbar
+.x-button.x-button-CARROT-round.x-button-forward:after,
+.x-button.x-button-CARROT-small,
+.x-button.x-button-CARROT-small.x-button-back:after,
+.x-button.x-button-CARROT-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-CARROT-small, .x-toolbar
+.x-button.x-button-CARROT-small.x-button-back:after, .x-toolbar
+.x-button.x-button-CARROT-small.x-button-forward:after {
+  background-image: none;
+  background-color: #f39c12;
+  background-image: -webkit-linear-gradient(top, #f7ba5b, #f4a62a 50%, #f39c12 51%, #e08e0b);
+  background-image: -moz-linear-gradient(top, #f7ba5b, #f4a62a 50%, #f39c12 51%, #e08e0b);
+  background-image: -o-linear-gradient(top, #f7ba5b, #f4a62a 50%, #f39c12 51%, #e08e0b);
+  background-image: linear-gradient(top, #f7ba5b, #f4a62a 50%, #f39c12 51%, #e08e0b);
+}
+.x-button.x-button-CARROT.x-button-pressing, .x-button.x-button-CARROT.x-button-pressing:after, .x-button.x-button-CARROT.x-button-pressed, .x-button.x-button-CARROT.x-button-pressed:after, .x-button.x-button-CARROT.x-button-active, .x-button.x-button-CARROT.x-button-active:after, .x-toolbar .x-button.x-button-CARROT.x-button-pressing, .x-toolbar .x-button.x-button-CARROT.x-button-pressing:after, .x-toolbar .x-button.x-button-CARROT.x-button-pressed, .x-toolbar .x-button.x-button-CARROT.x-button-pressed:after, .x-toolbar .x-button.x-button-CARROT.x-button-active, .x-toolbar .x-button.x-button-CARROT.x-button-active:after,
+.x-button.x-button-CARROT-round.x-button-pressing,
+.x-button.x-button-CARROT-round.x-button-pressing:after,
+.x-button.x-button-CARROT-round.x-button-pressed,
+.x-button.x-button-CARROT-round.x-button-pressed:after,
+.x-button.x-button-CARROT-round.x-button-active,
+.x-button.x-button-CARROT-round.x-button-active:after, .x-toolbar
+.x-button.x-button-CARROT-round.x-button-pressing, .x-toolbar
+.x-button.x-button-CARROT-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-CARROT-round.x-button-pressed, .x-toolbar
+.x-button.x-button-CARROT-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-CARROT-round.x-button-active, .x-toolbar
+.x-button.x-button-CARROT-round.x-button-active:after,
+.x-button.x-button-CARROT-small.x-button-pressing,
+.x-button.x-button-CARROT-small.x-button-pressing:after,
+.x-button.x-button-CARROT-small.x-button-pressed,
+.x-button.x-button-CARROT-small.x-button-pressed:after,
+.x-button.x-button-CARROT-small.x-button-active,
+.x-button.x-button-CARROT-small.x-button-active:after, .x-toolbar
+.x-button.x-button-CARROT-small.x-button-pressing, .x-toolbar
+.x-button.x-button-CARROT-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-CARROT-small.x-button-pressed, .x-toolbar
+.x-button.x-button-CARROT-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-CARROT-small.x-button-active, .x-toolbar
+.x-button.x-button-CARROT-small.x-button-active:after {
+  background-image: none;
+  background-color: #ea940c;
+  background-image: -webkit-linear-gradient(top, #b97509, #d2850b 10%, #ea940c 65%, #ec960c);
+  background-image: -moz-linear-gradient(top, #b97509, #d2850b 10%, #ea940c 65%, #ec960c);
+  background-image: -o-linear-gradient(top, #b97509, #d2850b 10%, #ea940c 65%, #ec960c);
+  background-image: linear-gradient(top, #b97509, #d2850b 10%, #ea940c 65%, #ec960c);
+}
+
+.x-button.x-button-PUMPKIN, .x-toolbar .x-button.x-button-PUMPKIN,
+.x-button.x-button-PUMPKIN-round, .x-toolbar
+.x-button.x-button-PUMPKIN-round,
+.x-button.x-button-PUMPKIN-small, .x-toolbar
+.x-button.x-button-PUMPKIN-small {
+  border: 1px solid #924d10;
+  border-top-color: #a85913;
+  background-color: #e67e22;
+  color: black;
+}
+.x-button.x-button-PUMPKIN.x-button-back:before, .x-button.x-button-PUMPKIN.x-button-forward:before, .x-toolbar .x-button.x-button-PUMPKIN.x-button-back:before, .x-toolbar .x-button.x-button-PUMPKIN.x-button-forward:before,
+.x-button.x-button-PUMPKIN-round.x-button-back:before,
+.x-button.x-button-PUMPKIN-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-PUMPKIN-round.x-button-back:before, .x-toolbar
+.x-button.x-button-PUMPKIN-round.x-button-forward:before,
+.x-button.x-button-PUMPKIN-small.x-button-back:before,
+.x-button.x-button-PUMPKIN-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-PUMPKIN-small.x-button-back:before, .x-toolbar
+.x-button.x-button-PUMPKIN-small.x-button-forward:before {
+  background: #924d10;
+}
+.x-button.x-button-PUMPKIN, .x-button.x-button-PUMPKIN.x-button-back:after, .x-button.x-button-PUMPKIN.x-button-forward:after, .x-toolbar .x-button.x-button-PUMPKIN, .x-toolbar .x-button.x-button-PUMPKIN.x-button-back:after, .x-toolbar .x-button.x-button-PUMPKIN.x-button-forward:after,
+.x-button.x-button-PUMPKIN-round,
+.x-button.x-button-PUMPKIN-round.x-button-back:after,
+.x-button.x-button-PUMPKIN-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-PUMPKIN-round, .x-toolbar
+.x-button.x-button-PUMPKIN-round.x-button-back:after, .x-toolbar
+.x-button.x-button-PUMPKIN-round.x-button-forward:after,
+.x-button.x-button-PUMPKIN-small,
+.x-button.x-button-PUMPKIN-small.x-button-back:after,
+.x-button.x-button-PUMPKIN-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-PUMPKIN-small, .x-toolbar
+.x-button.x-button-PUMPKIN-small.x-button-back:after, .x-toolbar
+.x-button.x-button-PUMPKIN-small.x-button-forward:after {
+  background-image: none;
+  background-color: #e67e22;
+  background-image: -webkit-linear-gradient(top, #eea667, #e98b39 50%, #e67e22 51%, #d67118);
+  background-image: -moz-linear-gradient(top, #eea667, #e98b39 50%, #e67e22 51%, #d67118);
+  background-image: -o-linear-gradient(top, #eea667, #e98b39 50%, #e67e22 51%, #d67118);
+  background-image: linear-gradient(top, #eea667, #e98b39 50%, #e67e22 51%, #d67118);
+}
+.x-button.x-button-PUMPKIN.x-button-pressing, .x-button.x-button-PUMPKIN.x-button-pressing:after, .x-button.x-button-PUMPKIN.x-button-pressed, .x-button.x-button-PUMPKIN.x-button-pressed:after, .x-button.x-button-PUMPKIN.x-button-active, .x-button.x-button-PUMPKIN.x-button-active:after, .x-toolbar .x-button.x-button-PUMPKIN.x-button-pressing, .x-toolbar .x-button.x-button-PUMPKIN.x-button-pressing:after, .x-toolbar .x-button.x-button-PUMPKIN.x-button-pressed, .x-toolbar .x-button.x-button-PUMPKIN.x-button-pressed:after, .x-toolbar .x-button.x-button-PUMPKIN.x-button-active, .x-toolbar .x-button.x-button-PUMPKIN.x-button-active:after,
+.x-button.x-button-PUMPKIN-round.x-button-pressing,
+.x-button.x-button-PUMPKIN-round.x-button-pressing:after,
+.x-button.x-button-PUMPKIN-round.x-button-pressed,
+.x-button.x-button-PUMPKIN-round.x-button-pressed:after,
+.x-button.x-button-PUMPKIN-round.x-button-active,
+.x-button.x-button-PUMPKIN-round.x-button-active:after, .x-toolbar
+.x-button.x-button-PUMPKIN-round.x-button-pressing, .x-toolbar
+.x-button.x-button-PUMPKIN-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-PUMPKIN-round.x-button-pressed, .x-toolbar
+.x-button.x-button-PUMPKIN-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-PUMPKIN-round.x-button-active, .x-toolbar
+.x-button.x-button-PUMPKIN-round.x-button-active:after,
+.x-button.x-button-PUMPKIN-small.x-button-pressing,
+.x-button.x-button-PUMPKIN-small.x-button-pressing:after,
+.x-button.x-button-PUMPKIN-small.x-button-pressed,
+.x-button.x-button-PUMPKIN-small.x-button-pressed:after,
+.x-button.x-button-PUMPKIN-small.x-button-active,
+.x-button.x-button-PUMPKIN-small.x-button-active:after, .x-toolbar
+.x-button.x-button-PUMPKIN-small.x-button-pressing, .x-toolbar
+.x-button.x-button-PUMPKIN-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-PUMPKIN-small.x-button-pressed, .x-toolbar
+.x-button.x-button-PUMPKIN-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-PUMPKIN-small.x-button-active, .x-toolbar
+.x-button.x-button-PUMPKIN-small.x-button-active:after {
+  background-image: none;
+  background-color: #df7619;
+  background-image: -webkit-linear-gradient(top, #b25e14, #c96a17 10%, #df7619 65%, #e2771a);
+  background-image: -moz-linear-gradient(top, #b25e14, #c96a17 10%, #df7619 65%, #e2771a);
+  background-image: -o-linear-gradient(top, #b25e14, #c96a17 10%, #df7619 65%, #e2771a);
+  background-image: linear-gradient(top, #b25e14, #c96a17 10%, #df7619 65%, #e2771a);
+}
+
+.x-button.x-button-ALIZARIN, .x-toolbar .x-button.x-button-ALIZARIN,
+.x-button.x-button-ALIZARIN-round, .x-toolbar
+.x-button.x-button-ALIZARIN-round,
+.x-button.x-button-ALIZARIN-small, .x-toolbar
+.x-button.x-button-ALIZARIN-small {
+  border: 1px solid #6d2b00;
+  border-top-color: #863600;
+  background-color: #d35400;
+  color: white;
+}
+.x-button.x-button-ALIZARIN.x-button-back:before, .x-button.x-button-ALIZARIN.x-button-forward:before, .x-toolbar .x-button.x-button-ALIZARIN.x-button-back:before, .x-toolbar .x-button.x-button-ALIZARIN.x-button-forward:before,
+.x-button.x-button-ALIZARIN-round.x-button-back:before,
+.x-button.x-button-ALIZARIN-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-ALIZARIN-round.x-button-back:before, .x-toolbar
+.x-button.x-button-ALIZARIN-round.x-button-forward:before,
+.x-button.x-button-ALIZARIN-small.x-button-back:before,
+.x-button.x-button-ALIZARIN-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-ALIZARIN-small.x-button-back:before, .x-toolbar
+.x-button.x-button-ALIZARIN-small.x-button-forward:before {
+  background: #6d2b00;
+}
+.x-button.x-button-ALIZARIN, .x-button.x-button-ALIZARIN.x-button-back:after, .x-button.x-button-ALIZARIN.x-button-forward:after, .x-toolbar .x-button.x-button-ALIZARIN, .x-toolbar .x-button.x-button-ALIZARIN.x-button-back:after, .x-toolbar .x-button.x-button-ALIZARIN.x-button-forward:after,
+.x-button.x-button-ALIZARIN-round,
+.x-button.x-button-ALIZARIN-round.x-button-back:after,
+.x-button.x-button-ALIZARIN-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-ALIZARIN-round, .x-toolbar
+.x-button.x-button-ALIZARIN-round.x-button-back:after, .x-toolbar
+.x-button.x-button-ALIZARIN-round.x-button-forward:after,
+.x-button.x-button-ALIZARIN-small,
+.x-button.x-button-ALIZARIN-small.x-button-back:after,
+.x-button.x-button-ALIZARIN-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-ALIZARIN-small, .x-toolbar
+.x-button.x-button-ALIZARIN-small.x-button-back:after, .x-toolbar
+.x-button.x-button-ALIZARIN-small.x-button-forward:after {
+  background-image: none;
+  background-color: #d35400;
+  background-image: -webkit-linear-gradient(top, #ff7921, #ec5e00 50%, #d35400 51%, #b94a00);
+  background-image: -moz-linear-gradient(top, #ff7921, #ec5e00 50%, #d35400 51%, #b94a00);
+  background-image: -o-linear-gradient(top, #ff7921, #ec5e00 50%, #d35400 51%, #b94a00);
+  background-image: linear-gradient(top, #ff7921, #ec5e00 50%, #d35400 51%, #b94a00);
+}
+.x-button.x-button-ALIZARIN.x-button-pressing, .x-button.x-button-ALIZARIN.x-button-pressing:after, .x-button.x-button-ALIZARIN.x-button-pressed, .x-button.x-button-ALIZARIN.x-button-pressed:after, .x-button.x-button-ALIZARIN.x-button-active, .x-button.x-button-ALIZARIN.x-button-active:after, .x-toolbar .x-button.x-button-ALIZARIN.x-button-pressing, .x-toolbar .x-button.x-button-ALIZARIN.x-button-pressing:after, .x-toolbar .x-button.x-button-ALIZARIN.x-button-pressed, .x-toolbar .x-button.x-button-ALIZARIN.x-button-pressed:after, .x-toolbar .x-button.x-button-ALIZARIN.x-button-active, .x-toolbar .x-button.x-button-ALIZARIN.x-button-active:after,
+.x-button.x-button-ALIZARIN-round.x-button-pressing,
+.x-button.x-button-ALIZARIN-round.x-button-pressing:after,
+.x-button.x-button-ALIZARIN-round.x-button-pressed,
+.x-button.x-button-ALIZARIN-round.x-button-pressed:after,
+.x-button.x-button-ALIZARIN-round.x-button-active,
+.x-button.x-button-ALIZARIN-round.x-button-active:after, .x-toolbar
+.x-button.x-button-ALIZARIN-round.x-button-pressing, .x-toolbar
+.x-button.x-button-ALIZARIN-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-ALIZARIN-round.x-button-pressed, .x-toolbar
+.x-button.x-button-ALIZARIN-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-ALIZARIN-round.x-button-active, .x-toolbar
+.x-button.x-button-ALIZARIN-round.x-button-active:after,
+.x-button.x-button-ALIZARIN-small.x-button-pressing,
+.x-button.x-button-ALIZARIN-small.x-button-pressing:after,
+.x-button.x-button-ALIZARIN-small.x-button-pressed,
+.x-button.x-button-ALIZARIN-small.x-button-pressed:after,
+.x-button.x-button-ALIZARIN-small.x-button-active,
+.x-button.x-button-ALIZARIN-small.x-button-active:after, .x-toolbar
+.x-button.x-button-ALIZARIN-small.x-button-pressing, .x-toolbar
+.x-button.x-button-ALIZARIN-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-ALIZARIN-small.x-button-pressed, .x-toolbar
+.x-button.x-button-ALIZARIN-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-ALIZARIN-small.x-button-active, .x-toolbar
+.x-button.x-button-ALIZARIN-small.x-button-active:after {
+  background-image: none;
+  background-color: #c44e00;
+  background-image: -webkit-linear-gradient(top, #913a00, #aa4400 10%, #c44e00 65%, #c64f00);
+  background-image: -moz-linear-gradient(top, #913a00, #aa4400 10%, #c44e00 65%, #c64f00);
+  background-image: -o-linear-gradient(top, #913a00, #aa4400 10%, #c44e00 65%, #c64f00);
+  background-image: linear-gradient(top, #913a00, #aa4400 10%, #c44e00 65%, #c64f00);
+}
+
+.x-button.x-button-POMEGRANATE, .x-toolbar .x-button.x-button-POMEGRANATE,
+.x-button.x-button-POMEGRANATE-round, .x-toolbar
+.x-button.x-button-POMEGRANATE-round,
+.x-button.x-button-POMEGRANATE-small, .x-toolbar
+.x-button.x-button-POMEGRANATE-small {
+  border: 1px solid #a82315;
+  border-top-color: #bf2718;
+  background-color: #e74c3c;
+  color: white;
+}
+.x-button.x-button-POMEGRANATE.x-button-back:before, .x-button.x-button-POMEGRANATE.x-button-forward:before, .x-toolbar .x-button.x-button-POMEGRANATE.x-button-back:before, .x-toolbar .x-button.x-button-POMEGRANATE.x-button-forward:before,
+.x-button.x-button-POMEGRANATE-round.x-button-back:before,
+.x-button.x-button-POMEGRANATE-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-POMEGRANATE-round.x-button-back:before, .x-toolbar
+.x-button.x-button-POMEGRANATE-round.x-button-forward:before,
+.x-button.x-button-POMEGRANATE-small.x-button-back:before,
+.x-button.x-button-POMEGRANATE-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-POMEGRANATE-small.x-button-back:before, .x-toolbar
+.x-button.x-button-POMEGRANATE-small.x-button-forward:before {
+  background: #a82315;
+}
+.x-button.x-button-POMEGRANATE, .x-button.x-button-POMEGRANATE.x-button-back:after, .x-button.x-button-POMEGRANATE.x-button-forward:after, .x-toolbar .x-button.x-button-POMEGRANATE, .x-toolbar .x-button.x-button-POMEGRANATE.x-button-back:after, .x-toolbar .x-button.x-button-POMEGRANATE.x-button-forward:after,
+.x-button.x-button-POMEGRANATE-round,
+.x-button.x-button-POMEGRANATE-round.x-button-back:after,
+.x-button.x-button-POMEGRANATE-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-POMEGRANATE-round, .x-toolbar
+.x-button.x-button-POMEGRANATE-round.x-button-back:after, .x-toolbar
+.x-button.x-button-POMEGRANATE-round.x-button-forward:after,
+.x-button.x-button-POMEGRANATE-small,
+.x-button.x-button-POMEGRANATE-small.x-button-back:after,
+.x-button.x-button-POMEGRANATE-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-POMEGRANATE-small, .x-toolbar
+.x-button.x-button-POMEGRANATE-small.x-button-back:after, .x-toolbar
+.x-button.x-button-POMEGRANATE-small.x-button-forward:after {
+  background-image: none;
+  background-color: #e74c3c;
+  background-image: -webkit-linear-gradient(top, #ef8b80, #ea6153 50%, #e74c3c 51%, #e43725);
+  background-image: -moz-linear-gradient(top, #ef8b80, #ea6153 50%, #e74c3c 51%, #e43725);
+  background-image: -o-linear-gradient(top, #ef8b80, #ea6153 50%, #e74c3c 51%, #e43725);
+  background-image: linear-gradient(top, #ef8b80, #ea6153 50%, #e74c3c 51%, #e43725);
+}
+.x-button.x-button-POMEGRANATE.x-button-pressing, .x-button.x-button-POMEGRANATE.x-button-pressing:after, .x-button.x-button-POMEGRANATE.x-button-pressed, .x-button.x-button-POMEGRANATE.x-button-pressed:after, .x-button.x-button-POMEGRANATE.x-button-active, .x-button.x-button-POMEGRANATE.x-button-active:after, .x-toolbar .x-button.x-button-POMEGRANATE.x-button-pressing, .x-toolbar .x-button.x-button-POMEGRANATE.x-button-pressing:after, .x-toolbar .x-button.x-button-POMEGRANATE.x-button-pressed, .x-toolbar .x-button.x-button-POMEGRANATE.x-button-pressed:after, .x-toolbar .x-button.x-button-POMEGRANATE.x-button-active, .x-toolbar .x-button.x-button-POMEGRANATE.x-button-active:after,
+.x-button.x-button-POMEGRANATE-round.x-button-pressing,
+.x-button.x-button-POMEGRANATE-round.x-button-pressing:after,
+.x-button.x-button-POMEGRANATE-round.x-button-pressed,
+.x-button.x-button-POMEGRANATE-round.x-button-pressed:after,
+.x-button.x-button-POMEGRANATE-round.x-button-active,
+.x-button.x-button-POMEGRANATE-round.x-button-active:after, .x-toolbar
+.x-button.x-button-POMEGRANATE-round.x-button-pressing, .x-toolbar
+.x-button.x-button-POMEGRANATE-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-POMEGRANATE-round.x-button-pressed, .x-toolbar
+.x-button.x-button-POMEGRANATE-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-POMEGRANATE-round.x-button-active, .x-toolbar
+.x-button.x-button-POMEGRANATE-round.x-button-active:after,
+.x-button.x-button-POMEGRANATE-small.x-button-pressing,
+.x-button.x-button-POMEGRANATE-small.x-button-pressing:after,
+.x-button.x-button-POMEGRANATE-small.x-button-pressed,
+.x-button.x-button-POMEGRANATE-small.x-button-pressed:after,
+.x-button.x-button-POMEGRANATE-small.x-button-active,
+.x-button.x-button-POMEGRANATE-small.x-button-active:after, .x-toolbar
+.x-button.x-button-POMEGRANATE-small.x-button-pressing, .x-toolbar
+.x-button.x-button-POMEGRANATE-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-POMEGRANATE-small.x-button-pressed, .x-toolbar
+.x-button.x-button-POMEGRANATE-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-POMEGRANATE-small.x-button-active, .x-toolbar
+.x-button.x-button-POMEGRANATE-small.x-button-active:after {
+  background-image: none;
+  background-color: #e53f2e;
+  background-image: -webkit-linear-gradient(top, #c82919, #df2e1b 10%, #e53f2e 65%, #e64231);
+  background-image: -moz-linear-gradient(top, #c82919, #df2e1b 10%, #e53f2e 65%, #e64231);
+  background-image: -o-linear-gradient(top, #c82919, #df2e1b 10%, #e53f2e 65%, #e64231);
+  background-image: linear-gradient(top, #c82919, #df2e1b 10%, #e53f2e 65%, #e64231);
+}
+
+.x-button.x-button-CLOUDS, .x-toolbar .x-button.x-button-CLOUDS,
+.x-button.x-button-CLOUDS-round, .x-toolbar
+.x-button.x-button-CLOUDS-round,
+.x-button.x-button-CLOUDS-small, .x-toolbar
+.x-button.x-button-CLOUDS-small {
+  border: 1px solid #6d2018;
+  border-top-color: #81261d;
+  background-color: #c0392b;
+  color: white;
+}
+.x-button.x-button-CLOUDS.x-button-back:before, .x-button.x-button-CLOUDS.x-button-forward:before, .x-toolbar .x-button.x-button-CLOUDS.x-button-back:before, .x-toolbar .x-button.x-button-CLOUDS.x-button-forward:before,
+.x-button.x-button-CLOUDS-round.x-button-back:before,
+.x-button.x-button-CLOUDS-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-CLOUDS-round.x-button-back:before, .x-toolbar
+.x-button.x-button-CLOUDS-round.x-button-forward:before,
+.x-button.x-button-CLOUDS-small.x-button-back:before,
+.x-button.x-button-CLOUDS-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-CLOUDS-small.x-button-back:before, .x-toolbar
+.x-button.x-button-CLOUDS-small.x-button-forward:before {
+  background: #6d2018;
+}
+.x-button.x-button-CLOUDS, .x-button.x-button-CLOUDS.x-button-back:after, .x-button.x-button-CLOUDS.x-button-forward:after, .x-toolbar .x-button.x-button-CLOUDS, .x-toolbar .x-button.x-button-CLOUDS.x-button-back:after, .x-toolbar .x-button.x-button-CLOUDS.x-button-forward:after,
+.x-button.x-button-CLOUDS-round,
+.x-button.x-button-CLOUDS-round.x-button-back:after,
+.x-button.x-button-CLOUDS-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-CLOUDS-round, .x-toolbar
+.x-button.x-button-CLOUDS-round.x-button-back:after, .x-toolbar
+.x-button.x-button-CLOUDS-round.x-button-forward:after,
+.x-button.x-button-CLOUDS-small,
+.x-button.x-button-CLOUDS-small.x-button-back:after,
+.x-button.x-button-CLOUDS-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-CLOUDS-small, .x-toolbar
+.x-button.x-button-CLOUDS-small.x-button-back:after, .x-toolbar
+.x-button.x-button-CLOUDS-small.x-button-forward:after {
+  background-image: none;
+  background-color: #c0392b;
+  background-image: -webkit-linear-gradient(top, #db695d, #d14233 50%, #c0392b 51%, #ab3326);
+  background-image: -moz-linear-gradient(top, #db695d, #d14233 50%, #c0392b 51%, #ab3326);
+  background-image: -o-linear-gradient(top, #db695d, #d14233 50%, #c0392b 51%, #ab3326);
+  background-image: linear-gradient(top, #db695d, #d14233 50%, #c0392b 51%, #ab3326);
+}
+.x-button.x-button-CLOUDS.x-button-pressing, .x-button.x-button-CLOUDS.x-button-pressing:after, .x-button.x-button-CLOUDS.x-button-pressed, .x-button.x-button-CLOUDS.x-button-pressed:after, .x-button.x-button-CLOUDS.x-button-active, .x-button.x-button-CLOUDS.x-button-active:after, .x-toolbar .x-button.x-button-CLOUDS.x-button-pressing, .x-toolbar .x-button.x-button-CLOUDS.x-button-pressing:after, .x-toolbar .x-button.x-button-CLOUDS.x-button-pressed, .x-toolbar .x-button.x-button-CLOUDS.x-button-pressed:after, .x-toolbar .x-button.x-button-CLOUDS.x-button-active, .x-toolbar .x-button.x-button-CLOUDS.x-button-active:after,
+.x-button.x-button-CLOUDS-round.x-button-pressing,
+.x-button.x-button-CLOUDS-round.x-button-pressing:after,
+.x-button.x-button-CLOUDS-round.x-button-pressed,
+.x-button.x-button-CLOUDS-round.x-button-pressed:after,
+.x-button.x-button-CLOUDS-round.x-button-active,
+.x-button.x-button-CLOUDS-round.x-button-active:after, .x-toolbar
+.x-button.x-button-CLOUDS-round.x-button-pressing, .x-toolbar
+.x-button.x-button-CLOUDS-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-CLOUDS-round.x-button-pressed, .x-toolbar
+.x-button.x-button-CLOUDS-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-CLOUDS-round.x-button-active, .x-toolbar
+.x-button.x-button-CLOUDS-round.x-button-active:after,
+.x-button.x-button-CLOUDS-small.x-button-pressing,
+.x-button.x-button-CLOUDS-small.x-button-pressing:after,
+.x-button.x-button-CLOUDS-small.x-button-pressed,
+.x-button.x-button-CLOUDS-small.x-button-pressed:after,
+.x-button.x-button-CLOUDS-small.x-button-active,
+.x-button.x-button-CLOUDS-small.x-button-active:after, .x-toolbar
+.x-button.x-button-CLOUDS-small.x-button-pressing, .x-toolbar
+.x-button.x-button-CLOUDS-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-CLOUDS-small.x-button-pressed, .x-toolbar
+.x-button.x-button-CLOUDS-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-CLOUDS-small.x-button-active, .x-toolbar
+.x-button.x-button-CLOUDS-small.x-button-active:after {
+  background-image: none;
+  background-color: #b33528;
+  background-image: -webkit-linear-gradient(top, #8a291f, #9f2f24 10%, #b33528 65%, #b63629);
+  background-image: -moz-linear-gradient(top, #8a291f, #9f2f24 10%, #b33528 65%, #b63629);
+  background-image: -o-linear-gradient(top, #8a291f, #9f2f24 10%, #b33528 65%, #b63629);
+  background-image: linear-gradient(top, #8a291f, #9f2f24 10%, #b33528 65%, #b63629);
+}
+
+.x-button.x-button-SILVER, .x-toolbar .x-button.x-button-SILVER,
+.x-button.x-button-SILVER-round, .x-toolbar
+.x-button.x-button-SILVER-round,
+.x-button.x-button-SILVER-small, .x-toolbar
+.x-button.x-button-SILVER-small {
+  border: 1px solid #869198;
+  border-top-color: #949da4;
+  background-color: #bdc3c7;
+  color: black;
+}
+.x-button.x-button-SILVER.x-button-back:before, .x-button.x-button-SILVER.x-button-forward:before, .x-toolbar .x-button.x-button-SILVER.x-button-back:before, .x-toolbar .x-button.x-button-SILVER.x-button-forward:before,
+.x-button.x-button-SILVER-round.x-button-back:before,
+.x-button.x-button-SILVER-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-SILVER-round.x-button-back:before, .x-toolbar
+.x-button.x-button-SILVER-round.x-button-forward:before,
+.x-button.x-button-SILVER-small.x-button-back:before,
+.x-button.x-button-SILVER-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-SILVER-small.x-button-back:before, .x-toolbar
+.x-button.x-button-SILVER-small.x-button-forward:before {
+  background: #869198;
+}
+.x-button.x-button-SILVER, .x-button.x-button-SILVER.x-button-back:after, .x-button.x-button-SILVER.x-button-forward:after, .x-toolbar .x-button.x-button-SILVER, .x-toolbar .x-button.x-button-SILVER.x-button-back:after, .x-toolbar .x-button.x-button-SILVER.x-button-forward:after,
+.x-button.x-button-SILVER-round,
+.x-button.x-button-SILVER-round.x-button-back:after,
+.x-button.x-button-SILVER-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-SILVER-round, .x-toolbar
+.x-button.x-button-SILVER-round.x-button-back:after, .x-toolbar
+.x-button.x-button-SILVER-round.x-button-forward:after,
+.x-button.x-button-SILVER-small,
+.x-button.x-button-SILVER-small.x-button-back:after,
+.x-button.x-button-SILVER-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-SILVER-small, .x-toolbar
+.x-button.x-button-SILVER-small.x-button-back:after, .x-toolbar
+.x-button.x-button-SILVER-small.x-button-forward:after {
+  background-image: none;
+  background-color: #bdc3c7;
+  background-image: -webkit-linear-gradient(top, #e6e9ea, #cbd0d3 50%, #bdc3c7 51%, #afb6bb);
+  background-image: -moz-linear-gradient(top, #e6e9ea, #cbd0d3 50%, #bdc3c7 51%, #afb6bb);
+  background-image: -o-linear-gradient(top, #e6e9ea, #cbd0d3 50%, #bdc3c7 51%, #afb6bb);
+  background-image: linear-gradient(top, #e6e9ea, #cbd0d3 50%, #bdc3c7 51%, #afb6bb);
+}
+.x-button.x-button-SILVER.x-button-pressing, .x-button.x-button-SILVER.x-button-pressing:after, .x-button.x-button-SILVER.x-button-pressed, .x-button.x-button-SILVER.x-button-pressed:after, .x-button.x-button-SILVER.x-button-active, .x-button.x-button-SILVER.x-button-active:after, .x-toolbar .x-button.x-button-SILVER.x-button-pressing, .x-toolbar .x-button.x-button-SILVER.x-button-pressing:after, .x-toolbar .x-button.x-button-SILVER.x-button-pressed, .x-toolbar .x-button.x-button-SILVER.x-button-pressed:after, .x-toolbar .x-button.x-button-SILVER.x-button-active, .x-toolbar .x-button.x-button-SILVER.x-button-active:after,
+.x-button.x-button-SILVER-round.x-button-pressing,
+.x-button.x-button-SILVER-round.x-button-pressing:after,
+.x-button.x-button-SILVER-round.x-button-pressed,
+.x-button.x-button-SILVER-round.x-button-pressed:after,
+.x-button.x-button-SILVER-round.x-button-active,
+.x-button.x-button-SILVER-round.x-button-active:after, .x-toolbar
+.x-button.x-button-SILVER-round.x-button-pressing, .x-toolbar
+.x-button.x-button-SILVER-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-SILVER-round.x-button-pressed, .x-toolbar
+.x-button.x-button-SILVER-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-SILVER-round.x-button-active, .x-toolbar
+.x-button.x-button-SILVER-round.x-button-active:after,
+.x-button.x-button-SILVER-small.x-button-pressing,
+.x-button.x-button-SILVER-small.x-button-pressing:after,
+.x-button.x-button-SILVER-small.x-button-pressed,
+.x-button.x-button-SILVER-small.x-button-pressed:after,
+.x-button.x-button-SILVER-small.x-button-active,
+.x-button.x-button-SILVER-small.x-button-active:after, .x-toolbar
+.x-button.x-button-SILVER-small.x-button-pressing, .x-toolbar
+.x-button.x-button-SILVER-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-SILVER-small.x-button-pressed, .x-toolbar
+.x-button.x-button-SILVER-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-SILVER-small.x-button-active, .x-toolbar
+.x-button.x-button-SILVER-small.x-button-active:after {
+  background-image: none;
+  background-color: #b5bbc0;
+  background-image: -webkit-linear-gradient(top, #99a2a9, #a7afb4 10%, #b5bbc0 65%, #b6bdc1);
+  background-image: -moz-linear-gradient(top, #99a2a9, #a7afb4 10%, #b5bbc0 65%, #b6bdc1);
+  background-image: -o-linear-gradient(top, #99a2a9, #a7afb4 10%, #b5bbc0 65%, #b6bdc1);
+  background-image: linear-gradient(top, #99a2a9, #a7afb4 10%, #b5bbc0 65%, #b6bdc1);
+}
+
+.x-button.x-button-CONCRETE, .x-toolbar .x-button.x-button-CONCRETE,
+.x-button.x-button-CONCRETE-round, .x-toolbar
+.x-button.x-button-CONCRETE-round,
+.x-button.x-button-CONCRETE-small, .x-toolbar
+.x-button.x-button-CONCRETE-small {
+  border: 1px solid #617374;
+  border-top-color: #6d8082;
+  background-color: #95a5a6;
+  color: black;
+}
+.x-button.x-button-CONCRETE.x-button-back:before, .x-button.x-button-CONCRETE.x-button-forward:before, .x-toolbar .x-button.x-button-CONCRETE.x-button-back:before, .x-toolbar .x-button.x-button-CONCRETE.x-button-forward:before,
+.x-button.x-button-CONCRETE-round.x-button-back:before,
+.x-button.x-button-CONCRETE-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-CONCRETE-round.x-button-back:before, .x-toolbar
+.x-button.x-button-CONCRETE-round.x-button-forward:before,
+.x-button.x-button-CONCRETE-small.x-button-back:before,
+.x-button.x-button-CONCRETE-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-CONCRETE-small.x-button-back:before, .x-toolbar
+.x-button.x-button-CONCRETE-small.x-button-forward:before {
+  background: #617374;
+}
+.x-button.x-button-CONCRETE, .x-button.x-button-CONCRETE.x-button-back:after, .x-button.x-button-CONCRETE.x-button-forward:after, .x-toolbar .x-button.x-button-CONCRETE, .x-toolbar .x-button.x-button-CONCRETE.x-button-back:after, .x-toolbar .x-button.x-button-CONCRETE.x-button-forward:after,
+.x-button.x-button-CONCRETE-round,
+.x-button.x-button-CONCRETE-round.x-button-back:after,
+.x-button.x-button-CONCRETE-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-CONCRETE-round, .x-toolbar
+.x-button.x-button-CONCRETE-round.x-button-back:after, .x-toolbar
+.x-button.x-button-CONCRETE-round.x-button-forward:after,
+.x-button.x-button-CONCRETE-small,
+.x-button.x-button-CONCRETE-small.x-button-back:after,
+.x-button.x-button-CONCRETE-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-CONCRETE-small, .x-toolbar
+.x-button.x-button-CONCRETE-small.x-button-back:after, .x-toolbar
+.x-button.x-button-CONCRETE-small.x-button-forward:after {
+  background-image: none;
+  background-color: #95a5a6;
+  background-image: -webkit-linear-gradient(top, #bfc8c9, #a3b1b2 50%, #95a5a6 51%, #87999a);
+  background-image: -moz-linear-gradient(top, #bfc8c9, #a3b1b2 50%, #95a5a6 51%, #87999a);
+  background-image: -o-linear-gradient(top, #bfc8c9, #a3b1b2 50%, #95a5a6 51%, #87999a);
+  background-image: linear-gradient(top, #bfc8c9, #a3b1b2 50%, #95a5a6 51%, #87999a);
+}
+.x-button.x-button-CONCRETE.x-button-pressing, .x-button.x-button-CONCRETE.x-button-pressing:after, .x-button.x-button-CONCRETE.x-button-pressed, .x-button.x-button-CONCRETE.x-button-pressed:after, .x-button.x-button-CONCRETE.x-button-active, .x-button.x-button-CONCRETE.x-button-active:after, .x-toolbar .x-button.x-button-CONCRETE.x-button-pressing, .x-toolbar .x-button.x-button-CONCRETE.x-button-pressing:after, .x-toolbar .x-button.x-button-CONCRETE.x-button-pressed, .x-toolbar .x-button.x-button-CONCRETE.x-button-pressed:after, .x-toolbar .x-button.x-button-CONCRETE.x-button-active, .x-toolbar .x-button.x-button-CONCRETE.x-button-active:after,
+.x-button.x-button-CONCRETE-round.x-button-pressing,
+.x-button.x-button-CONCRETE-round.x-button-pressing:after,
+.x-button.x-button-CONCRETE-round.x-button-pressed,
+.x-button.x-button-CONCRETE-round.x-button-pressed:after,
+.x-button.x-button-CONCRETE-round.x-button-active,
+.x-button.x-button-CONCRETE-round.x-button-active:after, .x-toolbar
+.x-button.x-button-CONCRETE-round.x-button-pressing, .x-toolbar
+.x-button.x-button-CONCRETE-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-CONCRETE-round.x-button-pressed, .x-toolbar
+.x-button.x-button-CONCRETE-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-CONCRETE-round.x-button-active, .x-toolbar
+.x-button.x-button-CONCRETE-round.x-button-active:after,
+.x-button.x-button-CONCRETE-small.x-button-pressing,
+.x-button.x-button-CONCRETE-small.x-button-pressing:after,
+.x-button.x-button-CONCRETE-small.x-button-pressed,
+.x-button.x-button-CONCRETE-small.x-button-pressed:after,
+.x-button.x-button-CONCRETE-small.x-button-active,
+.x-button.x-button-CONCRETE-small.x-button-active:after, .x-toolbar
+.x-button.x-button-CONCRETE-small.x-button-pressing, .x-toolbar
+.x-button.x-button-CONCRETE-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-CONCRETE-small.x-button-pressed, .x-toolbar
+.x-button.x-button-CONCRETE-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-CONCRETE-small.x-button-active, .x-toolbar
+.x-button.x-button-CONCRETE-small.x-button-active:after {
+  background-image: none;
+  background-color: #8d9e9f;
+  background-image: -webkit-linear-gradient(top, #728687, #7f9293 10%, #8d9e9f 65%, #8e9fa0);
+  background-image: -moz-linear-gradient(top, #728687, #7f9293 10%, #8d9e9f 65%, #8e9fa0);
+  background-image: -o-linear-gradient(top, #728687, #7f9293 10%, #8d9e9f 65%, #8e9fa0);
+  background-image: linear-gradient(top, #728687, #7f9293 10%, #8d9e9f 65%, #8e9fa0);
+}
+
+.x-button.x-button-ASBESTOS, .x-toolbar .x-button.x-button-ASBESTOS,
+.x-button.x-button-ASBESTOS-round, .x-toolbar
+.x-button.x-button-ASBESTOS-round,
+.x-button.x-button-ASBESTOS-small, .x-toolbar
+.x-button.x-button-ASBESTOS-small {
+  border: 1px solid #4e5758;
+  border-top-color: #5a6465;
+  background-color: #7f8c8d;
+  color: white;
+}
+.x-button.x-button-ASBESTOS.x-button-back:before, .x-button.x-button-ASBESTOS.x-button-forward:before, .x-toolbar .x-button.x-button-ASBESTOS.x-button-back:before, .x-toolbar .x-button.x-button-ASBESTOS.x-button-forward:before,
+.x-button.x-button-ASBESTOS-round.x-button-back:before,
+.x-button.x-button-ASBESTOS-round.x-button-forward:before, .x-toolbar
+.x-button.x-button-ASBESTOS-round.x-button-back:before, .x-toolbar
+.x-button.x-button-ASBESTOS-round.x-button-forward:before,
+.x-button.x-button-ASBESTOS-small.x-button-back:before,
+.x-button.x-button-ASBESTOS-small.x-button-forward:before, .x-toolbar
+.x-button.x-button-ASBESTOS-small.x-button-back:before, .x-toolbar
+.x-button.x-button-ASBESTOS-small.x-button-forward:before {
+  background: #4e5758;
+}
+.x-button.x-button-ASBESTOS, .x-button.x-button-ASBESTOS.x-button-back:after, .x-button.x-button-ASBESTOS.x-button-forward:after, .x-toolbar .x-button.x-button-ASBESTOS, .x-toolbar .x-button.x-button-ASBESTOS.x-button-back:after, .x-toolbar .x-button.x-button-ASBESTOS.x-button-forward:after,
+.x-button.x-button-ASBESTOS-round,
+.x-button.x-button-ASBESTOS-round.x-button-back:after,
+.x-button.x-button-ASBESTOS-round.x-button-forward:after, .x-toolbar
+.x-button.x-button-ASBESTOS-round, .x-toolbar
+.x-button.x-button-ASBESTOS-round.x-button-back:after, .x-toolbar
+.x-button.x-button-ASBESTOS-round.x-button-forward:after,
+.x-button.x-button-ASBESTOS-small,
+.x-button.x-button-ASBESTOS-small.x-button-back:after,
+.x-button.x-button-ASBESTOS-small.x-button-forward:after, .x-toolbar
+.x-button.x-button-ASBESTOS-small, .x-toolbar
+.x-button.x-button-ASBESTOS-small.x-button-back:after, .x-toolbar
+.x-button.x-button-ASBESTOS-small.x-button-forward:after {
+  background-image: none;
+  background-color: #7f8c8d;
+  background-image: -webkit-linear-gradient(top, #a7b0b1, #8c9899 50%, #7f8c8d 51%, #727f80);
+  background-image: -moz-linear-gradient(top, #a7b0b1, #8c9899 50%, #7f8c8d 51%, #727f80);
+  background-image: -o-linear-gradient(top, #a7b0b1, #8c9899 50%, #7f8c8d 51%, #727f80);
+  background-image: linear-gradient(top, #a7b0b1, #8c9899 50%, #7f8c8d 51%, #727f80);
+}
+.x-button.x-button-ASBESTOS.x-button-pressing, .x-button.x-button-ASBESTOS.x-button-pressing:after, .x-button.x-button-ASBESTOS.x-button-pressed, .x-button.x-button-ASBESTOS.x-button-pressed:after, .x-button.x-button-ASBESTOS.x-button-active, .x-button.x-button-ASBESTOS.x-button-active:after, .x-toolbar .x-button.x-button-ASBESTOS.x-button-pressing, .x-toolbar .x-button.x-button-ASBESTOS.x-button-pressing:after, .x-toolbar .x-button.x-button-ASBESTOS.x-button-pressed, .x-toolbar .x-button.x-button-ASBESTOS.x-button-pressed:after, .x-toolbar .x-button.x-button-ASBESTOS.x-button-active, .x-toolbar .x-button.x-button-ASBESTOS.x-button-active:after,
+.x-button.x-button-ASBESTOS-round.x-button-pressing,
+.x-button.x-button-ASBESTOS-round.x-button-pressing:after,
+.x-button.x-button-ASBESTOS-round.x-button-pressed,
+.x-button.x-button-ASBESTOS-round.x-button-pressed:after,
+.x-button.x-button-ASBESTOS-round.x-button-active,
+.x-button.x-button-ASBESTOS-round.x-button-active:after, .x-toolbar
+.x-button.x-button-ASBESTOS-round.x-button-pressing, .x-toolbar
+.x-button.x-button-ASBESTOS-round.x-button-pressing:after, .x-toolbar
+.x-button.x-button-ASBESTOS-round.x-button-pressed, .x-toolbar
+.x-button.x-button-ASBESTOS-round.x-button-pressed:after, .x-toolbar
+.x-button.x-button-ASBESTOS-round.x-button-active, .x-toolbar
+.x-button.x-button-ASBESTOS-round.x-button-active:after,
+.x-button.x-button-ASBESTOS-small.x-button-pressing,
+.x-button.x-button-ASBESTOS-small.x-button-pressing:after,
+.x-button.x-button-ASBESTOS-small.x-button-pressed,
+.x-button.x-button-ASBESTOS-small.x-button-pressed:after,
+.x-button.x-button-ASBESTOS-small.x-button-active,
+.x-button.x-button-ASBESTOS-small.x-button-active:after, .x-toolbar
+.x-button.x-button-ASBESTOS-small.x-button-pressing, .x-toolbar
+.x-button.x-button-ASBESTOS-small.x-button-pressing:after, .x-toolbar
+.x-button.x-button-ASBESTOS-small.x-button-pressed, .x-toolbar
+.x-button.x-button-ASBESTOS-small.x-button-pressed:after, .x-toolbar
+.x-button.x-button-ASBESTOS-small.x-button-active, .x-toolbar
+.x-button.x-button-ASBESTOS-small.x-button-active:after {
+  background-image: none;
+  background-color: #778586;
+  background-image: -webkit-linear-gradient(top, #5f6a6b, #6b7778 10%, #778586 65%, #788687);
+  background-image: -moz-linear-gradient(top, #5f6a6b, #6b7778 10%, #778586 65%, #788687);
+  background-image: -o-linear-gradient(top, #5f6a6b, #6b7778 10%, #778586 65%, #788687);
+  background-image: linear-gradient(top, #5f6a6b, #6b7778 10%, #778586 65%, #788687);
 }
 
 .x-toolbar-tst-tbar-0 {

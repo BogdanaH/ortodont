@@ -28,7 +28,8 @@ Ext.define('Ortodont.view.guest.LoginView', {
             xtype: 'button',
             margin: 20,
             padding: 8,
-            text: 'Login'
+            text: 'Login',
+            ui: 'BELIZE-HOLE'
         }]
     }
 });

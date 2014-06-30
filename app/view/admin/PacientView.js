@@ -9,6 +9,7 @@ Ext.define("Ortodont.view.admin.PacientView", {
 
     config: {
         layout: 'fit',
+        scrollable: false,
         items: [{
             xtype: "toolbar",
             docked: "top",
@@ -42,9 +43,14 @@ Ext.define("Ortodont.view.admin.PacientView", {
             items: [{
                 xtype: "container",
                 title: 'General',
+                scrollable: {
+                    direction: 'vertical',
+                    directionLock: true
+                },
                 defaults: {
                     labelWidth: 120,
-                    required: true
+                    required: true,
+                    margin: '3 3 3 3'
                 },
                 items: [{
                     xtype: 'textfield',
@@ -104,6 +110,7 @@ Ext.define("Ortodont.view.admin.PacientView", {
                 }]   
             }, {
                 xtype: 'list', 
+                scrollable: true,
                 title: 'Evolution',
                 itemId: 'evolution',
                 store: 'AppointmentStore',

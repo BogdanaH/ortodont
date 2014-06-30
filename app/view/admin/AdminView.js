@@ -20,6 +20,7 @@ Ext.define('Ortodont.view.admin.AdminView', {
                     xtype: 'button',
                     text: 'Logout',
                     align: 'right',
+                    ui: 'BELIZE-HOLE',
                     itemId: 'avLogoutButton'
                 }],
             }, {
@@ -27,7 +28,8 @@ Ext.define('Ortodont.view.admin.AdminView', {
                 defaultType: 'button',
                 defaults: {
                     margin: 20,
-                    padding: 8
+                    padding: 8,
+                    ui: 'BELIZE-HOLE'
                 },
                 items: [{
                     action: 'manageUsers',
